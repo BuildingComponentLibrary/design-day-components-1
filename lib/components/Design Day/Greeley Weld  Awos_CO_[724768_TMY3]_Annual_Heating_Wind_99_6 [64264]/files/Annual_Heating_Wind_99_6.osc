@@ -1,0 +1,36 @@
+
+OS:Version,
+  {83ae6ef7-1116-474d-9e5e-4bca0c28edf7}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {0d8b90bc-3606-4b7a-9e59-d449b8c44147}, ! Handle
+  Greeley Weld  Awos Ann Htg Wind 99.6% Condns WS=>MCDB, ! Name
+  4,                                      ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  4,                                      ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  85389,                                  ! Barometric Pressure {Pa}
+  13.3,                                   ! Wind Speed {m/s}
+  330,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {4dbf52bf-ac4e-4d9a-925e-3451e2c6caee}, ! Handle
+  Component Data 1,                       ! Name
+  {43410612-f93b-40de-b99a-68cc1362f04e}, ! UUID
+  {a4404447-d8c8-4d9d-92f5-3b0cf3cbff91}, ! Version UUID
+  1366306705,                             ! Creation Timestamp
+  1366306705,                             ! Version Timestamp
+  {0d8b90bc-3606-4b7a-9e59-d449b8c44147}; ! Name of Object 1
+

@@ -1,0 +1,40 @@
+
+OS:Version,
+  {f57be0db-83e2-4e55-bcbb-6e9f96c0fca7}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {dd81e0f4-3d1b-4cba-a38e-4d906456194b}, ! Handle
+  Grand Junction Walker Field Ann Clg 1% Condns DP=>MDB, ! Name
+  20.8,                                   ! Maximum Dry-Bulb Temperature {C}
+  15.3,                                   ! Daily Dry-Bulb Temperature Range {deltaC}
+  15,                                     ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  84816,                                  ! Barometric Pressure {Pa}
+  4.6,                                    ! Wind Speed {m/s}
+  270,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  7,                                      ! Month
+  SummerDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAETau,                              ! Solar Model Indicator
+  ,                                       ! Beam Solar Day Schedule Name
+  ,                                       ! Diffuse Solar Day Schedule Name
+  0.41,                                   ! ASHRAE Taub {dimensionless}
+  2.106;                                  ! ASHRAE Taud {dimensionless}
+
+OS:ComponentData,
+  {069a8990-d9d5-47e0-ac67-f32e82649dd5}, ! Handle
+  Component Data 1,                       ! Name
+  {e10f4e22-9524-4de3-8679-4cf9f79adc85}, ! UUID
+  {1e4a325a-460b-4c74-a9c3-e3b4aa5cf0f7}, ! Version UUID
+  1366306699,                             ! Creation Timestamp
+  1366306699,                             ! Version Timestamp
+  {dd81e0f4-3d1b-4cba-a38e-4d906456194b}; ! Name of Object 1
+

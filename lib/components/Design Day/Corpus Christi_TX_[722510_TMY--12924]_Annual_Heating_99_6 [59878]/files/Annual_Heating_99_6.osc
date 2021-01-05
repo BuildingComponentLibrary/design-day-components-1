@@ -1,0 +1,36 @@
+
+OS:Version,
+  {5c474c07-6719-4d93-b8a9-0ca7df817619}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {86987ad0-905a-4887-bf96-460840a91753}, ! Handle
+  Corpus Christi Ann Htg 99.6% Condns DB, ! Name
+  0.4,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  0.4,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101169,                                 ! Barometric Pressure {Pa}
+  5.4,                                    ! Wind Speed {m/s}
+  350,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {24b09193-9051-4964-8958-a5adf63b8d5e}, ! Handle
+  Component Data 1,                       ! Name
+  {50fe4143-06d3-45b1-baf6-d9ee456d56b4}, ! UUID
+  {060f59e3-4648-4939-9f3b-2e2236b68f7b}, ! Version UUID
+  1366310625,                             ! Creation Timestamp
+  1366310625,                             ! Version Timestamp
+  {86987ad0-905a-4887-bf96-460840a91753}; ! Name of Object 1
+

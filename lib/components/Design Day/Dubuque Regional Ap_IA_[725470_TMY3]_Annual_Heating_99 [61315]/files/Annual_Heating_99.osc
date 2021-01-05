@@ -1,0 +1,36 @@
+
+OS:Version,
+  {d6a705ae-cb19-498c-9496-ec5368256c90}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {ae2ec6f9-f946-4fc9-9f23-5849dfcb9c2a}, ! Handle
+  Dubuque Regional Ap Ann Htg 99% Condns DB, ! Name
+  -19.2,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -19.2,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  97516,                                  ! Barometric Pressure {Pa}
+  4.2,                                    ! Wind Speed {m/s}
+  300,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {e94f227b-4ea4-4e46-b830-d04acd620962}, ! Handle
+  Component Data 1,                       ! Name
+  {df75f695-51f2-4d5a-8484-cf457c699b65}, ! UUID
+  {68cf2048-669c-47e1-b16f-60a32f262431}, ! Version UUID
+  1366307183,                             ! Creation Timestamp
+  1366307183,                             ! Version Timestamp
+  {ae2ec6f9-f946-4fc9-9f23-5849dfcb9c2a}; ! Name of Object 1
+

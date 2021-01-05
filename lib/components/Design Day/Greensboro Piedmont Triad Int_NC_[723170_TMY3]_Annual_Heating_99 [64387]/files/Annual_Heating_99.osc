@@ -1,0 +1,36 @@
+
+OS:Version,
+  {2534b1f6-2b0d-45be-b0e7-60b854808bd5}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {e627fb18-0b9c-47da-9049-a77d04b945ad}, ! Handle
+  Greensboro Piedmont Triad Int Ann Htg 99% Condns DB, ! Name
+  -5.7,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -5.7,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98088,                                  ! Barometric Pressure {Pa}
+  3,                                      ! Wind Speed {m/s}
+  300,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {600975ed-7a28-4907-9252-0319d6a3c925}, ! Handle
+  Component Data 1,                       ! Name
+  {e6d20d44-3db9-4b1c-be12-d85eed0f5a9b}, ! UUID
+  {06f56acd-6822-40e4-b694-0e07798cf411}, ! Version UUID
+  1366308931,                             ! Creation Timestamp
+  1366308931,                             ! Version Timestamp
+  {e627fb18-0b9c-47da-9049-a77d04b945ad}; ! Name of Object 1
+

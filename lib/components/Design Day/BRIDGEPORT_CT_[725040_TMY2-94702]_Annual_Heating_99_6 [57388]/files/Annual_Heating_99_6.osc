@@ -1,0 +1,36 @@
+
+OS:Version,
+  {310f440c-d45e-49db-af17-b8ebc8b6b6dd}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {00b61013-e603-41b8-b537-cad0d8a51d71}, ! Handle
+  BRIDGEPORT Ann Htg 99.6% Condns DB,     ! Name
+  -11.8,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -11.8,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101301,                                 ! Barometric Pressure {Pa}
+  5.2,                                    ! Wind Speed {m/s}
+  350,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {91dfb036-30f9-411d-a3e7-8b9f52d43157}, ! Handle
+  Component Data 1,                       ! Name
+  {674eaba9-2292-4589-8b56-8f27bd66aaeb}, ! UUID
+  {1833bb5e-178a-4baf-9b89-94b1398c87db}, ! Version UUID
+  1366306748,                             ! Creation Timestamp
+  1366306748,                             ! Version Timestamp
+  {00b61013-e603-41b8-b537-cad0d8a51d71}; ! Name of Object 1
+

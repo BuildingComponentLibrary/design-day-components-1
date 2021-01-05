@@ -1,0 +1,36 @@
+
+OS:Version,
+  {f0444689-6b7d-45ea-bd5e-dde2d7926490}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {f64ec24f-5acb-43e9-862a-6e277d804b4b}, ! Handle
+  Barbers Point Nas Ann Htg 99% Condns DB, ! Name
+  16.5,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  16.5,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101145,                                 ! Barometric Pressure {Pa}
+  2.1,                                    ! Wind Speed {m/s}
+  40,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {4d8c2f8e-a775-4893-bda0-792bd54e8334}, ! Handle
+  Component Data 1,                       ! Name
+  {eccfd664-4dc4-4a50-9e0c-66c202b5aadd}, ! UUID
+  {c70b30c8-5955-48fc-85f1-50316afe58e1}, ! Version UUID
+  1366307072,                             ! Creation Timestamp
+  1366307072,                             ! Version Timestamp
+  {f64ec24f-5acb-43e9-862a-6e277d804b4b}; ! Name of Object 1
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {3ba688b2-72ee-49be-a95f-e9d804166e5e}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {16f98dac-5e3f-40b4-ad84-de5532d8422e}, ! Handle
+  Colorado Springs Ann Htg 99% Condns DB, ! Name
+  -14.6,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -14.6,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  80677,                                  ! Barometric Pressure {Pa}
+  2.8,                                    ! Wind Speed {m/s}
+  20,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {ad9b5cd3-18ad-41d8-a82e-2150b646b884}, ! Handle
+  Component Data 1,                       ! Name
+  {4cb96edb-6957-4397-a8d5-0c8c94103f61}, ! UUID
+  {0e5a23a8-55d5-44b8-9c4d-0507ee1e15fe}, ! Version UUID
+  1366306658,                             ! Creation Timestamp
+  1366306658,                             ! Version Timestamp
+  {16f98dac-5e3f-40b4-ad84-de5532d8422e}; ! Name of Object 1
+

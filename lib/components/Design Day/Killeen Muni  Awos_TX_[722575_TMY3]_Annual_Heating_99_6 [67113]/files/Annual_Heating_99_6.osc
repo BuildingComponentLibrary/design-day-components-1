@@ -1,0 +1,36 @@
+
+OS:Version,
+  {3c29728e-0d36-447a-b025-73db9fe5e434}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {4d83b764-91ab-40ab-a239-75f632d723c4}, ! Handle
+  Killeen Muni  Awos Ann Htg 99.6% Condns DB, ! Name
+  -3.4,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -3.4,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98264,                                  ! Barometric Pressure {Pa}
+  4,                                      ! Wind Speed {m/s}
+  0,                                      ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {e0bbe889-edaa-4448-a3cf-1a85b3d182b4}, ! Handle
+  Component Data 1,                       ! Name
+  {1f878d5e-8b44-430a-a80a-aace71891364}, ! UUID
+  {7e15c35b-d55e-4128-9020-6cb43cb30b2a}, ! Version UUID
+  1366310766,                             ! Creation Timestamp
+  1366310766,                             ! Version Timestamp
+  {4d83b764-91ab-40ab-a239-75f632d723c4}; ! Name of Object 1
+

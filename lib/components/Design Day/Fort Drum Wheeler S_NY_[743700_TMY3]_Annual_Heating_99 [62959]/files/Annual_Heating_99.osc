@@ -1,0 +1,36 @@
+
+OS:Version,
+  {9cc20513-d4b8-4036-bd53-2103d9155e52}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {c2f671ab-5423-4836-a16d-0ba7444e14e5}, ! Handle
+  Fort Drum Wheeler S Ann Htg 99% Condns DB, ! Name
+  -21.1,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -21.1,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98816,                                  ! Barometric Pressure {Pa}
+  3.1,                                    ! Wind Speed {m/s}
+  130,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {acc9747e-d816-4ccb-91f2-4572d0689e35}, ! Handle
+  Component Data 1,                       ! Name
+  {b2e97d68-cea5-441d-9916-fcfa83a7315d}, ! UUID
+  {d29057e6-7b12-4d45-8984-d0fe101f0777}, ! Version UUID
+  1366309620,                             ! Creation Timestamp
+  1366309620,                             ! Version Timestamp
+  {c2f671ab-5423-4836-a16d-0ba7444e14e5}; ! Name of Object 1
+

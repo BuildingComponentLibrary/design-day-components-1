@@ -1,0 +1,36 @@
+
+OS:Version,
+  {ce20d86e-8bf3-4274-8109-a841c3184b03}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {a5930b7d-181f-44dc-aff0-e0afd57d5086}, ! Handle
+  Louisville Ann Htg 99% Condns DB,       ! Name
+  -9.7,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -9.7,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99548,                                  ! Barometric Pressure {Pa}
+  3.9,                                    ! Wind Speed {m/s}
+  270,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {ea645d35-80c8-41dd-a16c-3d885c451564}, ! Handle
+  Component Data 1,                       ! Name
+  {a647cd2e-71a6-4ed2-b4b3-713dbdc642b8}, ! UUID
+  {a7858e69-126a-4dc4-a7c6-9a921e20c27b}, ! Version UUID
+  1366307666,                             ! Creation Timestamp
+  1366307666,                             ! Version Timestamp
+  {a5930b7d-181f-44dc-aff0-e0afd57d5086}; ! Name of Object 1
+

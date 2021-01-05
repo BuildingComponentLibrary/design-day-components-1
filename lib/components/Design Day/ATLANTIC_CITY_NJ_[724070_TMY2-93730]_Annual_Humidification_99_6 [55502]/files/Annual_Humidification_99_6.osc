@@ -1,0 +1,36 @@
+
+OS:Version,
+  {70b0321c-8b9c-4693-8fb1-53e4cca37cf0}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {24e999d3-30e5-4bbd-9cc6-5be90d5a1ce4}, ! Handle
+  ATLANTIC_CITY Ann Hum_n 99.6% Condns DP=>MCDB, ! Name
+  -9.3,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -19.5,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101085,                                 ! Barometric Pressure {Pa}
+  3.5,                                    ! Wind Speed {m/s}
+  290,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {f6ca581a-1298-4693-8630-bdf4e323f6e9}, ! Handle
+  Component Data 1,                       ! Name
+  {3a8e03db-53be-4b46-9e7f-8cff98ec677e}, ! UUID
+  {c7f34a5d-76a9-4418-9fe5-51e8af10e80e}, ! Version UUID
+  1366309281,                             ! Creation Timestamp
+  1366309281,                             ! Version Timestamp
+  {24e999d3-30e5-4bbd-9cc6-5be90d5a1ce4}; ! Name of Object 1
+

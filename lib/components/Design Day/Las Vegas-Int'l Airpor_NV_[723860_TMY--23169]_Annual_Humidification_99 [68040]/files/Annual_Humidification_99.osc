@@ -1,0 +1,36 @@
+
+OS:Version,
+  {5538c255-aa4d-4428-820f-5439afd18c2f}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {c579bd57-4620-410c-8880-932716536e32}, ! Handle
+  Las Vegas/Int'l Airpor Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  8.1,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -15.4,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  93598,                                  ! Barometric Pressure {Pa}
+  3,                                      ! Wind Speed {m/s}
+  240,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {244ea933-1cb7-47bb-90aa-81db49c77358}, ! Handle
+  Component Data 1,                       ! Name
+  {aafaf6f6-86b9-4e59-9ea9-5990a2d6a54c}, ! UUID
+  {6fc3451f-a3b5-48d5-a29e-81feef007388}, ! Version UUID
+  1366309496,                             ! Creation Timestamp
+  1366309496,                             ! Version Timestamp
+  {c579bd57-4620-410c-8880-932716536e32}; ! Name of Object 1
+

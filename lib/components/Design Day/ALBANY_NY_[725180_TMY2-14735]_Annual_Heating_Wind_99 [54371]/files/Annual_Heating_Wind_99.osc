@@ -1,0 +1,36 @@
+
+OS:Version,
+  {184a16bf-58e2-4969-adda-bed9495eb4f0}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {7b282a8d-8716-4584-8cf3-f5afd22c3dc8}, ! Handle
+  ALBANY Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  -5.2,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -5.2,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100260,                                 ! Barometric Pressure {Pa}
+  11.1,                                   ! Wind Speed {m/s}
+  300,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {5ce0f70b-c558-4d16-a5a7-50e5e0bbca70}, ! Handle
+  Component Data 1,                       ! Name
+  {ff1709aa-00cc-43cf-97f7-a0d7a3277936}, ! UUID
+  {0c05acd5-9682-4dad-a363-71a8e8d3542c}, ! Version UUID
+  1366309574,                             ! Creation Timestamp
+  1366309574,                             ! Version Timestamp
+  {7b282a8d-8716-4584-8cf3-f5afd22c3dc8}; ! Name of Object 1
+

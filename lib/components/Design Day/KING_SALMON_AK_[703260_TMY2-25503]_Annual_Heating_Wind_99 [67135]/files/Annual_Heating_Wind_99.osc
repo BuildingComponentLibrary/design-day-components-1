@@ -1,0 +1,36 @@
+
+OS:Version,
+  {2e145004-ca9e-4025-aad3-547ae6b69c5b}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {66073541-cb5d-4a22-babc-ffa972aaf6eb}, ! Handle
+  KING_SALMON Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  3.2,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  3.2,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101145,                                 ! Barometric Pressure {Pa}
+  14,                                     ! Wind Speed {m/s}
+  10,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {6ca3359f-b60d-496f-b171-5c9d5fb504f3}, ! Handle
+  Component Data 1,                       ! Name
+  {6e97ff98-e275-4a82-aae7-8b42e281bd73}, ! UUID
+  {a33f8fd1-8097-4ef7-ae40-d57f99506c7c}, ! Version UUID
+  1366305357,                             ! Creation Timestamp
+  1366305357,                             ! Version Timestamp
+  {66073541-cb5d-4a22-babc-ffa972aaf6eb}; ! Name of Object 1
+

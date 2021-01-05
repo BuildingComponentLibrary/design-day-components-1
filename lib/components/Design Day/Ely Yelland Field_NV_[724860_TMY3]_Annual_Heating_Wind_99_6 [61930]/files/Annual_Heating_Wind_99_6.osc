@@ -1,0 +1,36 @@
+
+OS:Version,
+  {45c9f3a4-e0dc-4ed8-92f0-7f8c045c76c6}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {61c4b0dd-6c50-4fce-ac94-e73bc979fe18}, ! Handle
+  Ely Yelland Field Ann Htg Wind 99.6% Condns WS=>MCDB, ! Name
+  2,                                      ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  2,                                      ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  80397,                                  ! Barometric Pressure {Pa}
+  12.5,                                   ! Wind Speed {m/s}
+  180,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {28ebebc0-6024-4170-bba4-301403520095}, ! Handle
+  Component Data 1,                       ! Name
+  {52a7337a-edd5-436a-a71f-6893e22e7429}, ! UUID
+  {9cf28757-e336-4230-9075-e56788e8ffd7}, ! Version UUID
+  1366309476,                             ! Creation Timestamp
+  1366309476,                             ! Version Timestamp
+  {61c4b0dd-6c50-4fce-ac94-e73bc979fe18}; ! Name of Object 1
+

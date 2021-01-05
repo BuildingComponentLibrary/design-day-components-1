@@ -1,0 +1,36 @@
+
+OS:Version,
+  {fdaa7066-ba7d-4762-b8cf-8486ae4b36e5}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {5e41f21d-abe5-47dd-bcdc-653cab970a3e}, ! Handle
+  Aitkin Ndb Awos Ann Htg 99% Condns DB,  ! Name
+  -25.9,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -25.9,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  96993,                                  ! Barometric Pressure {Pa}
+  0.8,                                    ! Wind Speed {m/s}
+  300,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {4b63b997-9089-45b1-acd8-6d47b22393f4}, ! Handle
+  Component Data 1,                       ! Name
+  {80509586-154f-4953-a869-2fb11f1d249c}, ! UUID
+  {947c470b-5130-463c-ab4f-88a581fb5ef3}, ! Version UUID
+  1366308134,                             ! Creation Timestamp
+  1366308134,                             ! Version Timestamp
+  {5e41f21d-abe5-47dd-bcdc-653cab970a3e}; ! Name of Object 1
+

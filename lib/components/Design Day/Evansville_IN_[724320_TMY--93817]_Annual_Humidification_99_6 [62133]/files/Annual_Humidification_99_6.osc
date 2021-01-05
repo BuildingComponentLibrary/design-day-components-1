@@ -1,0 +1,36 @@
+
+OS:Version,
+  {6c25d52a-ce0b-48df-bb07-64cff943f88d}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {2b032c6e-30de-4baf-9a59-5bc68861ad72}, ! Handle
+  Evansville Ann Hum_n 99.6% Condns DP=>MCDB, ! Name
+  -13.7,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -19.5,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99915,                                  ! Barometric Pressure {Pa}
+  3.4,                                    ! Wind Speed {m/s}
+  320,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {16f32ce2-219b-4b77-bda6-b4dd4e13013d}, ! Handle
+  Component Data 1,                       ! Name
+  {665ae58b-00e7-4381-a40a-863f6277796b}, ! UUID
+  {2a301208-4cb5-438e-9f42-576cb3ca90c5}, ! Version UUID
+  1366307428,                             ! Creation Timestamp
+  1366307428,                             ! Version Timestamp
+  {2b032c6e-30de-4baf-9a59-5bc68861ad72}; ! Name of Object 1
+

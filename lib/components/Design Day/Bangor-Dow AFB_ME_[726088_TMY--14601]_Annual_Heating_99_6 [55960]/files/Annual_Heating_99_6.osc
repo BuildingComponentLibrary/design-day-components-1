@@ -1,0 +1,36 @@
+
+OS:Version,
+  {afe8479c-0e8a-4c13-839d-867752e0c246}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {d2a99ad8-496c-4136-bae6-6820fbcc3721}, ! Handle
+  Bangor/Dow AFB Ann Htg 99.6% Condns DB, ! Name
+  -21.9,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -21.9,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100654,                                 ! Barometric Pressure {Pa}
+  2.4,                                    ! Wind Speed {m/s}
+  310,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {e55b6bee-8ece-4cdc-9f02-88d5ea086276}, ! Handle
+  Component Data 1,                       ! Name
+  {8ad1ae94-502b-4340-9bdc-513cbd021871}, ! UUID
+  {37b90ca5-9ffb-4e6f-9dcb-3f4d703d6de8}, ! Version UUID
+  1366307870,                             ! Creation Timestamp
+  1366307870,                             ! Version Timestamp
+  {d2a99ad8-496c-4136-bae6-6820fbcc3721}; ! Name of Object 1
+

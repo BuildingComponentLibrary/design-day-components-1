@@ -1,0 +1,36 @@
+
+OS:Version,
+  {41ef8282-a4ed-4ffb-955e-ff282b9db874}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {1770e466-8090-423a-92fb-a2da3839d756}, ! Handle
+  Cahokia St  Louis Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  -9.1,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -16,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99820,                                  ! Barometric Pressure {Pa}
+  3.7,                                    ! Wind Speed {m/s}
+  290,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {5abe5b41-e1b7-459a-9e24-a4bdd97b80f4}, ! Handle
+  Component Data 1,                       ! Name
+  {25658973-4a53-4826-8b15-563829c7a5da}, ! UUID
+  {bf1719fc-e1ed-4775-91b3-107dd3a52189}, ! Version UUID
+  1366307327,                             ! Creation Timestamp
+  1366307327,                             ! Version Timestamp
+  {1770e466-8090-423a-92fb-a2da3839d756}; ! Name of Object 1
+

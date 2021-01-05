@@ -1,0 +1,36 @@
+
+OS:Version,
+  {50b5a7be-cddd-4c76-803b-581acc226242}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {5ea0a5e6-0f0b-4471-827d-955783742cab}, ! Handle
+  Ironwood  Awos Ann Hum_n 99.6% Condns DP=>MCDB, ! Name
+  -23.3,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -31.4,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  96900,                                  ! Barometric Pressure {Pa}
+  3.1,                                    ! Wind Speed {m/s}
+  250,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {1d246cdd-d008-4d13-8ae9-80209e1e7b27}, ! Handle
+  Component Data 1,                       ! Name
+  {6f715989-712d-49db-b001-55ce1bc7beaf}, ! UUID
+  {f5ee9929-3ab7-48c4-b35f-06feb1b06891}, ! Version UUID
+  1366308040,                             ! Creation Timestamp
+  1366308040,                             ! Version Timestamp
+  {5ea0a5e6-0f0b-4471-827d-955783742cab}; ! Name of Object 1
+

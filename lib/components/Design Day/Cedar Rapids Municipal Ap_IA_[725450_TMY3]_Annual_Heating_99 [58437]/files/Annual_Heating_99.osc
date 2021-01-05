@@ -1,0 +1,36 @@
+
+OS:Version,
+  {0d05900f-502b-4b1a-80dd-fd147315fb3a}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {03eaa35b-9d76-489e-a9c0-4ec5f58cc55c}, ! Handle
+  Cedar Rapids Municipal Ap Ann Htg 99% Condns DB, ! Name
+  -19.9,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -19.9,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98287,                                  ! Barometric Pressure {Pa}
+  4.7,                                    ! Wind Speed {m/s}
+  300,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {637a16a7-1c59-4696-9862-4558c4fa6d13}, ! Handle
+  Component Data 1,                       ! Name
+  {9afa2d60-3562-47e5-bdb7-efcbb54a7694}, ! UUID
+  {2533378f-290a-46a9-9929-467566434282}, ! Version UUID
+  1366307148,                             ! Creation Timestamp
+  1366307148,                             ! Version Timestamp
+  {03eaa35b-9d76-489e-a9c0-4ec5f58cc55c}; ! Name of Object 1
+

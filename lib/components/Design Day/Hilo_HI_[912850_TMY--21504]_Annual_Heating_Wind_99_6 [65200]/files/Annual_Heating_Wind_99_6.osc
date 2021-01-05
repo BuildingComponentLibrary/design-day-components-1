@@ -1,0 +1,36 @@
+
+OS:Version,
+  {20479e23-28a0-4982-a011-e8cfc21aaafa}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {bd97962a-941e-4da4-82e2-5c85b4e46ebf}, ! Handle
+  Hilo Ann Htg Wind 99.6% Condns WS=>MCDB, ! Name
+  23.3,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  23.3,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101193,                                 ! Barometric Pressure {Pa}
+  10.8,                                   ! Wind Speed {m/s}
+  220,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  2,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {1672d2c9-5e1a-4cc3-ba48-7df492a10159}, ! Handle
+  Component Data 1,                       ! Name
+  {5df27692-2fec-491a-8335-e249a986947d}, ! UUID
+  {cee756aa-b784-47cf-b790-9e24892bb1bc}, ! Version UUID
+  1366307080,                             ! Creation Timestamp
+  1366307080,                             ! Version Timestamp
+  {bd97962a-941e-4da4-82e2-5c85b4e46ebf}; ! Name of Object 1
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {bb9e6c2a-dec4-4d34-8162-811d5424c966}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {fee1c119-75f4-4b51-8775-5fede54a94a2}, ! Handle
+  Columbia Metro Arpt Ann Htg 99% Condns DB, ! Name
+  -3.4,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -3.4,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100547,                                 ! Barometric Pressure {Pa}
+  1.9,                                    ! Wind Speed {m/s}
+  270,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {5fbdcc69-1665-43b4-bbdd-94d45c7d4602}, ! Handle
+  Component Data 1,                       ! Name
+  {282dd851-1546-4530-a292-6cc3b810339c}, ! UUID
+  {d9b9bc72-0d55-464b-8d1c-8cb0ff86fd61}, ! Version UUID
+  1366310347,                             ! Creation Timestamp
+  1366310347,                             ! Version Timestamp
+  {fee1c119-75f4-4b51-8775-5fede54a94a2}; ! Name of Object 1
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {58735cad-9c98-476c-a9dc-4b53608e9544}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {f480aa0f-2625-4c10-accb-85a152f11741}, ! Handle
+  Fort Collins  Awos Ann Htg 99% Condns DB, ! Name
+  -14.2,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -14.2,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  84255,                                  ! Barometric Pressure {Pa}
+  2.2,                                    ! Wind Speed {m/s}
+  70,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {7408df92-6ee5-437d-a7b2-d333dcba683b}, ! Handle
+  Component Data 1,                       ! Name
+  {59767673-3ddc-45bd-a445-e0fa813aa92d}, ! UUID
+  {be856ed1-1a9a-430e-b299-ab159b3da5f1}, ! Version UUID
+  1366306690,                             ! Creation Timestamp
+  1366306690,                             ! Version Timestamp
+  {f480aa0f-2625-4c10-accb-85a152f11741}; ! Name of Object 1
+

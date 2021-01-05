@@ -1,0 +1,36 @@
+
+OS:Version,
+  {e332b754-80c9-41f0-a29a-e5aa132cec1e}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {31532284-0615-4de2-90d9-be16930a910d}, ! Handle
+  Green Bay Austin Straubel Int Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  -19.7,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -25.1,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98839,                                  ! Barometric Pressure {Pa}
+  4.1,                                    ! Wind Speed {m/s}
+  280,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {f2803a6b-d2bf-4672-9aba-8fba8c346169}, ! Handle
+  Component Data 1,                       ! Name
+  {ef3bf91f-6953-4f20-ba60-39d64402f490}, ! UUID
+  {d7cf8c6d-d236-4c4e-aac1-d4018487ed03}, ! Version UUID
+  1366311489,                             ! Creation Timestamp
+  1366311489,                             ! Version Timestamp
+  {31532284-0615-4de2-90d9-be16930a910d}; ! Name of Object 1
+

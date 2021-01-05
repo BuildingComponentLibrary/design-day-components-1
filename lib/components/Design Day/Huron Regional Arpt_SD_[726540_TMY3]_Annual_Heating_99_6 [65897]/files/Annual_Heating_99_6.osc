@@ -1,0 +1,36 @@
+
+OS:Version,
+  {10b86f35-6f64-46a2-81b9-1fadd236f302}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {2fd53571-60c0-413d-9039-d6357414f1e3}, ! Handle
+  Huron Regional Arpt Ann Htg 99.6% Condns DB, ! Name
+  -26.1,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -26.1,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  96727,                                  ! Barometric Pressure {Pa}
+  4.1,                                    ! Wind Speed {m/s}
+  320,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {68b36025-63f0-4d61-b98d-b7082be4a221}, ! Handle
+  Component Data 1,                       ! Name
+  {3a351914-9e15-4771-a8be-0b3586059886}, ! UUID
+  {034bcd7d-8fd4-4167-af2a-6dd50184f522}, ! Version UUID
+  1366310407,                             ! Creation Timestamp
+  1366310407,                             ! Version Timestamp
+  {2fd53571-60c0-413d-9039-d6357414f1e3}; ! Name of Object 1
+

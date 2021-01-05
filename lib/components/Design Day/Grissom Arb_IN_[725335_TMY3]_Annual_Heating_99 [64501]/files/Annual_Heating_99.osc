@@ -1,0 +1,36 @@
+
+OS:Version,
+  {6ed2ade0-a852-47f3-a055-c2ee80d3bd6c}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {27d7a25c-0465-4e25-b831-b950f7da9667}, ! Handle
+  Grissom Arb Ann Htg 99% Condns DB,      ! Name
+  -15.9,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -15.9,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98322,                                  ! Barometric Pressure {Pa}
+  4.8,                                    ! Wind Speed {m/s}
+  270,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {e4ba6051-63ef-4baa-9544-d183944bb646}, ! Handle
+  Component Data 1,                       ! Name
+  {544d8c86-d5ad-431e-a097-cbca7dac86f8}, ! UUID
+  {41a1a12d-4a02-42c0-a15c-ea2c077f8a41}, ! Version UUID
+  1366307449,                             ! Creation Timestamp
+  1366307449,                             ! Version Timestamp
+  {27d7a25c-0465-4e25-b831-b950f7da9667}; ! Name of Object 1
+

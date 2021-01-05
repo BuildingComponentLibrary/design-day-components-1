@@ -1,0 +1,36 @@
+
+OS:Version,
+  {6248448a-381f-479f-9e80-87395eafc23d}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {f496c1ba-8261-4e77-876b-39b90d2d6f59}, ! Handle
+  Bangor International Ap Ann Htg 99% Condns DB, ! Name
+  -19,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -19,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100654,                                 ! Barometric Pressure {Pa}
+  2.4,                                    ! Wind Speed {m/s}
+  310,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {0b272b31-c98e-47fe-9ec6-12befbe3dbf4}, ! Handle
+  Component Data 1,                       ! Name
+  {79f05b47-3bdf-4203-b330-c4d36051700e}, ! UUID
+  {aa961f4a-9a24-4028-a481-b2d3843f02d6}, ! Version UUID
+  1366307874,                             ! Creation Timestamp
+  1366307874,                             ! Version Timestamp
+  {f496c1ba-8261-4e77-876b-39b90d2d6f59}; ! Name of Object 1
+

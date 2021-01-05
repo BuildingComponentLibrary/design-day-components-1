@@ -1,0 +1,36 @@
+
+OS:Version,
+  {313f66eb-0c2e-49b1-9ce9-45c15f38c085}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {13566744-7b60-43a3-b14f-5875214465ae}, ! Handle
+  Kodiak/State USCG Base Ann Hum_n 99.6% Condns DP=>MCDB, ! Name
+  -11.4,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -20,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100917,                                 ! Barometric Pressure {Pa}
+  6,                                      ! Wind Speed {m/s}
+  300,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {f89bfa34-cee8-42fd-8422-ce0c9f9224b5}, ! Handle
+  Component Data 1,                       ! Name
+  {5285f9b7-2794-4e83-aac3-f29578b9272b}, ! UUID
+  {015b5b14-7b99-42e1-8c1b-af2bcffff805}, ! Version UUID
+  1366305373,                             ! Creation Timestamp
+  1366305373,                             ! Version Timestamp
+  {13566744-7b60-43a3-b14f-5875214465ae}; ! Name of Object 1
+

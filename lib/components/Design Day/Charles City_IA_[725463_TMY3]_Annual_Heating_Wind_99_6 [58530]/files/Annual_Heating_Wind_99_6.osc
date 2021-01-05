@@ -1,0 +1,36 @@
+
+OS:Version,
+  {40bdf590-b9f8-4e5f-b6c2-fdd931c2616e}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {9ec3d153-d15c-40d7-9077-39bd86ba3966}, ! Handle
+  Charles City Ann Htg Wind 99.6% Condns WS=>MCDB, ! Name
+  -7.8,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -7.8,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  97272,                                  ! Barometric Pressure {Pa}
+  14.2,                                   ! Wind Speed {m/s}
+  310,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {7fb292ef-2688-4bc0-ba6c-52763d417780}, ! Handle
+  Component Data 1,                       ! Name
+  {205d5a4a-801d-48b3-bc33-609a7d629ca6}, ! UUID
+  {a922f8fd-6c82-4cb8-9468-d308f2613ba1}, ! Version UUID
+  1366307155,                             ! Creation Timestamp
+  1366307155,                             ! Version Timestamp
+  {9ec3d153-d15c-40d7-9077-39bd86ba3966}; ! Name of Object 1
+

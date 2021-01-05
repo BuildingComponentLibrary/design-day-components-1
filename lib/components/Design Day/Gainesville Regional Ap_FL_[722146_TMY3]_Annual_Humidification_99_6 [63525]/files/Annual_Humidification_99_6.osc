@@ -1,0 +1,36 @@
+
+OS:Version,
+  {f607445c-dd9e-4aa7-87af-82fd9e349fd1}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {7f6f0e02-7b7c-4053-857c-3803fedeba08}, ! Handle
+  Gainesville Regional Ap Ann Hum_n 99.6% Condns DP=>MCDB, ! Name
+  4.5,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -8.4,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100833,                                 ! Barometric Pressure {Pa}
+  1.7,                                    ! Wind Speed {m/s}
+  310,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {4e522892-0758-4db2-a1b3-f67885da7669}, ! Handle
+  Component Data 1,                       ! Name
+  {5b98c66f-e94d-4a96-a384-ed403f57c1b9}, ! UUID
+  {740cb577-2c31-445e-b959-a41575278154}, ! Version UUID
+  1366306808,                             ! Creation Timestamp
+  1366306808,                             ! Version Timestamp
+  {7f6f0e02-7b7c-4053-857c-3803fedeba08}; ! Name of Object 1
+

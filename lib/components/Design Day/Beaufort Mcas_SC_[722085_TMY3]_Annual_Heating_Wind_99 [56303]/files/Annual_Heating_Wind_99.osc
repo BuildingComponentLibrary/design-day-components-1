@@ -1,0 +1,36 @@
+
+OS:Version,
+  {a38dff59-8d16-4f2b-9847-601d988b42ac}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {1da3584a-8193-4711-a69b-5046fd6fd641}, ! Handle
+  Beaufort Mcas Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  10,                                     ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  10,                                     ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101205,                                 ! Barometric Pressure {Pa}
+  8.6,                                    ! Wind Speed {m/s}
+  350,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {09b29fd9-0bad-43ce-bb65-0e93bc2c3d68}, ! Handle
+  Component Data 1,                       ! Name
+  {08a7f0d0-1045-4ab1-ad8a-1c63b9464beb}, ! UUID
+  {51c810a5-3c95-48c8-8a33-f741880ee4dc}, ! Version UUID
+  1366310317,                             ! Creation Timestamp
+  1366310317,                             ! Version Timestamp
+  {1da3584a-8193-4711-a69b-5046fd6fd641}; ! Name of Object 1
+

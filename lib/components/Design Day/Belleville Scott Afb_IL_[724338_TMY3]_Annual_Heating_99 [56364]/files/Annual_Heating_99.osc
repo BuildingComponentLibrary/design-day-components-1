@@ -1,0 +1,36 @@
+
+OS:Version,
+  {ce8d143c-0b0a-4bd0-b545-16b964b882f4}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {53c969a8-b016-4a7e-9c70-6cf4669e5ee8}, ! Handle
+  Belleville Scott Afb Ann Htg 99% Condns DB, ! Name
+  -12,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -12,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99714,                                  ! Barometric Pressure {Pa}
+  3.7,                                    ! Wind Speed {m/s}
+  320,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {c1a34294-9fba-4cdd-a8a9-8050809701d3}, ! Handle
+  Component Data 1,                       ! Name
+  {cbcfa7e8-15fe-499d-a7fc-507c09d936eb}, ! UUID
+  {9323239f-55cc-449b-92b5-251a1b2c6755}, ! Version UUID
+  1366307322,                             ! Creation Timestamp
+  1366307322,                             ! Version Timestamp
+  {53c969a8-b016-4a7e-9c70-6cf4669e5ee8}; ! Name of Object 1
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {001935fa-5bde-42c0-aa58-52e2353f7035}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {5d87c3ef-99d1-4956-bf32-c3f3fceda707}, ! Handle
+  Litchfield Muni Ann Htg 99% Condns DB,  ! Name
+  -22.8,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -22.8,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  97225,                                  ! Barometric Pressure {Pa}
+  2.9,                                    ! Wind Speed {m/s}
+  310,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {d9c4aa55-5536-42e2-be3c-9fb23084124c}, ! Handle
+  Component Data 1,                       ! Name
+  {b8a5dfe9-1386-4976-9576-6981fa0b44d0}, ! UUID
+  {ff783c85-011c-43da-a14b-5f7210233aef}, ! Version UUID
+  1366308280,                             ! Creation Timestamp
+  1366308280,                             ! Version Timestamp
+  {5d87c3ef-99d1-4956-bf32-c3f3fceda707}; ! Name of Object 1
+

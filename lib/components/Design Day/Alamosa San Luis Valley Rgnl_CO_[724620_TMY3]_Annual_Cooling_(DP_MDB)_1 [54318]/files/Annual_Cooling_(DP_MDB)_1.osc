@@ -1,0 +1,40 @@
+
+OS:Version,
+  {3214a103-559a-4532-b3b7-8ed84245a15d}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {e6d54b12-4202-4b14-8c0c-2f99bf8a2360}, ! Handle
+  Alamosa San Luis Valley Rgnl Ann Clg 1% Condns DP=>MDB, ! Name
+  16.4,                                   ! Maximum Dry-Bulb Temperature {C}
+  18.7,                                   ! Daily Dry-Bulb Temperature Range {deltaC}
+  12.1,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  76617,                                  ! Barometric Pressure {Pa}
+  5,                                      ! Wind Speed {m/s}
+  240,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  7,                                      ! Month
+  SummerDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAETau,                              ! Solar Model Indicator
+  ,                                       ! Beam Solar Day Schedule Name
+  ,                                       ! Diffuse Solar Day Schedule Name
+  0.422,                                  ! ASHRAE Taub {dimensionless}
+  2;                                      ! ASHRAE Taud {dimensionless}
+
+OS:ComponentData,
+  {726e8760-511f-447b-b15b-f909c7c4b180}, ! Handle
+  Component Data 1,                       ! Name
+  {15075750-fc29-412e-affe-2c38e7a5f30c}, ! UUID
+  {d8ab6da2-67c7-4c8f-8ae5-e4f10736cef4}, ! Version UUID
+  1366306648,                             ! Creation Timestamp
+  1366306648,                             ! Version Timestamp
+  {e6d54b12-4202-4b14-8c0c-2f99bf8a2360}; ! Name of Object 1
+

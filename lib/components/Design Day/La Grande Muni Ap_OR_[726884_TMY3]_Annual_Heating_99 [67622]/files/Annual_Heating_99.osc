@@ -1,0 +1,36 @@
+
+OS:Version,
+  {4cdbe686-ff70-4ba2-9757-72b7716ad9ec}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {4ea9ba07-b5f1-4659-9f96-c0c8c8b13a42}, ! Handle
+  La Grande Muni Ap Ann Htg 99% Condns DB, ! Name
+  -9.5,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -9.5,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  91777,                                  ! Barometric Pressure {Pa}
+  2.1,                                    ! Wind Speed {m/s}
+  320,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {3c3ddc85-bcad-4031-b593-93e79e07c982}, ! Handle
+  Component Data 1,                       ! Name
+  {aa727be8-27e6-45ef-ab21-2416033db1c7}, ! UUID
+  {509f10f8-43f8-4bcc-adf2-6cf886c5042c}, ! Version UUID
+  1366310020,                             ! Creation Timestamp
+  1366310020,                             ! Version Timestamp
+  {4ea9ba07-b5f1-4659-9f96-c0c8c8b13a42}; ! Name of Object 1
+

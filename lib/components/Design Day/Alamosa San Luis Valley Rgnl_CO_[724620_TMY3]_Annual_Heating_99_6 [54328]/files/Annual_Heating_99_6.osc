@@ -1,0 +1,36 @@
+
+OS:Version,
+  {eefd1bef-02df-4107-8da2-447c607e138d}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {c7ab97be-99f9-4ef7-804f-cc13b39375da}, ! Handle
+  Alamosa San Luis Valley Rgnl Ann Htg 99.6% Condns DB, ! Name
+  -26.3,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -26.3,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  76617,                                  ! Barometric Pressure {Pa}
+  1.2,                                    ! Wind Speed {m/s}
+  270,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {cbeafaa7-2b3d-45ec-930f-5be6792f0458}, ! Handle
+  Component Data 1,                       ! Name
+  {b99288a8-e1f3-47ad-aa54-18219e7ac8cb}, ! UUID
+  {7e5a7544-7460-492d-ad29-de40e741bded}, ! Version UUID
+  1366306646,                             ! Creation Timestamp
+  1366306646,                             ! Version Timestamp
+  {c7ab97be-99f9-4ef7-804f-cc13b39375da}; ! Name of Object 1
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {bc589c55-cc1a-429c-9d3e-577e62148a09}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {c0d142b9-47a7-4549-90e1-ef83048d4d0b}, ! Handle
+  Duluth International Arpt Ann Hum_n 99.6% Condns DP=>MCDB, ! Name
+  -27.9,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -33.1,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  96230,                                  ! Barometric Pressure {Pa}
+  4.6,                                    ! Wind Speed {m/s}
+  310,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {efcd1c10-9274-4b00-b7d3-ef85a049d263}, ! Handle
+  Component Data 1,                       ! Name
+  {4d711aef-a27b-44ac-9987-5345cbdbf455}, ! UUID
+  {45d05612-97df-4237-8a56-c374b5e2db69}, ! Version UUID
+  1366308206,                             ! Creation Timestamp
+  1366308206,                             ! Version Timestamp
+  {c0d142b9-47a7-4549-90e1-ef83048d4d0b}; ! Name of Object 1
+

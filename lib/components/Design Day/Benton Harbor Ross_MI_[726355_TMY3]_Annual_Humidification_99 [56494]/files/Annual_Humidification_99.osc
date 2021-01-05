@@ -1,0 +1,36 @@
+
+OS:Version,
+  {5a638d4d-8427-4b9c-a735-89b6551dd258}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {13285ff2-3022-438d-b80d-9dc66d275e61}, ! Handle
+  Benton Harbor Ross Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  -11,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -16.1,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98992,                                  ! Barometric Pressure {Pa}
+  3.8,                                    ! Wind Speed {m/s}
+  150,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {52a47c66-34f5-4f0a-843d-7cfac58bac3a}, ! Handle
+  Component Data 1,                       ! Name
+  {26be5d5d-197d-498b-b18d-2b45c5befaa0}, ! UUID
+  {3fcfe170-c65d-46c0-93a9-09cee002189b}, ! Version UUID
+  1366307955,                             ! Creation Timestamp
+  1366307955,                             ! Version Timestamp
+  {13285ff2-3022-438d-b80d-9dc66d275e61}; ! Name of Object 1
+

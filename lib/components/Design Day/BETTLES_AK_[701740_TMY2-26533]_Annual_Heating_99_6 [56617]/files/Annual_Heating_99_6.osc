@@ -1,0 +1,36 @@
+
+OS:Version,
+  {ba061b48-458d-4349-9c2b-6b21fa7f3e77}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {62c37bc7-e9e2-47be-88cd-fcb619582f30}, ! Handle
+  BETTLES Ann Htg 99.6% Condns DB,        ! Name
+  -45.3,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -45.3,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98886,                                  ! Barometric Pressure {Pa}
+  0.6,                                    ! Wind Speed {m/s}
+  340,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {145e61e3-1665-4a83-9673-5a43c56268b7}, ! Handle
+  Component Data 1,                       ! Name
+  {beb28146-1cfe-4109-8f62-4e6be74c6855}, ! UUID
+  {aea253ec-302f-49df-93b3-2bbc68bfdc57}, ! Version UUID
+  1366304760,                             ! Creation Timestamp
+  1366304760,                             ! Version Timestamp
+  {62c37bc7-e9e2-47be-88cd-fcb619582f30}; ! Name of Object 1
+

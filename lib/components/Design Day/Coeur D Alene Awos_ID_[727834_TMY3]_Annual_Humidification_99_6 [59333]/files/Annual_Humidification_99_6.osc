@@ -1,0 +1,36 @@
+
+OS:Version,
+  {ad075d78-2417-417f-9b82-a253c4964e1b}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {7de1df6f-037b-47a9-b457-eddc9dadf1d9}, ! Handle
+  Coeur D Alene Awos Ann Hum_n 99.6% Condns DP=>MCDB, ! Name
+  -12.8,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -19.7,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  93115,                                  ! Barometric Pressure {Pa}
+  4.2,                                    ! Wind Speed {m/s}
+  40,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {40d3e665-e720-4425-a82d-309622a2cbab}, ! Handle
+  Component Data 1,                       ! Name
+  {3ed2a240-1315-46f2-a6b1-e69f658e8e2b}, ! UUID
+  {f369dd73-68fe-42f1-bd47-8fe4b23e2a33}, ! Version UUID
+  1366307280,                             ! Creation Timestamp
+  1366307280,                             ! Version Timestamp
+  {7de1df6f-037b-47a9-b457-eddc9dadf1d9}; ! Name of Object 1
+

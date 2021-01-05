@@ -1,0 +1,36 @@
+
+OS:Version,
+  {e01b4b4b-b9dc-4003-a295-5ff694f170a7}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {5a3e4862-8e90-4298-a256-387f1b089716}, ! Handle
+  Cambridge Muni Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  -23.4,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -28.9,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  97924,                                  ! Barometric Pressure {Pa}
+  1,                                      ! Wind Speed {m/s}
+  270,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {12c8431b-dc8c-479e-a1e5-1065702c9541}, ! Handle
+  Component Data 1,                       ! Name
+  {73a93d87-36b9-4db1-93c3-97ddec02c399}, ! UUID
+  {65fe4523-f0b7-4184-b28d-3f1ca3301da6}, ! Version UUID
+  1366308175,                             ! Creation Timestamp
+  1366308175,                             ! Version Timestamp
+  {5a3e4862-8e90-4298-a256-387f1b089716}; ! Name of Object 1
+

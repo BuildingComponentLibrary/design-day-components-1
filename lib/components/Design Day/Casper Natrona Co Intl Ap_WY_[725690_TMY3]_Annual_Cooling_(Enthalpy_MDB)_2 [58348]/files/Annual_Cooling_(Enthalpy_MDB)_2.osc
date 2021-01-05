@@ -1,0 +1,40 @@
+
+OS:Version,
+  {a1bdb54f-52ed-4bc4-a850-86b338328ab8}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {fc483ea0-9ae0-413d-8001-4f73f5cd5cb8}, ! Handle
+  Casper Natrona Co Intl Ap Ann Clg 2% Condns Enth=>MDB, ! Name
+  26.8,                                   ! Maximum Dry-Bulb Temperature {C}
+  18.1,                                   ! Daily Dry-Bulb Temperature Range {deltaC}
+  50300,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  83246,                                  ! Barometric Pressure {Pa}
+  5.5,                                    ! Wind Speed {m/s}
+  230,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  7,                                      ! Month
+  SummerDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Enthalpy,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAETau,                              ! Solar Model Indicator
+  ,                                       ! Beam Solar Day Schedule Name
+  ,                                       ! Diffuse Solar Day Schedule Name
+  0.411,                                  ! ASHRAE Taub {dimensionless}
+  2.017;                                  ! ASHRAE Taud {dimensionless}
+
+OS:ComponentData,
+  {36430592-0d46-43c2-9679-9caf416e020f}, ! Handle
+  Component Data 1,                       ! Name
+  {8d227ca6-1bce-4c7d-ad7c-4df6da92dcd1}, ! UUID
+  {b25fe2d9-5163-4c84-93c4-908870c096f4}, ! Version UUID
+  1366311691,                             ! Creation Timestamp
+  1366311691,                             ! Version Timestamp
+  {fc483ea0-9ae0-413d-8001-4f73f5cd5cb8}; ! Name of Object 1
+

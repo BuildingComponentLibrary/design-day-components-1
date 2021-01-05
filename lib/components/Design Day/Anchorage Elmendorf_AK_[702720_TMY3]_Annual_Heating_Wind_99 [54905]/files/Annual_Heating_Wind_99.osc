@@ -1,0 +1,36 @@
+
+OS:Version,
+  {0abf45af-51e5-4b78-8885-7ae286fdc7a0}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {6cfdd67c-6832-40e4-8107-26e2e751f298}, ! Handle
+  Anchorage Elmendorf Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  -3.8,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -3.8,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100618,                                 ! Barometric Pressure {Pa}
+  8.5,                                    ! Wind Speed {m/s}
+  50,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {1ac41ba4-7489-4f23-82e2-255e03814440}, ! Handle
+  Component Data 1,                       ! Name
+  {7af09532-860f-49b5-b260-41df62fdbecb}, ! UUID
+  {d7760d1c-dc3a-4227-81dd-b1640de84965}, ! Version UUID
+  1366304691,                             ! Creation Timestamp
+  1366304691,                             ! Version Timestamp
+  {6cfdd67c-6832-40e4-8107-26e2e751f298}; ! Name of Object 1
+

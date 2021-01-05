@@ -1,0 +1,40 @@
+
+OS:Version,
+  {1b0b26bf-f3db-4ee7-a4d9-e6568100fd68}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {58f1d5a4-2506-4160-9ea0-2d60b5e19a68}, ! Handle
+  Brownsville S Padre Isl Intl Ann Clg .4% Condns Enth=>MDB, ! Name
+  31,                                     ! Maximum Dry-Bulb Temperature {C}
+  9.5,                                    ! Daily Dry-Bulb Temperature Range {deltaC}
+  85100,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101253,                                 ! Barometric Pressure {Pa}
+  6.9,                                    ! Wind Speed {m/s}
+  160,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  8,                                      ! Month
+  SummerDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Enthalpy,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAETau,                              ! Solar Model Indicator
+  ,                                       ! Beam Solar Day Schedule Name
+  ,                                       ! Diffuse Solar Day Schedule Name
+  0.465,                                  ! ASHRAE Taub {dimensionless}
+  2.114;                                  ! ASHRAE Taud {dimensionless}
+
+OS:ComponentData,
+  {8994b896-ae14-4d81-90ab-c7c7a3b31675}, ! Handle
+  Component Data 1,                       ! Name
+  {ae336b29-2770-49a8-868c-5717ae0f6b94}, ! UUID
+  {16ba9588-a650-4b08-b3e7-5fb3fa128da7}, ! Version UUID
+  1366310607,                             ! Creation Timestamp
+  1366310607,                             ! Version Timestamp
+  {58f1d5a4-2506-4160-9ea0-2d60b5e19a68}; ! Name of Object 1
+

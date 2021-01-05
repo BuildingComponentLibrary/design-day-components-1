@@ -1,0 +1,36 @@
+
+OS:Version,
+  {17ee59bb-7bc0-4899-8c70-e7bb232754f2}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {02fbfd23-2403-4da9-89a8-90dab9aa0c0d}, ! Handle
+  AKRON Ann Htg 99% Condns DB,            ! Name
+  -13.8,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -13.8,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  96877,                                  ! Barometric Pressure {Pa}
+  4.6,                                    ! Wind Speed {m/s}
+  240,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {54c76ff6-81d5-4c0e-b474-b1ff142b49e6}, ! Handle
+  Component Data 1,                       ! Name
+  {08cf0cd8-855e-46fa-b44e-5c6cd61f136c}, ! UUID
+  {e99b267e-0a39-4841-b1cd-61b4fff6900e}, ! Version UUID
+  1366309760,                             ! Creation Timestamp
+  1366309760,                             ! Version Timestamp
+  {02fbfd23-2403-4da9-89a8-90dab9aa0c0d}; ! Name of Object 1
+

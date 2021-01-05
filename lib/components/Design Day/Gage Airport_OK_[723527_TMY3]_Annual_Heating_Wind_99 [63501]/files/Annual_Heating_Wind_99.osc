@@ -1,0 +1,36 @@
+
+OS:Version,
+  {c54fa297-fc6e-407c-97d8-94b02688403a}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {b2242274-67d4-4257-975f-a56136fe38f0}, ! Handle
+  Gage Airport Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  6.3,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  6.3,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  93553,                                  ! Barometric Pressure {Pa}
+  11.8,                                   ! Wind Speed {m/s}
+  10,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {36035b61-0b34-4d8a-8c0e-9960b6b65156}, ! Handle
+  Component Data 1,                       ! Name
+  {7168e6ee-c105-450f-b6e4-a60c807326bb}, ! UUID
+  {a74f18a3-d221-4930-b395-b7b8083ecece}, ! Version UUID
+  1366309893,                             ! Creation Timestamp
+  1366309893,                             ! Version Timestamp
+  {b2242274-67d4-4257-975f-a56136fe38f0}; ! Name of Object 1
+

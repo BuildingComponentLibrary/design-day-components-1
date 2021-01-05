@@ -1,0 +1,36 @@
+
+OS:Version,
+  {e4fa01ae-6e0f-420f-8f08-9455c1de5b29}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {1fd8ba03-2b5b-484e-9b72-b57adfedff80}, ! Handle
+  KAHULUI Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  24.6,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  24.6,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101145,                                 ! Barometric Pressure {Pa}
+  11.5,                                   ! Wind Speed {m/s}
+  150,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  2,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {bff02e70-5832-4709-9b55-c9795a966e16}, ! Handle
+  Component Data 1,                       ! Name
+  {ab07389b-8657-430a-8c25-c5d6ef53b24c}, ! UUID
+  {ce511951-cd1a-4a7c-a350-458184d47fd1}, ! Version UUID
+  1366307096,                             ! Creation Timestamp
+  1366307096,                             ! Version Timestamp
+  {1fd8ba03-2b5b-484e-9b72-b57adfedff80}; ! Name of Object 1
+

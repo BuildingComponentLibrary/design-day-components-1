@@ -1,0 +1,36 @@
+
+OS:Version,
+  {d59b04c6-cdc3-4b81-b2ea-1059da8fd896}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {9bf538ba-4d69-41f2-b0e9-21bf83d272af}, ! Handle
+  England Afb Ann Htg 99.6% Condns DB,    ! Name
+  -3,                                     ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -3,                                     ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101001,                                 ! Barometric Pressure {Pa}
+  2.3,                                    ! Wind Speed {m/s}
+  0,                                      ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {d43d712d-82ca-4d05-b85a-bb81b143c6a0}, ! Handle
+  Component Data 1,                       ! Name
+  {cd7236a2-8f87-4ae8-abf0-53f9688bec47}, ! UUID
+  {081fadc4-2643-4db2-9f90-683a312b3b55}, ! Version UUID
+  1366307690,                             ! Creation Timestamp
+  1366307690,                             ! Version Timestamp
+  {9bf538ba-4d69-41f2-b0e9-21bf83d272af}; ! Name of Object 1
+

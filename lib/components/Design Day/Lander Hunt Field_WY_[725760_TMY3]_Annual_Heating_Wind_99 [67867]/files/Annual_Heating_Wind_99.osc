@@ -1,0 +1,36 @@
+
+OS:Version,
+  {26d42041-03ba-4a52-adb3-a2f2145f1f20}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {f4193b24-229c-4b54-9318-519bf67ef897}, ! Handle
+  Lander Hunt Field Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  4.1,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  4.1,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  82562,                                  ! Barometric Pressure {Pa}
+  10.4,                                   ! Wind Speed {m/s}
+  140,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {4a47e318-3f7a-4706-9d28-23a9915204e0}, ! Handle
+  Component Data 1,                       ! Name
+  {e611f595-de2e-47b0-b74e-8c1ea1ef7e68}, ! UUID
+  {8a36a9a7-b63e-426a-a1d1-deedf602414d}, ! Version UUID
+  1366311748,                             ! Creation Timestamp
+  1366311748,                             ! Version Timestamp
+  {f4193b24-229c-4b54-9318-519bf67ef897}; ! Name of Object 1
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {dac5c39d-013f-4c1e-9edf-747a745c7263}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {f298c7f3-651c-47df-a0e7-e6c2f4d178cf}, ! Handle
+  BETHEL Ann Htg 99.6% Condns DB,         ! Name
+  -32.8,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -32.8,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100774,                                 ! Barometric Pressure {Pa}
+  4.1,                                    ! Wind Speed {m/s}
+  20,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {3e7f6681-ca31-4c6a-88c8-203b2b924e24}, ! Handle
+  Component Data 1,                       ! Name
+  {cf43d27c-c3b8-4459-acdd-a92b977a9ae9}, ! UUID
+  {bad383a7-172c-4a0c-82e0-2c5ab2b627b7}, ! Version UUID
+  1366304744,                             ! Creation Timestamp
+  1366304744,                             ! Version Timestamp
+  {f298c7f3-651c-47df-a0e7-e6c2f4d178cf}; ! Name of Object 1
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {27eae4a0-7163-42ae-ad8a-000ce923036b}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {e0224c5e-f422-42d9-8817-7cbfc3adbcd8}, ! Handle
+  Albany Dougherty County Ap Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  4.6,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -9,                                     ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100630,                                 ! Barometric Pressure {Pa}
+  1.8,                                    ! Wind Speed {m/s}
+  330,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {f28f4b31-1e37-49bb-b39b-58c4b1dc3149}, ! Handle
+  Component Data 1,                       ! Name
+  {70c9fc06-661c-401b-92f7-3517628afc59}, ! UUID
+  {888a39a1-6538-4b21-8ed2-3c045273f904}, ! Version UUID
+  1366306961,                             ! Creation Timestamp
+  1366306961,                             ! Version Timestamp
+  {e0224c5e-f422-42d9-8817-7cbfc3adbcd8}; ! Name of Object 1
+

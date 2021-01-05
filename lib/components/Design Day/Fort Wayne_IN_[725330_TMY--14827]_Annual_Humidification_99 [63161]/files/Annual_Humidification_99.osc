@@ -1,0 +1,36 @@
+
+OS:Version,
+  {170a2526-a0d1-4933-b027-b8f904d70ece}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {f2d148b5-a7d9-4cd0-bc55-6f8542cecdbb}, ! Handle
+  Fort Wayne Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  -15.1,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -19.5,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98334,                                  ! Barometric Pressure {Pa}
+  4.6,                                    ! Wind Speed {m/s}
+  260,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {fda5e376-040e-4753-91e5-94f1cbbb4d18}, ! Handle
+  Component Data 1,                       ! Name
+  {ed9333e6-4b2e-47bb-a753-4de95c052268}, ! UUID
+  {cbf648bd-7a5b-4831-93f7-5d011a7fda4c}, ! Version UUID
+  1366307440,                             ! Creation Timestamp
+  1366307440,                             ! Version Timestamp
+  {f2d148b5-a7d9-4cd0-bc55-6f8542cecdbb}; ! Name of Object 1
+

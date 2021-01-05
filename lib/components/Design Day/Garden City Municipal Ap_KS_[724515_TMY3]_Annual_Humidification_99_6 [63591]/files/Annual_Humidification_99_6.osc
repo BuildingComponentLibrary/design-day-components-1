@@ -1,0 +1,36 @@
+
+OS:Version,
+  {125f3f22-dabb-4ce5-b8ed-53ec9f37af3f}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {b218ec68-cd01-44e6-968a-3e4deeb882fb}, ! Handle
+  Garden City Municipal Ap Ann Hum_n 99.6% Condns DP=>MCDB, ! Name
+  -16.9,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -22.9,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  91212,                                  ! Barometric Pressure {Pa}
+  5.2,                                    ! Wind Speed {m/s}
+  0,                                      ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {00a74e0c-d4f0-408a-b335-bb157bbe5122}, ! Handle
+  Component Data 1,                       ! Name
+  {ad4d9674-c19f-4468-9fe7-b5f084641296}, ! UUID
+  {f745e23f-c1c3-457f-bc9e-71f78738da99}, ! Version UUID
+  1366307526,                             ! Creation Timestamp
+  1366307526,                             ! Version Timestamp
+  {b218ec68-cd01-44e6-968a-3e4deeb882fb}; ! Name of Object 1
+

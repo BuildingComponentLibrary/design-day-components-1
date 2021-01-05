@@ -1,0 +1,36 @@
+
+OS:Version,
+  {9ca5183a-2b36-4420-bd1a-ac1bc71562b5}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {4a79c906-fd7d-4e2e-a655-4d71cda353c9}, ! Handle
+  Fayetteville Rgnl G Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  0.9,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -13.3,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100618,                                 ! Barometric Pressure {Pa}
+  2.8,                                    ! Wind Speed {m/s}
+  30,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {f30bb73a-d3dc-47ba-aecc-895696c09ce2}, ! Handle
+  Component Data 1,                       ! Name
+  {8790e1da-cf08-46d9-901c-e4c21ecb15fd}, ! UUID
+  {90d75a1b-f716-46b0-8d07-7225d57bfb62}, ! Version UUID
+  1366308914,                             ! Creation Timestamp
+  1366308914,                             ! Version Timestamp
+  {4a79c906-fd7d-4e2e-a655-4d71cda353c9}; ! Name of Object 1
+

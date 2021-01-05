@@ -1,0 +1,36 @@
+
+OS:Version,
+  {ac9bbac4-b15a-4bf2-9a75-8eb401acea3c}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {5bc21b60-da7e-4c26-afe9-8c38c0c455a2}, ! Handle
+  Cotulla Faa Ap Ann Htg 99% Condns DB,   ! Name
+  1.4,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  1.4,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99643,                                  ! Barometric Pressure {Pa}
+  2.2,                                    ! Wind Speed {m/s}
+  20,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {0dbb89a5-a930-49dd-81ff-7c0d39d6b644}, ! Handle
+  Component Data 1,                       ! Name
+  {d056cec9-a09f-4751-ab94-c6834e2cdc2e}, ! UUID
+  {6903da29-6612-4bb7-b962-a0efaa6d0d4d}, ! Version UUID
+  1366310637,                             ! Creation Timestamp
+  1366310637,                             ! Version Timestamp
+  {5bc21b60-da7e-4c26-afe9-8c38c0c455a2}; ! Name of Object 1
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {3ebe4e22-0c55-45ed-ac27-3959080eb47f}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {cb3ac508-3043-47ef-b136-d7903860d3be}, ! Handle
+  Fort Yukon Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  -30.7,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -48.6,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99702,                                  ! Barometric Pressure {Pa}
+  0.4,                                    ! Wind Speed {m/s}
+  40,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {3b701189-7396-4090-b771-7f2a0947b535}, ! Handle
+  Component Data 1,                       ! Name
+  {f0b3a08c-4bc5-4ecd-833d-aab4529e90f8}, ! UUID
+  {c4e1e2c6-c8d2-4ba2-a14e-3e0c72e15db9}, ! Version UUID
+  1366305271,                             ! Creation Timestamp
+  1366305271,                             ! Version Timestamp
+  {cb3ac508-3043-47ef-b136-d7903860d3be}; ! Name of Object 1
+

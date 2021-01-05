@@ -1,0 +1,36 @@
+
+OS:Version,
+  {b49dc01c-e864-4497-99e1-ab6500917646}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {dcaa406c-06f2-41aa-847a-bfbe06493ad6}, ! Handle
+  Jamestown  Awos Ann Htg 99% Condns DB,  ! Name
+  -14.9,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -14.9,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  95175,                                  ! Barometric Pressure {Pa}
+  3.5,                                    ! Wind Speed {m/s}
+  230,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {2082a096-0c34-48e4-8959-a336ebda5aef}, ! Handle
+  Component Data 1,                       ! Name
+  {4aa3be09-0af1-40e1-8dd7-79b66d24a5db}, ! UUID
+  {cd1b6f88-1b76-4072-962e-40fb95de0a59}, ! Version UUID
+  1366309640,                             ! Creation Timestamp
+  1366309640,                             ! Version Timestamp
+  {dcaa406c-06f2-41aa-847a-bfbe06493ad6}; ! Name of Object 1
+

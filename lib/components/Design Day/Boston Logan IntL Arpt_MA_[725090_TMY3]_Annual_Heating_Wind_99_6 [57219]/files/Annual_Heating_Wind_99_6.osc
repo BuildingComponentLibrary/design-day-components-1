@@ -1,0 +1,36 @@
+
+OS:Version,
+  {60f71517-0b03-4306-9c44-4376e898841c}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {eccbc21b-2e00-40ae-9fd5-4154315a71a8}, ! Handle
+  Boston Logan IntL Arpt Ann Htg Wind 99.6% Condns WS=>MCDB, ! Name
+  2.1,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  2.1,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101253,                                 ! Barometric Pressure {Pa}
+  14.1,                                   ! Wind Speed {m/s}
+  320,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {43385fa0-8c1a-4e7a-8c15-b0717e807d3a}, ! Handle
+  Component Data 1,                       ! Name
+  {7672c754-96ea-4dcf-827d-1811ac197a46}, ! UUID
+  {b63c685b-2967-4561-8b0f-f48dbc853e53}, ! Version UUID
+  1366307792,                             ! Creation Timestamp
+  1366307792,                             ! Version Timestamp
+  {eccbc21b-2e00-40ae-9fd5-4154315a71a8}; ! Name of Object 1
+

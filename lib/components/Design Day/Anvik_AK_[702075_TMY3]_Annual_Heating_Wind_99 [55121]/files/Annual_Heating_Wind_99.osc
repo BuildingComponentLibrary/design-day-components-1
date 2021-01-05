@@ -1,0 +1,36 @@
+
+OS:Version,
+  {7868ee67-10c9-4527-b88f-5e6a65c06caa}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {733a8fe2-96e0-4ff5-9fe8-d282e0c1bd7f}, ! Handle
+  Anvik Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  -15,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -15,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100141,                                 ! Barometric Pressure {Pa}
+  7.7,                                    ! Wind Speed {m/s}
+  30,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {a8dd3b73-3cfc-4109-a0d5-0c9349586d8f}, ! Handle
+  Component Data 1,                       ! Name
+  {28084ce9-a060-41cb-8cb4-92692d5fa315}, ! UUID
+  {a0c888e8-3ac9-4672-8a57-f6f9872115d0}, ! Version UUID
+  1366304731,                             ! Creation Timestamp
+  1366304731,                             ! Version Timestamp
+  {733a8fe2-96e0-4ff5-9fe8-d282e0c1bd7f}; ! Name of Object 1
+

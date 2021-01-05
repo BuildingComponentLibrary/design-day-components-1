@@ -1,0 +1,36 @@
+
+OS:Version,
+  {565e26a5-85c9-43d3-8e1f-41e428620803}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {499c5f3c-d8de-4799-ad64-d301a0de3d23}, ! Handle
+  Huntingburg Ann Htg 99.6% Condns DB,    ! Name
+  -13.4,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -13.4,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99406,                                  ! Barometric Pressure {Pa}
+  3.2,                                    ! Wind Speed {m/s}
+  280,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {ff14f024-5445-444b-9d6f-b630a71d01de}, ! Handle
+  Component Data 1,                       ! Name
+  {0e49aba9-851a-469a-ac88-1bf65ee55194}, ! UUID
+  {2b72b802-7eb2-430a-acff-037b9e1955d5}, ! Version UUID
+  1366307453,                             ! Creation Timestamp
+  1366307453,                             ! Version Timestamp
+  {499c5f3c-d8de-4799-ad64-d301a0de3d23}; ! Name of Object 1
+

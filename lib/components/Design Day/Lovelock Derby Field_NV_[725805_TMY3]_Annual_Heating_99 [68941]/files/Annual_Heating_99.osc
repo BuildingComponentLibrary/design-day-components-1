@@ -1,0 +1,36 @@
+
+OS:Version,
+  {02f24dd4-f3c6-471d-8add-ba913fdbb88d}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {4dce3445-9a20-42da-bfff-0bce2f2257fa}, ! Handle
+  Lovelock Derby Field Ann Htg 99% Condns DB, ! Name
+  -12,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -12,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  87833,                                  ! Barometric Pressure {Pa}
+  1.8,                                    ! Wind Speed {m/s}
+  300,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {664dc60f-e912-431c-acb2-b6274afc679e}, ! Handle
+  Component Data 1,                       ! Name
+  {dbe373fe-d81d-453f-a095-2fc1b3d655cd}, ! UUID
+  {10a290b2-dd7c-4664-803c-5a1e73f9cca8}, ! Version UUID
+  1366309515,                             ! Creation Timestamp
+  1366309515,                             ! Version Timestamp
+  {4dce3445-9a20-42da-bfff-0bce2f2257fa}; ! Name of Object 1
+

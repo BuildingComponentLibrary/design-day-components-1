@@ -1,0 +1,40 @@
+
+OS:Version,
+  {34c0ebbb-3426-4b5d-91fd-a51cb4d2153b}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {66e03265-91e3-4d9e-9972-8566e136c71d}, ! Handle
+  Kalispell Glacier Pk IntL Ar Ann Clg 1% Condns WB=>MDB, ! Name
+  27.2,                                   ! Maximum Dry-Bulb Temperature {C}
+  17,                                     ! Daily Dry-Bulb Temperature Range {deltaC}
+  17.5,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  90904,                                  ! Barometric Pressure {Pa}
+  3.6,                                    ! Wind Speed {m/s}
+  160,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  7,                                      ! Month
+  SummerDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAETau,                              ! Solar Model Indicator
+  ,                                       ! Beam Solar Day Schedule Name
+  ,                                       ! Diffuse Solar Day Schedule Name
+  0.355,                                  ! ASHRAE Taub {dimensionless}
+  2.406;                                  ! ASHRAE Taud {dimensionless}
+
+OS:ComponentData,
+  {7a546613-6bbc-4989-9d34-7a12f98016b7}, ! Handle
+  Component Data 1,                       ! Name
+  {7d7721c5-aaf2-4eca-8cab-884dff39a3ef}, ! UUID
+  {430bfa8e-edb7-4710-8070-343ba763897d}, ! Version UUID
+  1366308804,                             ! Creation Timestamp
+  1366308804,                             ! Version Timestamp
+  {66e03265-91e3-4d9e-9972-8566e136c71d}; ! Name of Object 1
+

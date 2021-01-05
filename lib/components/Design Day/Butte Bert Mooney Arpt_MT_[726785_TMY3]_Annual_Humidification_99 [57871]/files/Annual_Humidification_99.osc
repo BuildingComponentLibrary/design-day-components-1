@@ -1,0 +1,36 @@
+
+OS:Version,
+  {56d95b65-a05e-430e-92d5-ec3a85e2f9bd}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {e995ad6c-8462-43ca-b45b-ffddacef2dd7}, ! Handle
+  Butte Bert Mooney Arpt Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  -23.6,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -27.5,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  82613,                                  ! Barometric Pressure {Pa}
+  1.3,                                    ! Wind Speed {m/s}
+  180,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {4bf556cf-ee76-433c-bb28-136ab0a94b0e}, ! Handle
+  Component Data 1,                       ! Name
+  {0ad48530-920c-446d-8869-18ffd4bae371}, ! UUID
+  {9393a9fa-134b-4d8f-90ca-aa2e7c88765d}, ! Version UUID
+  1366308724,                             ! Creation Timestamp
+  1366308724,                             ! Version Timestamp
+  {e995ad6c-8462-43ca-b45b-ffddacef2dd7}; ! Name of Object 1
+

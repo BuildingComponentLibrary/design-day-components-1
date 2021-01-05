@@ -1,0 +1,36 @@
+
+OS:Version,
+  {e73f5f7b-c4cf-4ca1-8aa5-7a21504fa52a}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {dc659741-ec5c-4682-b54c-97a26fe3de0f}, ! Handle
+  Burlington Ann Htg 99% Condns DB,       ! Name
+  -19.7,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -19.7,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100082,                                 ! Barometric Pressure {Pa}
+  3,                                      ! Wind Speed {m/s}
+  60,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {22b3af98-7780-4041-a924-2ebdef22c32f}, ! Handle
+  Component Data 1,                       ! Name
+  {578538f9-6b7f-49ce-937d-3557b371922b}, ! UUID
+  {48709e61-723f-4b4f-afe5-9aaa9083c82e}, ! Version UUID
+  1366311239,                             ! Creation Timestamp
+  1366311239,                             ! Version Timestamp
+  {dc659741-ec5c-4682-b54c-97a26fe3de0f}; ! Name of Object 1
+

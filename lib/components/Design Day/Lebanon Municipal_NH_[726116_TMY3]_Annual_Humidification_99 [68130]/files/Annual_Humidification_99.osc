@@ -1,0 +1,36 @@
+
+OS:Version,
+  {0267e678-165c-4ae2-8ebc-e4352777a4ed}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {c24a2067-91fc-4dbc-a98b-eaf83a80e531}, ! Handle
+  Lebanon Municipal Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  -17.9,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -23.9,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99158,                                  ! Barometric Pressure {Pa}
+  1,                                      ! Wind Speed {m/s}
+  170,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {07bdaf8b-e5a0-4b22-a2b0-9ef76d4994c7}, ! Handle
+  Component Data 1,                       ! Name
+  {53e0d282-fbd4-4350-884b-7449b1b24263}, ! UUID
+  {c77630be-5426-4c8f-93a0-1c6dd1dcd7ca}, ! Version UUID
+  1366309256,                             ! Creation Timestamp
+  1366309256,                             ! Version Timestamp
+  {c24a2067-91fc-4dbc-a98b-eaf83a80e531}; ! Name of Object 1
+

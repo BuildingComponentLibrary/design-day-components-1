@@ -1,0 +1,36 @@
+
+OS:Version,
+  {c31fd107-6a02-461b-93d8-e357b4e1ba2e}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {fdf95895-dbc9-46c4-8365-c790e9c08a0c}, ! Handle
+  Camp Mabry Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  5,                                      ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -8.9,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98969,                                  ! Barometric Pressure {Pa}
+  4.5,                                    ! Wind Speed {m/s}
+  10,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {5386994b-a539-451a-b8c0-3007580de047}, ! Handle
+  Component Data 1,                       ! Name
+  {595af2c1-38cf-46aa-8168-7c073876408b}, ! UUID
+  {6d4b34b9-7c2c-4aea-ac77-7b7ed853b598}, ! Version UUID
+  1366310578,                             ! Creation Timestamp
+  1366310578,                             ! Version Timestamp
+  {fdf95895-dbc9-46c4-8365-c790e9c08a0c}; ! Name of Object 1
+

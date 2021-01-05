@@ -1,0 +1,36 @@
+
+OS:Version,
+  {7676cb09-48b0-43ab-8b20-f0a53509badc}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {fa268aad-7e77-4453-bdb5-012796673cd6}, ! Handle
+  ALAMOSA Ann Htg 99% Condns DB,          ! Name
+  -23.3,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -23.3,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  76607,                                  ! Barometric Pressure {Pa}
+  1.2,                                    ! Wind Speed {m/s}
+  270,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {5859e919-3fde-4605-856d-9c7d6831b0c0}, ! Handle
+  Component Data 1,                       ! Name
+  {58556888-b127-4fa6-829f-75308e4c250f}, ! UUID
+  {51ea8ac4-8a91-46b6-b5a8-21cbb1dfe921}, ! Version UUID
+  1366306638,                             ! Creation Timestamp
+  1366306638,                             ! Version Timestamp
+  {fa268aad-7e77-4453-bdb5-012796673cd6}; ! Name of Object 1
+

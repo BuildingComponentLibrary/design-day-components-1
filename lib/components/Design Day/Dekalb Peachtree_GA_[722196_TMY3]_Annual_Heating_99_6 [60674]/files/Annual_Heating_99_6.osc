@@ -1,0 +1,36 @@
+
+OS:Version,
+  {6efa20ea-2eb6-476c-a91e-72fcaa652194}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {9825c91d-7fbd-457e-a33f-e653b15e4b15}, ! Handle
+  Dekalb Peachtree Ann Htg 99.6% Condns DB, ! Name
+  -5.2,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -5.2,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  97621,                                  ! Barometric Pressure {Pa}
+  3.4,                                    ! Wind Speed {m/s}
+  320,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {153db617-0d24-45f6-8a97-198ace1dbcc7}, ! Handle
+  Component Data 1,                       ! Name
+  {9cca4ed7-cd99-4d79-86c5-a03176581218}, ! UUID
+  {e97beea4-a951-4e05-989f-fa1e3e7ae87c}, ! Version UUID
+  1366307006,                             ! Creation Timestamp
+  1366307006,                             ! Version Timestamp
+  {9825c91d-7fbd-457e-a33f-e653b15e4b15}; ! Name of Object 1
+

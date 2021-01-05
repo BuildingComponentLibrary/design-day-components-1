@@ -1,0 +1,36 @@
+
+OS:Version,
+  {a4aa6850-89e9-42ac-b8e5-d4382d9301c0}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {dd54319d-03c8-4179-9eb4-a6a594809f51}, ! Handle
+  Fort Smith Ann Htg Wind 99.6% Condns WS=>MCDB, ! Name
+  4.9,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  4.9,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99643,                                  ! Barometric Pressure {Pa}
+  11.1,                                   ! Wind Speed {m/s}
+  350,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {62b1fd9c-d156-44f8-bcc1-37cadaef866f}, ! Handle
+  Component Data 1,                       ! Name
+  {65a58f4f-df73-4b16-8e6d-a27699d257a3}, ! UUID
+  {924bb343-95d3-4558-8c7f-a987e0abc2de}, ! Version UUID
+  1366306210,                             ! Creation Timestamp
+  1366306210,                             ! Version Timestamp
+  {dd54319d-03c8-4179-9eb4-a6a594809f51}; ! Name of Object 1
+

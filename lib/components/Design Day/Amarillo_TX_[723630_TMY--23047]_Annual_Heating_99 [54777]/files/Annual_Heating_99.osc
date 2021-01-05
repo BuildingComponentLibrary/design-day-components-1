@@ -1,0 +1,36 @@
+
+OS:Version,
+  {4a77d248-121e-4951-951b-ee3e482601dd}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {25f26482-64e6-4030-b477-4b9172677a2a}, ! Handle
+  Amarillo Ann Htg 99% Condns DB,         ! Name
+  -10.2,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -10.2,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  88801,                                  ! Barometric Pressure {Pa}
+  5.1,                                    ! Wind Speed {m/s}
+  20,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {06135d04-7b82-47aa-bde0-9b2a87b7cbc2}, ! Handle
+  Component Data 1,                       ! Name
+  {fccb80e6-852f-4304-9b6e-e9d8a6ad1a66}, ! UUID
+  {43df172e-469b-48e5-bedb-accaa0336774}, ! Version UUID
+  1366310569,                             ! Creation Timestamp
+  1366310569,                             ! Version Timestamp
+  {25f26482-64e6-4030-b477-4b9172677a2a}; ! Name of Object 1
+

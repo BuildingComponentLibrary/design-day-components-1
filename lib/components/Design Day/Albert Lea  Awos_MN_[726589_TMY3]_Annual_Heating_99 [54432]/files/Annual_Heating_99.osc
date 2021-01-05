@@ -1,0 +1,36 @@
+
+OS:Version,
+  {06437ea4-288e-4adf-8046-c61f63c436bf}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {f85b1c2d-871e-4a31-8d61-c02f9fdd4452}, ! Handle
+  Albert Lea  Awos Ann Htg 99% Condns DB, ! Name
+  -21.6,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -21.6,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  96808,                                  ! Barometric Pressure {Pa}
+  3.9,                                    ! Wind Speed {m/s}
+  300,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {052f600c-13ad-4ade-b3db-1c1c1eb5696d}, ! Handle
+  Component Data 1,                       ! Name
+  {8ae8be40-0d7b-44b3-a286-ca81cd90eaed}, ! UUID
+  {c32acd3b-09c8-4ec5-ac00-ec45f3aefafe}, ! Version UUID
+  1366308139,                             ! Creation Timestamp
+  1366308139,                             ! Version Timestamp
+  {f85b1c2d-871e-4a31-8d61-c02f9fdd4452}; ! Name of Object 1
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {60299afc-8595-44ef-82ec-9b4b9e89079e}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {ab003ca1-1238-4bc5-9e91-6bf9dcac4d89}, ! Handle
+  Berlin Municipal Ann Htg 99% Condns DB, ! Name
+  -23.7,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -23.7,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  97156,                                  ! Barometric Pressure {Pa}
+  0.8,                                    ! Wind Speed {m/s}
+  290,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {c4ab528d-77c9-416e-af81-62f4a624ebec}, ! Handle
+  Component Data 1,                       ! Name
+  {cab8cb2e-72d5-493e-afb8-bb6a7997c2bb}, ! UUID
+  {e541d7ca-d9b0-4f78-857b-aa921a81cf7a}, ! Version UUID
+  1366309213,                             ! Creation Timestamp
+  1366309213,                             ! Version Timestamp
+  {ab003ca1-1238-4bc5-9e91-6bf9dcac4d89}; ! Name of Object 1
+

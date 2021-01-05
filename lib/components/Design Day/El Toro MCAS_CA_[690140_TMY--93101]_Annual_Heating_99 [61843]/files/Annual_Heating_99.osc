@@ -1,0 +1,36 @@
+
+OS:Version,
+  {3058f021-9781-421a-a777-5c385b1d23b3}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {b2d36337-0e98-4796-8465-e9cfc4a8f93e}, ! Handle
+  El Toro MCAS Ann Htg 99% Condns DB,     ! Name
+  6.2,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  6.2,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99939,                                  ! Barometric Pressure {Pa}
+  1.4,                                    ! Wind Speed {m/s}
+  90,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {4b90da0b-0331-4720-bd44-776412d01268}, ! Handle
+  Component Data 1,                       ! Name
+  {efc6cdf6-443b-40ea-b9b0-63c98e932337}, ! UUID
+  {1d87eb8e-3f2d-4445-8b07-15b8f19de644}, ! Version UUID
+  1366306422,                             ! Creation Timestamp
+  1366306422,                             ! Version Timestamp
+  {b2d36337-0e98-4796-8465-e9cfc4a8f93e}; ! Name of Object 1
+

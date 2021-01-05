@@ -1,0 +1,36 @@
+
+OS:Version,
+  {b197fb27-d25b-4a8f-95c6-77e1020943f8}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {3c04669a-b427-4d2d-97bd-25798967069b}, ! Handle
+  Dubois Faa Ap Ann Htg 99% Condns DB,    ! Name
+  -15,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -15,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  94856,                                  ! Barometric Pressure {Pa}
+  4.6,                                    ! Wind Speed {m/s}
+  280,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {488945f6-60af-4d55-8c53-7536be6cb676}, ! Handle
+  Component Data 1,                       ! Name
+  {e8386d94-6369-49e4-93e7-bcb9623039f2}, ! UUID
+  {9854c8e4-0106-4929-b8e6-27fef334a1ad}, ! Version UUID
+  1366310158,                             ! Creation Timestamp
+  1366310158,                             ! Version Timestamp
+  {3c04669a-b427-4d2d-97bd-25798967069b}; ! Name of Object 1
+

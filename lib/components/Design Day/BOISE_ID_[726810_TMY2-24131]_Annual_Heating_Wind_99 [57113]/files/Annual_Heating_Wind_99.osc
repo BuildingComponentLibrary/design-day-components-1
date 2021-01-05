@@ -1,0 +1,36 @@
+
+OS:Version,
+  {90438931-811f-437a-b86c-9945e5de375d}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {1709c8b4-a538-4f0b-80c7-e8df51b250a9}, ! Handle
+  BOISE Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  5.2,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  5.2,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  91257,                                  ! Barometric Pressure {Pa}
+  9.9,                                    ! Wind Speed {m/s}
+  120,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {bf5cc359-4ab4-4c79-8e78-539b307369f5}, ! Handle
+  Component Data 1,                       ! Name
+  {089c9077-8ad2-458f-8ad3-1656b8f58bee}, ! UUID
+  {026a5497-f1b7-428f-91f1-4684ca809dcd}, ! Version UUID
+  1366307261,                             ! Creation Timestamp
+  1366307261,                             ! Version Timestamp
+  {1709c8b4-a538-4f0b-80c7-e8df51b250a9}; ! Name of Object 1
+

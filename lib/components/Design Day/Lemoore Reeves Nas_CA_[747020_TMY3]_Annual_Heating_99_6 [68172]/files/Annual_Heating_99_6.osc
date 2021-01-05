@@ -1,0 +1,36 @@
+
+OS:Version,
+  {5cc70b25-0ea2-49a6-a2a0-4bb6ac2f1f46}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {e02a9389-bcd2-459f-aa01-74718e12d38c}, ! Handle
+  Lemoore Reeves Nas Ann Htg 99.6% Condns DB, ! Name
+  -1.3,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -1.3,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100451,                                 ! Barometric Pressure {Pa}
+  1.5,                                    ! Wind Speed {m/s}
+  150,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {6e1022e3-35bc-4445-8c3c-acf499c870c2}, ! Handle
+  Component Data 1,                       ! Name
+  {3091a99b-b4e0-46bf-8662-cd4dde47f203}, ! UUID
+  {7bd33de0-a0ef-47db-ac8b-454236c858fa}, ! Version UUID
+  1366306460,                             ! Creation Timestamp
+  1366306460,                             ! Version Timestamp
+  {e02a9389-bcd2-459f-aa01-74718e12d38c}; ! Name of Object 1
+

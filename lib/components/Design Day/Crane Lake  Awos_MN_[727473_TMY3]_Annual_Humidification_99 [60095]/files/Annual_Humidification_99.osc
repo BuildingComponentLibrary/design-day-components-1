@@ -1,0 +1,36 @@
+
+OS:Version,
+  {63fbd461-a815-44bd-80da-b25cb82ae7db}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {b477d59f-337f-4195-bed1-8ec3cacfcbb9}, ! Handle
+  Crane Lake  Awos Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  -27.5,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -32.3,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  97190,                                  ! Barometric Pressure {Pa}
+  0.1,                                    ! Wind Speed {m/s}
+  250,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {81c29bee-5997-4b11-a896-8d41c0d8eeef}, ! Handle
+  Component Data 1,                       ! Name
+  {a54a8790-c0e6-4849-91e0-f0a0036ceb84}, ! UUID
+  {af67fafc-7469-4cc7-8bca-c5f5cc2f7122}, ! Version UUID
+  1366308184,                             ! Creation Timestamp
+  1366308184,                             ! Version Timestamp
+  {b477d59f-337f-4195-bed1-8ec3cacfcbb9}; ! Name of Object 1
+

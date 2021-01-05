@@ -1,0 +1,36 @@
+
+OS:Version,
+  {a0114416-7576-4237-a671-388a5986ceed}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {7da6fb95-d128-45e0-9781-06de1e018944}, ! Handle
+  Dyersburg Municipal Ap Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  -5.2,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -13,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100094,                                 ! Barometric Pressure {Pa}
+  3.7,                                    ! Wind Speed {m/s}
+  320,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {3c07f1d1-9f93-4a4d-ac98-6e9042cf46b5}, ! Handle
+  Component Data 1,                       ! Name
+  {ee63e685-0fef-4b53-b926-27ece37b88bc}, ! UUID
+  {684e5b8f-6f67-4be4-ae9a-09837223fbc3}, ! Version UUID
+  1366310500,                             ! Creation Timestamp
+  1366310500,                             ! Version Timestamp
+  {7da6fb95-d128-45e0-9781-06de1e018944}; ! Name of Object 1
+

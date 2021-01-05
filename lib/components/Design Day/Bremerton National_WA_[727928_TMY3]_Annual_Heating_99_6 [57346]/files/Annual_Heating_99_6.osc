@@ -1,0 +1,36 @@
+
+OS:Version,
+  {dbfe15c8-9c69-4621-b970-300b472dcd72}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {f7bdfc5c-6652-44f4-919c-c66e459bf18d}, ! Handle
+  Bremerton National Ann Htg 99.6% Condns DB, ! Name
+  -4.6,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -4.6,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99690,                                  ! Barometric Pressure {Pa}
+  1.9,                                    ! Wind Speed {m/s}
+  40,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {7a80f311-8bb7-4b36-8eb6-a5c5fe5400bf}, ! Handle
+  Component Data 1,                       ! Name
+  {9ecef963-c90d-4251-a29f-f05ceda677b6}, ! UUID
+  {d19d5548-7c86-42bd-8ebf-566e1fb5a91a}, ! Version UUID
+  1366311271,                             ! Creation Timestamp
+  1366311271,                             ! Version Timestamp
+  {f7bdfc5c-6652-44f4-919c-c66e459bf18d}; ! Name of Object 1
+

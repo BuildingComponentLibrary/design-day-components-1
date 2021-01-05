@@ -1,0 +1,36 @@
+
+OS:Version,
+  {aca63f60-ff83-402a-8cce-e74bc5894af3}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {a9fdc2f3-11c7-47d5-a7d1-bb4305806d8b}, ! Handle
+  Laconia Muni  Awos Ann Htg 99% Condns DB, ! Name
+  -17.5,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -17.5,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99347,                                  ! Barometric Pressure {Pa}
+  2.7,                                    ! Wind Speed {m/s}
+  260,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {bc454a69-1872-44eb-ab4a-412cf1741324}, ! Handle
+  Component Data 1,                       ! Name
+  {f0ac068c-f4a8-43fc-83ed-7255fe958731}, ! UUID
+  {16ad46d5-717d-4dc5-acac-3a3b83e38a5a}, ! Version UUID
+  1366309242,                             ! Creation Timestamp
+  1366309242,                             ! Version Timestamp
+  {a9fdc2f3-11c7-47d5-a7d1-bb4305806d8b}; ! Name of Object 1
+

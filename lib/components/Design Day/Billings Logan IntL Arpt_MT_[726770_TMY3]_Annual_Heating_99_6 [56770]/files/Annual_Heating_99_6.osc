@@ -1,0 +1,36 @@
+
+OS:Version,
+  {540e45c3-582d-4120-b804-dca9bea69dc5}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {d3a772c6-dfa9-45ed-80e5-b038a5cdbd1f}, ! Handle
+  Billings Logan IntL Arpt Ann Htg 99.6% Condns DB, ! Name
+  -24.2,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -24.2,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  88930,                                  ! Barometric Pressure {Pa}
+  3.9,                                    ! Wind Speed {m/s}
+  20,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {d56ed8d7-6d77-485d-907e-37396b3cdb87}, ! Handle
+  Component Data 1,                       ! Name
+  {ef00521c-69c3-4249-93f5-ba5c22370873}, ! UUID
+  {d512faf7-7ef0-4372-bed3-c4575f2d5dc7}, ! Version UUID
+  1366308703,                             ! Creation Timestamp
+  1366308703,                             ! Version Timestamp
+  {d3a772c6-dfa9-45ed-80e5-b038a5cdbd1f}; ! Name of Object 1
+

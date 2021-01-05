@@ -1,0 +1,36 @@
+
+OS:Version,
+  {1b2bfae9-37ec-4afa-9c7e-a7687ffc9d27}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {c6bb48cb-fa5a-46f1-86e8-ec7b3761aac6}, ! Handle
+  CARIBOU Ann Htg 99.6% Condns DB,        ! Name
+  -26,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -26,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99063,                                  ! Barometric Pressure {Pa}
+  3.1,                                    ! Wind Speed {m/s}
+  290,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {12753709-64a7-4e55-9fe2-75b84515ee8f}, ! Handle
+  Component Data 1,                       ! Name
+  {15631c96-a5e3-454d-800d-ed9281a70dc5}, ! UUID
+  {8acab664-d1c1-48fb-9074-0d390053eddd}, ! Version UUID
+  1366307885,                             ! Creation Timestamp
+  1366307885,                             ! Version Timestamp
+  {c6bb48cb-fa5a-46f1-86e8-ec7b3761aac6}; ! Name of Object 1
+

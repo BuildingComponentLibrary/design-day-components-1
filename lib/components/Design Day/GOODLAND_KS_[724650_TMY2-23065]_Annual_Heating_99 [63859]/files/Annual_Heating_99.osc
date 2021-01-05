@@ -1,0 +1,36 @@
+
+OS:Version,
+  {0678b36a-0c09-498e-85b5-3d03396d0e00}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {492ebeeb-b215-4190-b755-4171876c44bd}, ! Handle
+  GOODLAND Ann Htg 99% Condns DB,         ! Name
+  -15.3,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -15.3,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  88531,                                  ! Barometric Pressure {Pa}
+  5,                                      ! Wind Speed {m/s}
+  270,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {5b8496c2-9030-4029-a523-defbfe677c08}, ! Handle
+  Component Data 1,                       ! Name
+  {03b0bba3-0f1e-4526-bd58-7d1c0fa52a4b}, ! UUID
+  {15b31721-3daa-4668-8396-77d3baa56b8a}, ! Version UUID
+  1366307537,                             ! Creation Timestamp
+  1366307537,                             ! Version Timestamp
+  {492ebeeb-b215-4190-b755-4171876c44bd}; ! Name of Object 1
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {32c91c08-d9b4-436e-a306-edb1b754df32}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {298edbd1-a119-49c6-a645-68214f84dbaf}, ! Handle
+  Fairbanks Eielson A Ann Htg 99.6% Condns DB, ! Name
+  -42.3,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -42.3,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99335,                                  ! Barometric Pressure {Pa}
+  0.6,                                    ! Wind Speed {m/s}
+  160,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {378bf045-7ad0-4715-96b2-c0c771f6f916}, ! Handle
+  Component Data 1,                       ! Name
+  {a3d3158f-1f92-43d0-890f-8ed4ed18d565}, ! UUID
+  {102994ce-6a17-40f5-9419-331adf0a6956}, ! Version UUID
+  1366305243,                             ! Creation Timestamp
+  1366305243,                             ! Version Timestamp
+  {298edbd1-a119-49c6-a645-68214f84dbaf}; ! Name of Object 1
+

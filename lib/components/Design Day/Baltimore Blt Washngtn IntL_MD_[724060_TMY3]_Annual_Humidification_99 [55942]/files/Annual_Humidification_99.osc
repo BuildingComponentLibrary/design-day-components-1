@@ -1,0 +1,36 @@
+
+OS:Version,
+  {e7c49ebe-e65f-43cc-ae8f-c6ccc3429bcf}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {9cf73208-1504-430a-b455-ded4fef8952d}, ! Handle
+  Baltimore Blt Washngtn IntL Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  -5.5,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -17,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100786,                                 ! Barometric Pressure {Pa}
+  3.9,                                    ! Wind Speed {m/s}
+  290,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {11c8372a-9106-480b-a62a-d04840fe3e3e}, ! Handle
+  Component Data 1,                       ! Name
+  {4c04351d-62d0-4dab-9684-db7b2226716d}, ! UUID
+  {44dbc6bf-97a4-492d-a093-29a0350ea07e}, ! Version UUID
+  1366307841,                             ! Creation Timestamp
+  1366307841,                             ! Version Timestamp
+  {9cf73208-1504-430a-b455-ded4fef8952d}; ! Name of Object 1
+

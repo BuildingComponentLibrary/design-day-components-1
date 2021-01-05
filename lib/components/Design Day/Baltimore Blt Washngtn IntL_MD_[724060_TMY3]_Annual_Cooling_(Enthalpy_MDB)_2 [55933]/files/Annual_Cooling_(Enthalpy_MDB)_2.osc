@@ -1,0 +1,40 @@
+
+OS:Version,
+  {469d22c1-f08b-45ab-b9b3-a28cf5f49106}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {ff97f75e-f0bc-467d-b806-116abbe721f2}, ! Handle
+  Baltimore Blt Washngtn IntL Ann Clg 2% Condns Enth=>MDB, ! Name
+  29.2,                                   ! Maximum Dry-Bulb Temperature {C}
+  10.4,                                   ! Daily Dry-Bulb Temperature Range {deltaC}
+  73000,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100786,                                 ! Barometric Pressure {Pa}
+  4.6,                                    ! Wind Speed {m/s}
+  280,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  7,                                      ! Month
+  SummerDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Enthalpy,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAETau,                              ! Solar Model Indicator
+  ,                                       ! Beam Solar Day Schedule Name
+  ,                                       ! Diffuse Solar Day Schedule Name
+  0.552,                                  ! ASHRAE Taub {dimensionless}
+  1.769;                                  ! ASHRAE Taud {dimensionless}
+
+OS:ComponentData,
+  {28225e40-82b9-458a-95d5-3c1135f9e4fe}, ! Handle
+  Component Data 1,                       ! Name
+  {b47e82dc-b31c-41c6-9e20-b5e994dba30a}, ! UUID
+  {8c3c7e2e-4a01-4f4c-9ce2-c93cbc047b45}, ! Version UUID
+  1366307842,                             ! Creation Timestamp
+  1366307842,                             ! Version Timestamp
+  {ff97f75e-f0bc-467d-b806-116abbe721f2}; ! Name of Object 1
+

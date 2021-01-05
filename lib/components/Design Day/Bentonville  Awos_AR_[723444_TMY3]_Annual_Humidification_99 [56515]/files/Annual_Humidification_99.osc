@@ -1,0 +1,36 @@
+
+OS:Version,
+  {5b24862a-e914-4996-9071-01d9c61fb758}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {634d4d98-1abc-41f1-9e76-2f8a5aa81e75}, ! Handle
+  Bentonville  Awos Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  -7.3,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -14.6,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  96669,                                  ! Barometric Pressure {Pa}
+  2.9,                                    ! Wind Speed {m/s}
+  310,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {f6f5addc-d2ad-4ea6-88dd-89b119a89008}, ! Handle
+  Component Data 1,                       ! Name
+  {5b1b9e9e-644d-44a3-afd1-788659863b74}, ! UUID
+  {d3b45302-c162-4eb4-8c26-96ab6e3c0257}, ! Version UUID
+  1366306195,                             ! Creation Timestamp
+  1366306195,                             ! Version Timestamp
+  {634d4d98-1abc-41f1-9e76-2f8a5aa81e75}; ! Name of Object 1
+

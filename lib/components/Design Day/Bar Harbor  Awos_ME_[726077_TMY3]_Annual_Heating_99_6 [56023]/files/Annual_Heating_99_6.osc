@@ -1,0 +1,36 @@
+
+OS:Version,
+  {e47a244c-2da0-45cb-b117-eea3a534bdc3}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {83e7b8f8-c31b-4041-be51-9b28a8392868}, ! Handle
+  Bar Harbor  Awos Ann Htg 99.6% Condns DB, ! Name
+  -19.8,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -19.8,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101013,                                 ! Barometric Pressure {Pa}
+  2.8,                                    ! Wind Speed {m/s}
+  310,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {b3b593ef-2d50-4e96-9f73-7ac138c62a28}, ! Handle
+  Component Data 1,                       ! Name
+  {a10ca926-3424-4766-9186-973200c19a93}, ! UUID
+  {229b6cc6-de6c-4977-9a69-40622aba89fc}, ! Version UUID
+  1366307878,                             ! Creation Timestamp
+  1366307878,                             ! Version Timestamp
+  {83e7b8f8-c31b-4041-be51-9b28a8392868}; ! Name of Object 1
+

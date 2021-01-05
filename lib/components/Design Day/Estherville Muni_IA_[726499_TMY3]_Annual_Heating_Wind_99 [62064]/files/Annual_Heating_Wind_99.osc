@@ -1,0 +1,36 @@
+
+OS:Version,
+  {bcbad97b-3cc8-4073-ad15-2869bab6f412}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {e204a1c7-672e-4556-afc4-eb9c93982dd1}, ! Handle
+  Estherville Muni Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  -9.4,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -9.4,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  96600,                                  ! Barometric Pressure {Pa}
+  14,                                     ! Wind Speed {m/s}
+  310,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {972ea433-ea58-410e-9969-2ae231e3065d}, ! Handle
+  Component Data 1,                       ! Name
+  {cac2f0cb-edc2-495c-bc6c-bd96bba7d828}, ! UUID
+  {eb085b0e-4eda-443d-88e6-79ba840abd71}, ! Version UUID
+  1366307188,                             ! Creation Timestamp
+  1366307188,                             ! Version Timestamp
+  {e204a1c7-672e-4556-afc4-eb9c93982dd1}; ! Name of Object 1
+

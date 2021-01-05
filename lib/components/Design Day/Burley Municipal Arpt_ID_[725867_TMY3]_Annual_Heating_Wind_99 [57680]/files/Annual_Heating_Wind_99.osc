@@ -1,0 +1,36 @@
+
+OS:Version,
+  {814096a0-b39c-47cc-9726-bbbc63db20e4}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {def09de4-ac61-418d-b2eb-6e5363c72e9d}, ! Handle
+  Burley Municipal Arpt Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  1.4,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  1.4,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  87002,                                  ! Barometric Pressure {Pa}
+  11.8,                                   ! Wind Speed {m/s}
+  60,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {787461cd-730d-447f-a9f7-a22a76e618c7}, ! Handle
+  Component Data 1,                       ! Name
+  {281e22d3-af8c-4950-b5cb-117c30b359ad}, ! UUID
+  {6fbf93f7-bf1e-45df-878d-705c92f98e1e}, ! Version UUID
+  1366307273,                             ! Creation Timestamp
+  1366307273,                             ! Version Timestamp
+  {def09de4-ac61-418d-b2eb-6e5363c72e9d}; ! Name of Object 1
+

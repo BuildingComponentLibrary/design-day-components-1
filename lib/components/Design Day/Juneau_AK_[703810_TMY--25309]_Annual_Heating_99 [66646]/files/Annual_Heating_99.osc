@@ -1,0 +1,36 @@
+
+OS:Version,
+  {1c2cb2bd-0cb0-47de-b276-b546a7e4df9f}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {61c1791d-4db9-4ef2-ac14-f73d090b9be3}, ! Handle
+  Juneau Ann Htg 99% Condns DB,           ! Name
+  -13.2,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -13.2,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101289,                                 ! Barometric Pressure {Pa}
+  2,                                      ! Wind Speed {m/s}
+  0,                                      ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {00155fd7-1e11-4320-9f79-6878f464b8fc}, ! Handle
+  Component Data 1,                       ! Name
+  {835818d2-535d-4571-bb1a-0b11337dd1e4}, ! UUID
+  {b7fdd863-7062-4746-8521-20f473e55925}, ! Version UUID
+  1366305331,                             ! Creation Timestamp
+  1366305331,                             ! Version Timestamp
+  {61c1791d-4db9-4ef2-ac14-f73d090b9be3}; ! Name of Object 1
+

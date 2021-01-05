@@ -1,0 +1,36 @@
+
+OS:Version,
+  {2d50b4ce-1590-488b-beca-43eda356f681}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {e84728ab-1c50-406b-a6f3-82b5e50a50e6}, ! Handle
+  Anniston Metropolitan Ap Ann Htg 99% Condns DB, ! Name
+  -4.2,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -4.2,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99110,                                  ! Barometric Pressure {Pa}
+  2.3,                                    ! Wind Speed {m/s}
+  250,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {65034f07-1a1f-4bd3-9117-7dc84707a27b}, ! Handle
+  Component Data 1,                       ! Name
+  {c4ed006f-f5a4-4611-a202-ef29d0977e62}, ! UUID
+  {79b58759-7470-4915-bd98-0af268bd662a}, ! Version UUID
+  1366305634,                             ! Creation Timestamp
+  1366305634,                             ! Version Timestamp
+  {e84728ab-1c50-406b-a6f3-82b5e50a50e6}; ! Name of Object 1
+

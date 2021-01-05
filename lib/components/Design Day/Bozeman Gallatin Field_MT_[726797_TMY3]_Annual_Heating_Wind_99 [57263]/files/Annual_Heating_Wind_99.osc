@@ -1,0 +1,36 @@
+
+OS:Version,
+  {ab89b66c-309f-475f-bcbd-755c5c5f4eef}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {37d842f0-c845-4ce8-a8a7-f5071ea00b46}, ! Handle
+  Bozeman Gallatin Field Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  2.9,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  2.9,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  86135,                                  ! Barometric Pressure {Pa}
+  9,                                      ! Wind Speed {m/s}
+  160,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {a6406f46-6fa2-460b-b268-098653043610}, ! Handle
+  Component Data 1,                       ! Name
+  {c11988ac-bec3-483b-8e68-af760b3bd0c0}, ! UUID
+  {f85ddb10-ed1c-4962-8d21-5e5033f06914}, ! Version UUID
+  1366308717,                             ! Creation Timestamp
+  1366308717,                             ! Version Timestamp
+  {37d842f0-c845-4ce8-a8a7-f5071ea00b46}; ! Name of Object 1
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {dd4bcef0-64df-4d28-90f4-e08bb35c54d2}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {ff9bb537-5f7c-4574-a7e2-d225e532f448}, ! Handle
+  Caribou Municipal Arpt Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  -12.2,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -12.2,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99063,                                  ! Barometric Pressure {Pa}
+  11.9,                                   ! Wind Speed {m/s}
+  290,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {843c1263-b037-41af-9108-65d99384de55}, ! Handle
+  Component Data 1,                       ! Name
+  {1e2695c8-9081-4a1c-a769-af60787ee691}, ! UUID
+  {1c46f245-a9b0-4942-ae46-21c691027b0f}, ! Version UUID
+  1366307893,                             ! Creation Timestamp
+  1366307893,                             ! Version Timestamp
+  {ff9bb537-5f7c-4574-a7e2-d225e532f448}; ! Name of Object 1
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {edf55895-cf08-4c86-9a18-e0a1ee2c54d0}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {ce49085c-d427-4fcb-95b3-39f7fb6bf104}, ! Handle
+  Bradford Regional Ap Ann Hum_n 99.6% Condns DP=>MCDB, ! Name
+  -18,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -23.5,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  93813,                                  ! Barometric Pressure {Pa}
+  3.1,                                    ! Wind Speed {m/s}
+  270,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {29af3e5f-83de-4a51-987f-0cbf520c11b0}, ! Handle
+  Component Data 1,                       ! Name
+  {cd0569fd-0a49-45c6-9d69-e12ac6d43fc0}, ! UUID
+  {a98a2ee8-60cb-4a18-8bbe-663e1498155d}, ! Version UUID
+  1366310149,                             ! Creation Timestamp
+  1366310149,                             ! Version Timestamp
+  {ce49085c-d427-4fcb-95b3-39f7fb6bf104}; ! Name of Object 1
+

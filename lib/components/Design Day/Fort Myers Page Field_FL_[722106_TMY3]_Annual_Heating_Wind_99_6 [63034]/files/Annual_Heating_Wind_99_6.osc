@@ -1,0 +1,36 @@
+
+OS:Version,
+  {b08bd943-4255-496d-bb4d-364b83727eae}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {fa9a65fb-3362-434e-acdf-920d082c5d45}, ! Handle
+  Fort Myers Page Field Ann Htg Wind 99.6% Condns WS=>MCDB, ! Name
+  16,                                     ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  16,                                     ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101265,                                 ! Barometric Pressure {Pa}
+  9.8,                                    ! Wind Speed {m/s}
+  20,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {ed322f72-e6ec-43af-b998-0fe92458aaf7}, ! Handle
+  Component Data 1,                       ! Name
+  {f8d416dd-018b-4689-af26-ea9c10fd176b}, ! UUID
+  {0dd8ad26-90bc-4120-9c24-aa3f4eff60d5}, ! Version UUID
+  1366306799,                             ! Creation Timestamp
+  1366306799,                             ! Version Timestamp
+  {fa9a65fb-3362-434e-acdf-920d082c5d45}; ! Name of Object 1
+

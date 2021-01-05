@@ -1,0 +1,36 @@
+
+OS:Version,
+  {2e00da1c-cefa-4afa-ad38-4331e3e9ac3c}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {def05ad6-229c-414a-815e-15f1e9f5aa62}, ! Handle
+  Childress Municipal Ap Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  9.2,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  9.2,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  94378,                                  ! Barometric Pressure {Pa}
+  12.1,                                   ! Wind Speed {m/s}
+  340,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {408efcd0-020b-4cae-af45-1c5c2eda298b}, ! Handle
+  Component Data 1,                       ! Name
+  {5624be30-4633-4fb5-bed4-08c9c279c36c}, ! UUID
+  {2ad5cf17-e324-479e-b7fc-37f2dccb5679}, ! Version UUID
+  1366310613,                             ! Creation Timestamp
+  1366310613,                             ! Version Timestamp
+  {def05ad6-229c-414a-815e-15f1e9f5aa62}; ! Name of Object 1
+

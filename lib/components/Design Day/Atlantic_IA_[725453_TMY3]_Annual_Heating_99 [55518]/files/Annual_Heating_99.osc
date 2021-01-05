@@ -1,0 +1,36 @@
+
+OS:Version,
+  {808743c5-9a33-4fc8-b18c-5cf1072a6efb}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {ec506611-4486-4285-aff0-eebdfd44b670}, ! Handle
+  Atlantic Ann Htg 99% Condns DB,         ! Name
+  -17.7,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -17.7,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  97074,                                  ! Barometric Pressure {Pa}
+  2.3,                                    ! Wind Speed {m/s}
+  0,                                      ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {d89d2824-12a4-43fe-873a-af1546a702a7}, ! Handle
+  Component Data 1,                       ! Name
+  {525cf3b0-cb4c-4c9b-91d7-ede247a21272}, ! UUID
+  {26b78ed6-7e11-4750-8843-414c9aad6e41}, ! Version UUID
+  1366307133,                             ! Creation Timestamp
+  1366307133,                             ! Version Timestamp
+  {ec506611-4486-4285-aff0-eebdfd44b670}; ! Name of Object 1
+

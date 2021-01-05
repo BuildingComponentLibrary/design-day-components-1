@@ -1,0 +1,36 @@
+
+OS:Version,
+  {9e4ba650-d5c6-4530-a24f-f6f34723ab24}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {d6eaa2b3-12ab-4347-aaf8-b54d75a0bd3a}, ! Handle
+  Augusta Ann Htg 99% Condns DB,          ! Name
+  -3.4,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -3.4,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100786,                                 ! Barometric Pressure {Pa}
+  1.5,                                    ! Wind Speed {m/s}
+  300,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {cc2f4888-ddfc-4afe-a67e-831d33fd593b}, ! Handle
+  Component Data 1,                       ! Name
+  {271b9c78-3d5a-4fd2-b017-7c575519974f}, ! UUID
+  {aadf0938-fb49-490c-8ac4-1638789facbe}, ! Version UUID
+  1366306984,                             ! Creation Timestamp
+  1366306984,                             ! Version Timestamp
+  {d6eaa2b3-12ab-4347-aaf8-b54d75a0bd3a}; ! Name of Object 1
+

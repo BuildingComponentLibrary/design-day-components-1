@@ -1,0 +1,40 @@
+
+OS:Version,
+  {f7e81d6b-c451-4981-9199-3c20697ae59a}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {45a4b8c9-3b17-4038-9f58-137647602e51}, ! Handle
+  Hays Muni  Awos Ann Clg .4% Condns DB=>MWB, ! Name
+  38,                                     ! Maximum Dry-Bulb Temperature {C}
+  14.1,                                   ! Daily Dry-Bulb Temperature Range {deltaC}
+  21.5,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  94220,                                  ! Barometric Pressure {Pa}
+  7.9,                                    ! Wind Speed {m/s}
+  190,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  7,                                      ! Month
+  SummerDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAETau,                              ! Solar Model Indicator
+  ,                                       ! Beam Solar Day Schedule Name
+  ,                                       ! Diffuse Solar Day Schedule Name
+  0.433,                                  ! ASHRAE Taub {dimensionless}
+  2.099;                                  ! ASHRAE Taud {dimensionless}
+
+OS:ComponentData,
+  {7e7edffb-a5e8-4668-be12-eec92cecc6b8}, ! Handle
+  Component Data 1,                       ! Name
+  {000a1f21-3484-4ad4-8dc9-d386be484c83}, ! UUID
+  {916b78a8-be35-4110-a6c9-9a16636f9158}, ! Version UUID
+  1366307545,                             ! Creation Timestamp
+  1366307545,                             ! Version Timestamp
+  {45a4b8c9-3b17-4038-9f58-137647602e51}; ! Name of Object 1
+

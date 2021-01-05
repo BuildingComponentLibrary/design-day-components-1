@@ -1,0 +1,36 @@
+
+OS:Version,
+  {aad28ff4-db0b-46c0-9529-24d7acd48b45}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {5582bc8c-34d8-4768-a892-272b854067e4}, ! Handle
+  Allentown Lehigh Valley Intl Ann Hum_n 99.6% Condns DP=>MCDB, ! Name
+  -12.2,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -21.2,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99904,                                  ! Barometric Pressure {Pa}
+  4,                                      ! Wind Speed {m/s}
+  330,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {5131c81d-ac8a-4ece-b71f-83a4760f468e}, ! Handle
+  Component Data 1,                       ! Name
+  {033c85dd-cb86-417f-83db-2df079c2947e}, ! UUID
+  {2c52be75-f3ee-4444-b95b-ab361181500c}, ! Version UUID
+  1366310131,                             ! Creation Timestamp
+  1366310131,                             ! Version Timestamp
+  {5582bc8c-34d8-4768-a892-272b854067e4}; ! Name of Object 1
+

@@ -1,0 +1,40 @@
+
+OS:Version,
+  {9921a875-ac88-47ea-820e-7f5599f53e46}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {a435f265-9919-4c22-a8ae-24543d3efa78}, ! Handle
+  Cairns Field Fort Rucker Ann Clg .4% Condns Enth=>MDB, ! Name
+  32,                                     ! Maximum Dry-Bulb Temperature {C}
+  10.2,                                   ! Daily Dry-Bulb Temperature Range {deltaC}
+  84200,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100237,                                 ! Barometric Pressure {Pa}
+  2.5,                                    ! Wind Speed {m/s}
+  300,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  7,                                      ! Month
+  SummerDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Enthalpy,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAETau,                              ! Solar Model Indicator
+  ,                                       ! Beam Solar Day Schedule Name
+  ,                                       ! Diffuse Solar Day Schedule Name
+  0.546,                                  ! ASHRAE Taub {dimensionless}
+  1.83;                                   ! ASHRAE Taud {dimensionless}
+
+OS:ComponentData,
+  {10d0e2d4-3c0c-4ad8-8367-d93bee61f581}, ! Handle
+  Component Data 1,                       ! Name
+  {517f5f2f-7aa3-4858-8ae7-fbf322cffb40}, ! UUID
+  {f10d4dee-3e89-4e5a-8ea7-7b3c11921e22}, ! Version UUID
+  1366305658,                             ! Creation Timestamp
+  1366305658,                             ! Version Timestamp
+  {a435f265-9919-4c22-a8ae-24543d3efa78}; ! Name of Object 1
+

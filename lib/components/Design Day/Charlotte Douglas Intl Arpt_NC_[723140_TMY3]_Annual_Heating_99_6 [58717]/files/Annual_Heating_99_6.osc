@@ -1,0 +1,36 @@
+
+OS:Version,
+  {a75c6e9e-015b-40c2-8199-bd8761e7e29e}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {5c86aec0-00b7-425e-a2fd-cf867ed77241}, ! Handle
+  Charlotte Douglas Intl Arpt Ann Htg 99.6% Condns DB, ! Name
+  -6.4,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -6.4,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98686,                                  ! Barometric Pressure {Pa}
+  2.7,                                    ! Wind Speed {m/s}
+  20,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {6ec7f354-b6b3-4df1-bbf2-3457304d22d4}, ! Handle
+  Component Data 1,                       ! Name
+  {20be4189-6c91-47aa-8189-980ab36fe778}, ! UUID
+  {4e2f263f-8ecb-453e-8ce6-36df6588141e}, ! Version UUID
+  1366308888,                             ! Creation Timestamp
+  1366308888,                             ! Version Timestamp
+  {5c86aec0-00b7-425e-a2fd-cf867ed77241}; ! Name of Object 1
+

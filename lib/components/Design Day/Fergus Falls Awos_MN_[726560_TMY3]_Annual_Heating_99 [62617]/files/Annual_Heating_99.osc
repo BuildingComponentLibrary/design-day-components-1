@@ -1,0 +1,36 @@
+
+OS:Version,
+  {5194fbda-2b11-4212-aafe-034559767452}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {66307e1b-25ef-48aa-93f5-7e13338b7612}, ! Handle
+  Fergus Falls Awos Ann Htg 99% Condns DB, ! Name
+  -25.1,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -25.1,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  97063,                                  ! Barometric Pressure {Pa}
+  2.8,                                    ! Wind Speed {m/s}
+  330,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {0db35eda-cdaf-4bd6-acb5-da01b451ab92}, ! Handle
+  Component Data 1,                       ! Name
+  {49805c4e-fd5e-4a63-9b86-8f01ef354159}, ! UUID
+  {234b5c49-1f49-4539-863e-0e91fd21f6a9}, ! Version UUID
+  1366308232,                             ! Creation Timestamp
+  1366308232,                             ! Version Timestamp
+  {66307e1b-25ef-48aa-93f5-7e13338b7612}; ! Name of Object 1
+

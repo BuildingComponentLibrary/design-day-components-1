@@ -1,0 +1,36 @@
+
+OS:Version,
+  {fec39575-e4a4-470b-8420-d952c1206265}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {cadcd596-eb86-44d3-b991-8b138a44012b}, ! Handle
+  Grand Rapids Ann Hum_n 99.6% Condns DP=>MCDB, ! Name
+  -16,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -20.7,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98416,                                  ! Barometric Pressure {Pa}
+  3.7,                                    ! Wind Speed {m/s}
+  200,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {dc649fb6-8529-4a2a-a911-5fa69ebacc32}, ! Handle
+  Component Data 1,                       ! Name
+  {5888ab47-acf1-468a-ba92-75e1e19770c3}, ! UUID
+  {1f223804-dff6-4647-b86e-6095eb0f3d0c}, ! Version UUID
+  1366308009,                             ! Creation Timestamp
+  1366308009,                             ! Version Timestamp
+  {cadcd596-eb86-44d3-b991-8b138a44012b}; ! Name of Object 1
+

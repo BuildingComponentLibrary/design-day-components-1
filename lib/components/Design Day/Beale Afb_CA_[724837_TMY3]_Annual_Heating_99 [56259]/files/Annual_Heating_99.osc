@@ -1,0 +1,36 @@
+
+OS:Version,
+  {2c2696ec-c134-4f57-a486-0d1587b6ca78}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {cdba8ae3-ec52-4135-81ca-77c75723facd}, ! Handle
+  Beale Afb Ann Htg 99% Condns DB,        ! Name
+  1.4,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  1.4,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100869,                                 ! Barometric Pressure {Pa}
+  1.2,                                    ! Wind Speed {m/s}
+  350,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {fe1f02d4-117f-4327-9df7-4991aa01c12b}, ! Handle
+  Component Data 1,                       ! Name
+  {663a03d3-6509-41d8-ab58-7fca7019e592}, ! UUID
+  {900465e4-f068-44de-b634-7a90c2e13f9f}, ! Version UUID
+  1366306378,                             ! Creation Timestamp
+  1366306378,                             ! Version Timestamp
+  {cdba8ae3-ec52-4135-81ca-77c75723facd}; ! Name of Object 1
+

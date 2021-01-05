@@ -1,0 +1,40 @@
+
+OS:Version,
+  {d11c2d0a-c31b-45dd-90ee-22e39bd79382}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {ebd5040f-b2bb-42c2-a0cc-085466dce698}, ! Handle
+  Johnstown Cambria County Ap Ann Clg 2% Condns DB=>MWB, ! Name
+  26.7,                                   ! Maximum Dry-Bulb Temperature {C}
+  9.1,                                    ! Daily Dry-Bulb Temperature Range {deltaC}
+  19.7,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  93250,                                  ! Barometric Pressure {Pa}
+  4.3,                                    ! Wind Speed {m/s}
+  290,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  7,                                      ! Month
+  SummerDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAETau,                              ! Solar Model Indicator
+  ,                                       ! Beam Solar Day Schedule Name
+  ,                                       ! Diffuse Solar Day Schedule Name
+  0.46,                                   ! ASHRAE Taub {dimensionless}
+  1.96;                                   ! ASHRAE Taud {dimensionless}
+
+OS:ComponentData,
+  {ce079f6d-3ad4-41ad-a1b6-f89f64f3b144}, ! Handle
+  Component Data 1,                       ! Name
+  {93dae0bb-7c16-4058-a658-6d23c5b5b5cd}, ! UUID
+  {b0e86c98-1aaf-455d-a3fa-2aee1623b0ee}, ! Version UUID
+  1366310201,                             ! Creation Timestamp
+  1366310201,                             ! Version Timestamp
+  {ebd5040f-b2bb-42c2-a0cc-085466dce698}; ! Name of Object 1
+

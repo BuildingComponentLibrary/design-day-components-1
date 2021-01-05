@@ -1,0 +1,36 @@
+
+OS:Version,
+  {c85cdd03-7a53-4796-8373-7c2346917d03}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {2bafc817-144b-4476-8153-61e03ae1f2a7}, ! Handle
+  Florence Regional Ap Ann Htg 99% Condns DB, ! Name
+  -2.8,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -2.8,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100798,                                 ! Barometric Pressure {Pa}
+  2.6,                                    ! Wind Speed {m/s}
+  0,                                      ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {81032c5c-cdf2-430a-9c0a-a02cb9d51e93}, ! Handle
+  Component Data 1,                       ! Name
+  {d60070bd-560b-4940-940b-b464357143fa}, ! UUID
+  {7fbee62f-82d0-422a-a1f3-9a3c879a2bd2}, ! Version UUID
+  1366310351,                             ! Creation Timestamp
+  1366310351,                             ! Version Timestamp
+  {2bafc817-144b-4476-8153-61e03ae1f2a7}; ! Name of Object 1
+

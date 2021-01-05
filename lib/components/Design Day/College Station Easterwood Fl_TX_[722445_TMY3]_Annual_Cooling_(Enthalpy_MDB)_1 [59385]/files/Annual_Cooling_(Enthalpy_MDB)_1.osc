@@ -1,0 +1,40 @@
+
+OS:Version,
+  {3c12f2be-b97e-4b68-aadb-05210f33ad94}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {e00fee43-951f-4a62-bc61-57205c4e1123}, ! Handle
+  College Station Easterwood Fl Ann Clg 1% Condns Enth=>MDB, ! Name
+  32,                                     ! Maximum Dry-Bulb Temperature {C}
+  11.8,                                   ! Daily Dry-Bulb Temperature Range {deltaC}
+  81000,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100177,                                 ! Barometric Pressure {Pa}
+  3.7,                                    ! Wind Speed {m/s}
+  170,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  8,                                      ! Month
+  SummerDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Enthalpy,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAETau,                              ! Solar Model Indicator
+  ,                                       ! Beam Solar Day Schedule Name
+  ,                                       ! Diffuse Solar Day Schedule Name
+  0.479,                                  ! ASHRAE Taub {dimensionless}
+  2.029;                                  ! ASHRAE Taud {dimensionless}
+
+OS:ComponentData,
+  {9f7acdae-2230-4486-a096-ece4363c935f}, ! Handle
+  Component Data 1,                       ! Name
+  {61753a6b-b989-48f3-8001-83b3bd7e8066}, ! UUID
+  {9bf97f02-859c-4f42-b204-f6dee0d7ef06}, ! Version UUID
+  1366310619,                             ! Creation Timestamp
+  1366310619,                             ! Version Timestamp
+  {e00fee43-951f-4a62-bc61-57205c4e1123}; ! Name of Object 1
+

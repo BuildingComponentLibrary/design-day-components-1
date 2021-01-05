@@ -1,0 +1,36 @@
+
+OS:Version,
+  {161907a2-fda2-4037-9c93-ed4d4fb1b37d}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {ef5cd8c3-146a-43f7-b656-942f55302a15}, ! Handle
+  Little Rock Adams Field Ann Hum_n 99.6% Condns DP=>MCDB, ! Name
+  -4.5,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -15.5,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100391,                                 ! Barometric Pressure {Pa}
+  3.8,                                    ! Wind Speed {m/s}
+  350,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {38e57810-ed6d-418a-9404-4f411e178788}, ! Handle
+  Component Data 1,                       ! Name
+  {460056fb-457f-400c-a06a-99724f553140}, ! UUID
+  {9df26203-6e44-4c7a-8d03-28ca248de6f3}, ! Version UUID
+  1366306228,                             ! Creation Timestamp
+  1366306228,                             ! Version Timestamp
+  {ef5cd8c3-146a-43f7-b656-942f55302a15}; ! Name of Object 1
+

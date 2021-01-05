@@ -1,0 +1,36 @@
+
+OS:Version,
+  {b3740384-6f0d-49b9-8235-39c65023c41e}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {6a86d740-62e9-41c4-a40c-4220df3ce380}, ! Handle
+  Findlay Airport Ann Htg 99% Condns DB,  ! Name
+  -14.7,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -14.7,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98428,                                  ! Barometric Pressure {Pa}
+  4.4,                                    ! Wind Speed {m/s}
+  250,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {6bf43505-54c4-4aa6-ba66-9d09b2ce3d45}, ! Handle
+  Component Data 1,                       ! Name
+  {e2fcc3c0-e127-4511-ac22-eef69b1d76d3}, ! UUID
+  {3a43dbba-2bc9-48bd-a70d-0db1fd29796a}, ! Version UUID
+  1366309825,                             ! Creation Timestamp
+  1366309825,                             ! Version Timestamp
+  {6a86d740-62e9-41c4-a40c-4220df3ce380}; ! Name of Object 1
+

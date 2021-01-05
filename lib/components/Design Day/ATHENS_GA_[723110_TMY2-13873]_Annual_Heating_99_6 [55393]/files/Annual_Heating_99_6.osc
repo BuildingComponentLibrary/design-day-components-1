@@ -1,0 +1,36 @@
+
+OS:Version,
+  {2c312f8c-85ac-4611-a927-7742394f6230}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {e0a84747-d459-4fa4-8644-ede07b0c44ee}, ! Handle
+  ATHENS Ann Htg 99.6% Condns DB,         ! Name
+  -5.7,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -5.7,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98428,                                  ! Barometric Pressure {Pa}
+  3.6,                                    ! Wind Speed {m/s}
+  290,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {cf4c4b8a-20c9-4ccd-80b6-79a3a1e43483}, ! Handle
+  Component Data 1,                       ! Name
+  {ca5cbec2-bbc8-43af-b5d9-9467d99a3b69}, ! UUID
+  {51e901f6-35ee-4c7f-b099-fe223d7daef5}, ! Version UUID
+  1366306967,                             ! Creation Timestamp
+  1366306967,                             ! Version Timestamp
+  {e0a84747-d459-4fa4-8644-ede07b0c44ee}; ! Name of Object 1
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {38de1155-daa8-4379-ae55-53982911ccac}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {46a34fad-1d95-42b9-9ec3-c87415f50d25}, ! Handle
+  Fosston Awos Ann Htg 99% Condns DB,     ! Name
+  -27.6,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -27.6,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  96750,                                  ! Barometric Pressure {Pa}
+  1.5,                                    ! Wind Speed {m/s}
+  180,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {abefe834-377c-44a9-a19c-fa767b0a6c79}, ! Handle
+  Component Data 1,                       ! Name
+  {b75f09ca-99cf-4362-b120-340f86130b80}, ! UUID
+  {73109b88-3834-496a-9e2c-80b48ec9afd6}, ! Version UUID
+  1366308236,                             ! Creation Timestamp
+  1366308236,                             ! Version Timestamp
+  {46a34fad-1d95-42b9-9ec3-c87415f50d25}; ! Name of Object 1
+

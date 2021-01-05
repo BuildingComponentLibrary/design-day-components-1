@@ -1,0 +1,36 @@
+
+OS:Version,
+  {3154ddee-fc0f-4224-8b63-53029b79c458}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {0dfa4194-c2c9-43a6-a502-e989a72e0ba6}, ! Handle
+  Howell Ann Htg Wind 99.6% Condns WS=>MCDB, ! Name
+  0,                                      ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  0,                                      ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  97854,                                  ! Barometric Pressure {Pa}
+  10.1,                                   ! Wind Speed {m/s}
+  260,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {9b49a280-bd81-4867-82e1-b2f6eece597e}, ! Handle
+  Component Data 1,                       ! Name
+  {ce42ea4e-eac0-4a49-9891-39898bf575f8}, ! UUID
+  {9e11e09a-ad99-41cb-92af-d59c6638891a}, ! Version UUID
+  1366308033,                             ! Creation Timestamp
+  1366308033,                             ! Version Timestamp
+  {0dfa4194-c2c9-43a6-a502-e989a72e0ba6}; ! Name of Object 1
+

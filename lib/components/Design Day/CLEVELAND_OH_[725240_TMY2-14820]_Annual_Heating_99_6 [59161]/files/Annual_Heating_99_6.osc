@@ -1,0 +1,36 @@
+
+OS:Version,
+  {7ded9c99-fb78-4961-9d6b-4534d7e38ced}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {561b1d4c-730c-4c04-a7bd-3c57decc37ad}, ! Handle
+  CLEVELAND Ann Htg 99.6% Condns DB,      ! Name
+  -16.4,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -16.4,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98416,                                  ! Barometric Pressure {Pa}
+  4.7,                                    ! Wind Speed {m/s}
+  230,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {6b461781-69b0-4ef3-8202-2cf687d85cbf}, ! Handle
+  Component Data 1,                       ! Name
+  {0cc2b9df-208f-4b18-a070-4ba73dbecb17}, ! UUID
+  {37cc777a-9d88-468c-afdf-e4dee4ae3bf8}, ! Version UUID
+  1366309784,                             ! Creation Timestamp
+  1366309784,                             ! Version Timestamp
+  {561b1d4c-730c-4c04-a7bd-3c57decc37ad}; ! Name of Object 1
+

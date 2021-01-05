@@ -1,0 +1,36 @@
+
+OS:Version,
+  {e20469aa-8ce6-4e5f-b047-a3544f817e24}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {3343236b-ed1d-4405-a725-dc1f63dd77c9}, ! Handle
+  Chattanooga Ann Hum_n 99.6% Condns DP=>MCDB, ! Name
+  -4,                                     ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -16,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98828,                                  ! Barometric Pressure {Pa}
+  2.9,                                    ! Wind Speed {m/s}
+  0,                                      ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {86bf33d7-fc8b-49ca-b2d8-ef96dfc92e63}, ! Handle
+  Component Data 1,                       ! Name
+  {ba1f7692-818f-4998-87c0-1a262a8f730e}, ! UUID
+  {409ad231-dc69-4cf5-a7ac-15eccd570c84}, ! Version UUID
+  1366310484,                             ! Creation Timestamp
+  1366310484,                             ! Version Timestamp
+  {3343236b-ed1d-4405-a725-dc1f63dd77c9}; ! Name of Object 1
+

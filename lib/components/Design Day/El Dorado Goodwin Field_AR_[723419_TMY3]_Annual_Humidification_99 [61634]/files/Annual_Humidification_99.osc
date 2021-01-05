@@ -1,0 +1,36 @@
+
+OS:Version,
+  {53fbf2b4-e12e-4541-b22b-5423b39821fb}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {550434c4-0463-40df-881c-09fee3c1b079}, ! Handle
+  El Dorado Goodwin Field Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  0,                                      ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -10.1,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100403,                                 ! Barometric Pressure {Pa}
+  1.6,                                    ! Wind Speed {m/s}
+  20,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {8cda7740-2b09-4dff-8843-a181ffbd5b2c}, ! Handle
+  Component Data 1,                       ! Name
+  {db922f18-f195-4aae-b2ce-0fb51d33be96}, ! UUID
+  {0c2aca78-56e4-4c69-890e-14d5438b92bb}, ! Version UUID
+  1366306197,                             ! Creation Timestamp
+  1366306197,                             ! Version Timestamp
+  {550434c4-0463-40df-881c-09fee3c1b079}; ! Name of Object 1
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {7c6bbdc8-4224-42a9-ad31-eeda9d4f3407}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {6848bc1c-5aca-41d9-b598-aafb2f6396e9}, ! Handle
+  CASPER Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  1.5,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  1.5,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  83400,                                  ! Barometric Pressure {Pa}
+  15.6,                                   ! Wind Speed {m/s}
+  40,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {a21a9596-f005-4ebb-b6a4-d6c8a8c59202}, ! Handle
+  Component Data 1,                       ! Name
+  {9b465f1f-0054-4767-94ff-0c675524af30}, ! UUID
+  {9350448c-bd8e-404b-8929-adecab334892}, ! Version UUID
+  1366311694,                             ! Creation Timestamp
+  1366311694,                             ! Version Timestamp
+  {6848bc1c-5aca-41d9-b598-aafb2f6396e9}; ! Name of Object 1
+

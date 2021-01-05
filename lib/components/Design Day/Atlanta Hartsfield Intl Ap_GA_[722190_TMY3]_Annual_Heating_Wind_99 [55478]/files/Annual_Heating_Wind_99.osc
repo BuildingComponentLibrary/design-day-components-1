@@ -1,0 +1,36 @@
+
+OS:Version,
+  {e4c4f32b-783b-43e4-b043-700ab606d4e5}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {b759727a-c171-49c6-baf5-d4604a66ebde}, ! Handle
+  Atlanta Hartsfield Intl Ap Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  3.4,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  3.4,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  97679,                                  ! Barometric Pressure {Pa}
+  10.7,                                   ! Wind Speed {m/s}
+  320,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {05087463-e179-4a22-952e-e6102d5aa51d}, ! Handle
+  Component Data 1,                       ! Name
+  {067249d7-c247-440a-866c-8f44325e59b8}, ! UUID
+  {3088113f-fcf9-434b-8096-c5bcb01de1bb}, ! Version UUID
+  1366306978,                             ! Creation Timestamp
+  1366306978,                             ! Version Timestamp
+  {b759727a-c171-49c6-baf5-d4604a66ebde}; ! Name of Object 1
+

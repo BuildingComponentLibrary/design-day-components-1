@@ -1,0 +1,36 @@
+
+OS:Version,
+  {d34c7e6f-f5a5-4326-9ceb-fc575c8158b8}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {39cc8c20-dd25-489c-9b35-2dac48b9d387}, ! Handle
+  Bakersfield Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  11.2,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -4,                                     ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99536,                                  ! Barometric Pressure {Pa}
+  1.7,                                    ! Wind Speed {m/s}
+  90,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {ca888e2e-893b-478d-9784-e4febcfc9ceb}, ! Handle
+  Component Data 1,                       ! Name
+  {5372ce7c-8e9b-4a28-b9d9-232a0872c7c2}, ! UUID
+  {f4824d2d-3a2b-4420-952d-72f9bf0d7c4f}, ! Version UUID
+  1366306361,                             ! Creation Timestamp
+  1366306361,                             ! Version Timestamp
+  {39cc8c20-dd25-489c-9b35-2dac48b9d387}; ! Name of Object 1
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {2ca1cb76-2bb9-46d0-82dc-44ab1cebf41a}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {44395e7d-a943-46c6-a980-435f7dcaf28b}, ! Handle
+  Little Rock/AFB Ann Htg 99.6% Condns DB, ! Name
+  -8.2,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -8.2,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100189,                                 ! Barometric Pressure {Pa}
+  3.8,                                    ! Wind Speed {m/s}
+  350,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {8408d15b-3dff-497b-8512-de0c26d59460}, ! Handle
+  Component Data 1,                       ! Name
+  {233462a4-5ecc-444b-8ffa-75e07973c6f6}, ! UUID
+  {77989c53-094b-492f-adad-25149dd7dcc8}, ! Version UUID
+  1366306223,                             ! Creation Timestamp
+  1366306223,                             ! Version Timestamp
+  {44395e7d-a943-46c6-a980-435f7dcaf28b}; ! Name of Object 1
+

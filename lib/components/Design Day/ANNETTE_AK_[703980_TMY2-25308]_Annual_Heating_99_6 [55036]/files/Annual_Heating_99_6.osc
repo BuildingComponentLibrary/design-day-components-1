@@ -1,0 +1,36 @@
+
+OS:Version,
+  {f5ba8bd4-2954-4cc8-8425-336689b6f509}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {1d8c7255-832e-4df0-8a54-b24776c81864}, ! Handle
+  ANNETTE Ann Htg 99.6% Condns DB,        ! Name
+  -8.8,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -8.8,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100917,                                 ! Barometric Pressure {Pa}
+  3.1,                                    ! Wind Speed {m/s}
+  50,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {8ebecb4c-1e8d-4f39-a700-864a705b8288}, ! Handle
+  Component Data 1,                       ! Name
+  {88b9c0cc-198c-466f-a610-48a382c421c6}, ! UUID
+  {ef0a6844-f782-449a-b38c-e21060691b2a}, ! Version UUID
+  1366304714,                             ! Creation Timestamp
+  1366304714,                             ! Version Timestamp
+  {1d8c7255-832e-4df0-8a54-b24776c81864}; ! Name of Object 1
+

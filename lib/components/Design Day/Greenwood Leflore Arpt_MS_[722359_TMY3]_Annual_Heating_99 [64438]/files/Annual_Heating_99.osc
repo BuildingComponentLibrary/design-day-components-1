@@ -1,0 +1,36 @@
+
+OS:Version,
+  {542ffc2c-db3b-4db7-bc28-7a808ad6dcfd}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {3c94a1cc-7221-494d-86be-4177e23adce8}, ! Handle
+  Greenwood Leflore Arpt Ann Htg 99% Condns DB, ! Name
+  -4.1,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -4.1,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100762,                                 ! Barometric Pressure {Pa}
+  2.7,                                    ! Wind Speed {m/s}
+  0,                                      ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {539754d9-fcc3-46b0-b1ac-ac3553427476}, ! Handle
+  Component Data 1,                       ! Name
+  {5933a2c1-2edb-41d0-a81e-286a636ce7db}, ! UUID
+  {e285f76d-41e5-4358-a5cb-d9810b6d8ecd}, ! Version UUID
+  1366308625,                             ! Creation Timestamp
+  1366308625,                             ! Version Timestamp
+  {3c94a1cc-7221-494d-86be-4177e23adce8}; ! Name of Object 1
+

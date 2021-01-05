@@ -1,0 +1,36 @@
+
+OS:Version,
+  {2dac7224-2467-4ae4-b5ae-7d2ee3d37a41}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {8d4217d7-ffc6-4e66-b1f8-09a298ac3b71}, ! Handle
+  Kalispell Glacier Pk IntL Ar Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  -12.3,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -12.3,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  90904,                                  ! Barometric Pressure {Pa}
+  10.8,                                   ! Wind Speed {m/s}
+  30,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {84b7591b-e2fa-4be1-92d3-ea24aaf35688}, ! Handle
+  Component Data 1,                       ! Name
+  {5b5df589-d512-42ef-bf58-96af0b0b4669}, ! UUID
+  {d98c1f62-186d-42de-bc80-4956cf7764af}, ! Version UUID
+  1366308801,                             ! Creation Timestamp
+  1366308801,                             ! Version Timestamp
+  {8d4217d7-ffc6-4e66-b1f8-09a298ac3b71}; ! Name of Object 1
+

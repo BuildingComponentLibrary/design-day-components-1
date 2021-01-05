@@ -1,0 +1,36 @@
+
+OS:Version,
+  {a31fe3f8-4a64-4005-8aae-e90ac2bcf520}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {ea5d64c1-600c-4da6-97f4-15dede56efe5}, ! Handle
+  Detroit Willow Run Ap Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  -2.7,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -2.7,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98733,                                  ! Barometric Pressure {Pa}
+  11.5,                                   ! Wind Speed {m/s}
+  300,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {cb531154-9942-40fa-a988-53c8ca4cd675}, ! Handle
+  Component Data 1,                       ! Name
+  {ef0106e9-c992-4750-a144-22213941edf5}, ! UUID
+  {24bdc609-70d3-47fa-be05-0879b7919256}, ! Version UUID
+  1366307983,                             ! Creation Timestamp
+  1366307983,                             ! Version Timestamp
+  {ea5d64c1-600c-4da6-97f4-15dede56efe5}; ! Name of Object 1
+
