@@ -1,0 +1,36 @@
+
+OS:Version,
+  {29ccdce1-c731-4763-bb20-b03096a1242b}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {f037cbe7-571e-4071-80e4-854ae9e7d07a}, ! Handle
+  Alexandria Municipal Ap Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  -25,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -29.2,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  96230,                                  ! Barometric Pressure {Pa}
+  4.1,                                    ! Wind Speed {m/s}
+  300,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {1110a231-1615-4ed7-a128-8fd871f68640}, ! Handle
+  Component Data 1,                       ! Name
+  {34ebe4db-3c71-46a5-a3c2-516ce33c30cd}, ! UUID
+  {f5ee6c72-9fc7-408b-bcc3-e17de95a5b48}, ! Version UUID
+  1366308144,                             ! Creation Timestamp
+  1366308144,                             ! Version Timestamp
+  {f037cbe7-571e-4071-80e4-854ae9e7d07a}; ! Name of Object 1
+

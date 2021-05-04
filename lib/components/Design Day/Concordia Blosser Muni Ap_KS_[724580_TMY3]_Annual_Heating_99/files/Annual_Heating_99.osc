@@ -1,0 +1,36 @@
+
+OS:Version,
+  {3811ac40-b35d-48db-a06f-3570d00bf37c}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {9f97449e-3983-494f-a09d-acec68df2bfd}, ! Handle
+  Concordia Blosser Muni Ap Ann Htg 99% Condns DB, ! Name
+  -15.1,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -15.1,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  96058,                                  ! Barometric Pressure {Pa}
+  4.5,                                    ! Wind Speed {m/s}
+  340,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {a5281d44-1d56-4548-bb85-fcff399e374c}, ! Handle
+  Component Data 1,                       ! Name
+  {22243931-66ba-404f-8ef7-65bc7f98b608}, ! UUID
+  {cbe5d8cd-c0f4-4edf-a0c6-2397325e2c43}, ! Version UUID
+  1366307500,                             ! Creation Timestamp
+  1366307500,                             ! Version Timestamp
+  {9f97449e-3983-494f-a09d-acec68df2bfd}; ! Name of Object 1
+

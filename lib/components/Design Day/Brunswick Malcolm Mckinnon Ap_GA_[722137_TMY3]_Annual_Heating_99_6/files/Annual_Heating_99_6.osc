@@ -1,0 +1,36 @@
+
+OS:Version,
+  {ade47b98-731c-416d-ad11-b95bcfd60f97}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {3683b6a2-5e08-477a-b755-8d86aaecdba9}, ! Handle
+  Brunswick Malcolm Mckinnon Ap Ann Htg 99.6% Condns DB, ! Name
+  -1,                                     ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -1,                                     ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101277,                                 ! Barometric Pressure {Pa}
+  3.1,                                    ! Wind Speed {m/s}
+  350,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {d45b3c51-f9fd-4b97-9d1e-99106ba94864}, ! Handle
+  Component Data 1,                       ! Name
+  {d6edc7f2-fe25-474a-b772-c0404667a37f}, ! UUID
+  {9ba7ce86-d204-494b-8e79-a70e214a6d56}, ! Version UUID
+  1366306996,                             ! Creation Timestamp
+  1366306996,                             ! Version Timestamp
+  {3683b6a2-5e08-477a-b755-8d86aaecdba9}; ! Name of Object 1
+

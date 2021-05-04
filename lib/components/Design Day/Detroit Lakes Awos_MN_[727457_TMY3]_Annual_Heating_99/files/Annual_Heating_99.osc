@@ -1,0 +1,36 @@
+
+OS:Version,
+  {2a4ced7e-0c86-41b3-8e47-32a8c03ddd84}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {edd4e22a-093b-401f-bfec-d71cef03cabc}, ! Handle
+  Detroit Lakes Awos Ann Htg 99% Condns DB, ! Name
+  -26.6,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -26.6,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  96311,                                  ! Barometric Pressure {Pa}
+  2.2,                                    ! Wind Speed {m/s}
+  320,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {3c15f93e-206c-4529-83f1-761764a53336}, ! Handle
+  Component Data 1,                       ! Name
+  {96864eb0-cbff-4913-8523-497d2ec24ab6}, ! UUID
+  {42cde45b-d852-40b0-80ce-96421f3f8e70}, ! Version UUID
+  1366308192,                             ! Creation Timestamp
+  1366308192,                             ! Version Timestamp
+  {edd4e22a-093b-401f-bfec-d71cef03cabc}; ! Name of Object 1
+

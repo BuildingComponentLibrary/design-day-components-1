@@ -1,0 +1,36 @@
+
+OS:Version,
+  {10ad8840-7c63-4aa7-983a-0158ff26f9f6}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {ce083d68-196f-4c2e-b067-f73d29c49f09}, ! Handle
+  Clinton Muni  Awos Ann Htg 99.6% Condns DB, ! Name
+  -21.3,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -21.3,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98757,                                  ! Barometric Pressure {Pa}
+  3.9,                                    ! Wind Speed {m/s}
+  290,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {86e9dbad-1987-4125-9c16-94e34dde6035}, ! Handle
+  Component Data 1,                       ! Name
+  {49fbc420-785a-4494-9e8b-37bdc6ff8c93}, ! UUID
+  {f661aace-e1de-4a41-b7f6-0fe333c08297}, ! Version UUID
+  1366307159,                             ! Creation Timestamp
+  1366307159,                             ! Version Timestamp
+  {ce083d68-196f-4c2e-b067-f73d29c49f09}; ! Name of Object 1
+

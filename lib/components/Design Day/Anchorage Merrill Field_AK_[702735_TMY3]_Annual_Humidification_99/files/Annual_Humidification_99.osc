@@ -1,0 +1,36 @@
+
+OS:Version,
+  {e6d2ef6b-3fa6-47ed-882a-a038a4638d28}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {1a46cd8f-f3e1-44aa-a5af-d3a75e70ee3d}, ! Handle
+  Anchorage Merrill Field Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  -20.6,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -24.9,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100821,                                 ! Barometric Pressure {Pa}
+  0.7,                                    ! Wind Speed {m/s}
+  100,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {675a64c0-a553-4601-b5d3-d1042c06fb2f}, ! Handle
+  Component Data 1,                       ! Name
+  {a061109c-ab71-4ab3-a695-90fde371d4cd}, ! UUID
+  {66ca7341-8844-4b73-9026-63d27bc36102}, ! Version UUID
+  1366304699,                             ! Creation Timestamp
+  1366304699,                             ! Version Timestamp
+  {1a46cd8f-f3e1-44aa-a5af-d3a75e70ee3d}; ! Name of Object 1
+

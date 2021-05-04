@@ -1,0 +1,36 @@
+
+OS:Version,
+  {81b4a7c6-5806-4e41-992a-40d9696f1183}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {9817910f-61a2-4e97-b656-58d61021ead7}, ! Handle
+  Lancaster Gen Wm Fox Field Ann Htg 99% Condns DB, ! Name
+  -4,                                     ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -4,                                     ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  93048,                                  ! Barometric Pressure {Pa}
+  1.2,                                    ! Wind Speed {m/s}
+  270,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {e9a6ecc0-3cd3-46ff-86ad-a3a962762144}, ! Handle
+  Component Data 1,                       ! Name
+  {a75756ce-68bd-45e0-8bf8-0fc14afe34b4}, ! UUID
+  {041c9d6e-114a-458c-938a-5ea1d13b6349}, ! Version UUID
+  1366306456,                             ! Creation Timestamp
+  1366306456,                             ! Version Timestamp
+  {9817910f-61a2-4e97-b656-58d61021ead7}; ! Name of Object 1
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {4e3269b3-7507-4ab5-afa3-26075143a07f}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {795d40f4-224b-4cda-b448-d2b08401f454}, ! Handle
+  Cortez Montezuma Co Ann Htg 99% Condns DB, ! Name
+  -12.8,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -12.8,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  81459,                                  ! Barometric Pressure {Pa}
+  2.3,                                    ! Wind Speed {m/s}
+  60,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {40c75d02-db85-4f04-9c94-a8cd276fce57}, ! Handle
+  Component Data 1,                       ! Name
+  {72e9a87e-9ea6-4bf7-be81-01c45f18527d}, ! UUID
+  {8013092e-6b5f-4e22-8e3a-7a11412f2565}, ! Version UUID
+  1366306668,                             ! Creation Timestamp
+  1366306668,                             ! Version Timestamp
+  {795d40f4-224b-4cda-b448-d2b08401f454}; ! Name of Object 1
+

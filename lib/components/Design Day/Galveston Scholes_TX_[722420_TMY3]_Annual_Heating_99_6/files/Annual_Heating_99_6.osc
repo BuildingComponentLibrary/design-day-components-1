@@ -1,0 +1,36 @@
+
+OS:Version,
+  {2423a7b9-3905-47ef-96ba-de647bdf8e55}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {7db649c9-7c65-4a5c-82f6-5d914a327627}, ! Handle
+  Galveston Scholes Ann Htg 99.6% Condns DB, ! Name
+  0.6,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  0.6,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101133,                                 ! Barometric Pressure {Pa}
+  7.1,                                    ! Wind Speed {m/s}
+  30,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {a6164194-b140-4c4a-88ee-804ac7837927}, ! Handle
+  Component Data 1,                       ! Name
+  {eea3411d-766c-4dee-a14a-7f91ad106e51}, ! UUID
+  {65535bb6-fb9d-4fda-b8b1-0c2c56130e0b}, ! Version UUID
+  1366310717,                             ! Creation Timestamp
+  1366310717,                             ! Version Timestamp
+  {7db649c9-7c65-4a5c-82f6-5d914a327627}; ! Name of Object 1
+

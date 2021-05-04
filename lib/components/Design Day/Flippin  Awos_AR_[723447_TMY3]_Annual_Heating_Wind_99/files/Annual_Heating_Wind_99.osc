@@ -1,0 +1,36 @@
+
+OS:Version,
+  {7da7ba36-3daa-4f29-8eb0-272fdfdb2c75}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {3ea3171d-9ad6-4801-ad94-52a92506da14}, ! Handle
+  Flippin  Awos Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  6.9,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  6.9,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  97190,                                  ! Barometric Pressure {Pa}
+  8.1,                                    ! Wind Speed {m/s}
+  290,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {3276a496-0858-4beb-8d51-1892fc39e649}, ! Handle
+  Component Data 1,                       ! Name
+  {47699cfc-3328-4e16-a3cf-c90d6395648b}, ! UUID
+  {a24f7dbd-b9c0-4f5a-8944-2ef48b60181c}, ! Version UUID
+  1366306202,                             ! Creation Timestamp
+  1366306202,                             ! Version Timestamp
+  {3ea3171d-9ad6-4801-ad94-52a92506da14}; ! Name of Object 1
+

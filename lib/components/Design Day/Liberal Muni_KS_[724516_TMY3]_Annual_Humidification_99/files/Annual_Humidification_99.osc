@@ -1,0 +1,36 @@
+
+OS:Version,
+  {069b7ecc-1680-4b72-a400-2ee4f6fe0925}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {6bec7513-3a91-47e0-8e63-9c38883dd2cf}, ! Handle
+  Liberal Muni Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  -6.6,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -14.1,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  90959,                                  ! Barometric Pressure {Pa}
+  4.3,                                    ! Wind Speed {m/s}
+  10,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {9f5ef697-06c5-4122-a2a5-ebf08f0611c6}, ! Handle
+  Component Data 1,                       ! Name
+  {2191820e-8cf0-480d-9bea-04b15339a568}, ! UUID
+  {b53b4459-6b83-451e-b291-a40519806704}, ! Version UUID
+  1366307554,                             ! Creation Timestamp
+  1366307554,                             ! Version Timestamp
+  {6bec7513-3a91-47e0-8e63-9c38883dd2cf}; ! Name of Object 1
+

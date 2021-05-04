@@ -1,0 +1,40 @@
+
+OS:Version,
+  {c66856d7-ec45-426d-a166-1478e061862b}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {c824d22e-33e1-4cc6-b66f-60367bf3cb2e}, ! Handle
+  Grand Rapids Kent County Int Ann Clg 2% Condns DP=>MDB, ! Name
+  25.3,                                   ! Maximum Dry-Bulb Temperature {C}
+  11.1,                                   ! Daily Dry-Bulb Temperature Range {deltaC}
+  21.2,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98451,                                  ! Barometric Pressure {Pa}
+  5.8,                                    ! Wind Speed {m/s}
+  240,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  7,                                      ! Month
+  SummerDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAETau,                              ! Solar Model Indicator
+  ,                                       ! Beam Solar Day Schedule Name
+  ,                                       ! Diffuse Solar Day Schedule Name
+  0.424,                                  ! ASHRAE Taub {dimensionless}
+  2.173;                                  ! ASHRAE Taud {dimensionless}
+
+OS:ComponentData,
+  {db576962-0b51-40ae-a4b6-5b6c2354e193}, ! Handle
+  Component Data 1,                       ! Name
+  {42efac76-0056-477b-b626-ced7f44968cd}, ! UUID
+  {483fa80b-27f1-457d-bf4f-26676aabb8fd}, ! Version UUID
+  1366308015,                             ! Creation Timestamp
+  1366308015,                             ! Version Timestamp
+  {c824d22e-33e1-4cc6-b66f-60367bf3cb2e}; ! Name of Object 1
+

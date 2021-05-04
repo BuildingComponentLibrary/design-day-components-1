@@ -1,0 +1,36 @@
+
+OS:Version,
+  {1a8b9506-511d-4464-84b7-580b45a2551b}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {1b618427-4357-49d7-b348-2b05da36f538}, ! Handle
+  Elkins Elkins Randolph Co Arp Ann Htg 99% Condns DB, ! Name
+  -14,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -14,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  94390,                                  ! Barometric Pressure {Pa}
+  1.3,                                    ! Wind Speed {m/s}
+  260,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {9ceedaef-bd68-45bc-a856-5bca54656fd7}, ! Handle
+  Component Data 1,                       ! Name
+  {8b921a64-836d-4d0d-8c53-ffa64b92991e}, ! UUID
+  {c7097a32-3645-4b06-b0c3-fda961b3a1ba}, ! Version UUID
+  1366311640,                             ! Creation Timestamp
+  1366311640,                             ! Version Timestamp
+  {1b618427-4357-49d7-b348-2b05da36f538}; ! Name of Object 1
+

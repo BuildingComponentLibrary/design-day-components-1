@@ -1,0 +1,36 @@
+
+OS:Version,
+  {a4f055ec-da5f-4751-9221-5124e5fcf69c}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {9d2c5977-689b-40d2-bd9c-3017913e4889}, ! Handle
+  Kaiser Mem  Awos Ann Htg 99% Condns DB, ! Name
+  -11.2,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -11.2,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98182,                                  ! Barometric Pressure {Pa}
+  2.5,                                    ! Wind Speed {m/s}
+  340,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {7a2999d0-b013-4393-9e44-7cbe37fa0f0a}, ! Handle
+  Component Data 1,                       ! Name
+  {9e963f3f-4488-4cf6-95a2-da7a979275d3}, ! UUID
+  {6cfb74dc-98fa-41cc-8f73-9907a832cd3b}, ! Version UUID
+  1366308512,                             ! Creation Timestamp
+  1366308512,                             ! Version Timestamp
+  {9d2c5977-689b-40d2-bd9c-3017913e4889}; ! Name of Object 1
+

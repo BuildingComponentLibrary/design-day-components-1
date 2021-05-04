@@ -1,0 +1,36 @@
+
+OS:Version,
+  {39756cc1-61b3-4f9a-8f82-b240fc9ec525}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {9484c568-a7bf-45c5-ba3c-a17ca397c7cb}, ! Handle
+  Greer/Greenville Ann Htg 99% Condns DB, ! Name
+  -4,                                     ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -4,                                     ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  97819,                                  ! Barometric Pressure {Pa}
+  2.6,                                    ! Wind Speed {m/s}
+  20,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {a4fac6ff-a9d1-43f4-9ed9-da5ddc95e7b9}, ! Handle
+  Component Data 1,                       ! Name
+  {26d05aed-9a5f-4067-b09d-99ce561f1824}, ! UUID
+  {dae0424a-527f-4cef-ba8c-66f0d5b7ae41}, ! Version UUID
+  1366310361,                             ! Creation Timestamp
+  1366310361,                             ! Version Timestamp
+  {9484c568-a7bf-45c5-ba3c-a17ca397c7cb}; ! Name of Object 1
+

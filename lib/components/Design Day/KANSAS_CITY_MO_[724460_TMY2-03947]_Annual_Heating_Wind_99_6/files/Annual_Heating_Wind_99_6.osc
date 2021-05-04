@@ -1,0 +1,36 @@
+
+OS:Version,
+  {63202c37-9cf0-4435-8839-0215d911e079}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {baa19dea-6f9e-4430-834e-20bed5d38bc0}, ! Handle
+  KANSAS_CITY Ann Htg Wind 99.6% Condns WS=>MCDB, ! Name
+  2.4,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  2.4,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  97598,                                  ! Barometric Pressure {Pa}
+  12.9,                                   ! Wind Speed {m/s}
+  340,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {201656a4-ee32-42a5-8dfd-4042cf1c88ae}, ! Handle
+  Component Data 1,                       ! Name
+  {fb5503f6-a17d-46cd-a96c-8773246ad0bc}, ! UUID
+  {45ad62d7-c895-4be1-8283-7d1a3aa6fbaa}, ! Version UUID
+  1366308519,                             ! Creation Timestamp
+  1366308519,                             ! Version Timestamp
+  {baa19dea-6f9e-4430-834e-20bed5d38bc0}; ! Name of Object 1
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {7bfa10ea-0715-4390-84b6-c6c184d7e86f}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {2dc44344-134b-47f2-b3be-5efee12bba9c}, ! Handle
+  Fort Sill Post Field Af Ann Htg 99.6% Condns DB, ! Name
+  -10.8,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -10.8,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  96970,                                  ! Barometric Pressure {Pa}
+  5,                                      ! Wind Speed {m/s}
+  10,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {19c86a56-c291-4824-9386-070216c396ec}, ! Handle
+  Component Data 1,                       ! Name
+  {51fe0775-c7c9-4976-9d65-6b60d0b8430d}, ! UUID
+  {31499103-4401-41a4-ba1d-4d2f5e9b6d91}, ! Version UUID
+  1366309887,                             ! Creation Timestamp
+  1366309887,                             ! Version Timestamp
+  {2dc44344-134b-47f2-b3be-5efee12bba9c}; ! Name of Object 1
+

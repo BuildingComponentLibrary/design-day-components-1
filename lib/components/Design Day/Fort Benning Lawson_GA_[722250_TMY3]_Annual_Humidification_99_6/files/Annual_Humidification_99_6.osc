@@ -1,0 +1,36 @@
+
+OS:Version,
+  {2c145dcb-20ce-485f-be35-dee2a2ffb149}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {a1a59db5-d8e7-4232-89a8-7e368cd5c742}, ! Handle
+  Fort Benning Lawson Ann Hum_n 99.6% Condns DP=>MCDB, ! Name
+  0.5,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -13.3,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100272,                                 ! Barometric Pressure {Pa}
+  1.8,                                    ! Wind Speed {m/s}
+  300,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {d5ed73c6-4803-4bfd-8627-9c47e41b7332}, ! Handle
+  Component Data 1,                       ! Name
+  {fed8ff8f-eeb1-4bc4-a873-36287864ead8}, ! UUID
+  {b447094e-3a21-42a1-9de8-5c8a5bd0b2b7}, ! Version UUID
+  1366307010,                             ! Creation Timestamp
+  1366307010,                             ! Version Timestamp
+  {a1a59db5-d8e7-4232-89a8-7e368cd5c742}; ! Name of Object 1
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {e75420be-9324-4b62-bdce-0d2d225628ee}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {1f8a6406-52db-4260-ad06-2dc7d8d6efd7}, ! Handle
+  Jefferson City Mem Ann Htg 99% Condns DB, ! Name
+  -11,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -11,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99335,                                  ! Barometric Pressure {Pa}
+  3.1,                                    ! Wind Speed {m/s}
+  300,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {4e5c86e2-6209-4136-b3e8-ff713b71bbe0}, ! Handle
+  Component Data 1,                       ! Name
+  {4e4d43dc-378e-4dfb-9dbf-12f0c6ec1fca}, ! UUID
+  {1160b677-e4a9-4eed-8f97-e292f9b728fd}, ! Version UUID
+  1366308500,                             ! Creation Timestamp
+  1366308500,                             ! Version Timestamp
+  {1f8a6406-52db-4260-ad06-2dc7d8d6efd7}; ! Name of Object 1
+

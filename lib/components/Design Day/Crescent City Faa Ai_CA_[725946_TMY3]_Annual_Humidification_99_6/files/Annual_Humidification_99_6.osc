@@ -1,0 +1,36 @@
+
+OS:Version,
+  {bd7e9ddf-bc72-4903-8757-680ec3ec0704}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {c72f13cc-31ac-428b-b3a0-6512e13622cb}, ! Handle
+  Crescent City Faa Ai Ann Hum_n 99.6% Condns DP=>MCDB, ! Name
+  6.6,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -4.1,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101121,                                 ! Barometric Pressure {Pa}
+  2.2,                                    ! Wind Speed {m/s}
+  90,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {ec1179ee-30b7-4827-827b-56c9f667fb75}, ! Handle
+  Component Data 1,                       ! Name
+  {f92fc5a5-e43c-46ee-9cd6-f2a027608e0b}, ! UUID
+  {055b65ff-b5ac-48ed-9553-18850eb0a881}, ! Version UUID
+  1366306418,                             ! Creation Timestamp
+  1366306418,                             ! Version Timestamp
+  {c72f13cc-31ac-428b-b3a0-6512e13622cb}; ! Name of Object 1
+

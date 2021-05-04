@@ -1,0 +1,36 @@
+
+OS:Version,
+  {8a0452f6-d3dc-4948-b032-debcbc24d93b}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {c7437a90-f468-4e7d-b947-8835aeac27a0}, ! Handle
+  Fairchild Afb Ann Htg 99% Condns DB,    ! Name
+  -11.9,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -11.9,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  92712,                                  ! Barometric Pressure {Pa}
+  3,                                      ! Wind Speed {m/s}
+  20,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {b2931497-9daf-49e6-9e52-a880995cb11f}, ! Handle
+  Component Data 1,                       ! Name
+  {6d65c8de-d9f6-4616-88cf-e0c6bb8f0b66}, ! UUID
+  {0086dd15-16a4-4707-be56-64add34b16b9}, ! Version UUID
+  1366311278,                             ! Creation Timestamp
+  1366311278,                             ! Version Timestamp
+  {c7437a90-f468-4e7d-b947-8835aeac27a0}; ! Name of Object 1
+

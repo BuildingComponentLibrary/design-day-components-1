@@ -1,0 +1,36 @@
+
+OS:Version,
+  {3c35531c-0304-4e06-b701-2de59fd5effc}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {61e5e7b7-1bcd-4a1e-a022-79c8727eeb68}, ! Handle
+  CHEYENNE Ann Htg 99.6% Condns DB,       ! Name
+  -21.3,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -21.3,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  80767,                                  ! Barometric Pressure {Pa}
+  4.2,                                    ! Wind Speed {m/s}
+  0,                                      ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {855ba353-1988-418a-8d96-4d98078af33e}, ! Handle
+  Component Data 1,                       ! Name
+  {14259b43-820d-467c-ac71-c5f43132f868}, ! UUID
+  {15bb5509-0da7-445f-a2dc-0d555af1a8b5}, ! Version UUID
+  1366311699,                             ! Creation Timestamp
+  1366311699,                             ! Version Timestamp
+  {61e5e7b7-1bcd-4a1e-a022-79c8727eeb68}; ! Name of Object 1
+

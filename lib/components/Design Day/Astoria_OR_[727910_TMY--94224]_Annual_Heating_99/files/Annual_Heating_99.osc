@@ -1,0 +1,36 @@
+
+OS:Version,
+  {3252b416-3933-48ab-b99a-22a4819d30b6}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {3764269f-6311-439c-a166-8611d839c53a}, ! Handle
+  Astoria Ann Htg 99% Condns DB,          ! Name
+  -1,                                     ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -1,                                     ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101241,                                 ! Barometric Pressure {Pa}
+  3.4,                                    ! Wind Speed {m/s}
+  90,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {db8e005a-d0cb-4a0b-99f4-50f077fafeca}, ! Handle
+  Component Data 1,                       ! Name
+  {3738526a-e3a7-4f56-8e7a-ea01c195c0a2}, ! UUID
+  {bc9544d0-8784-4c64-9c5e-ac605218aef2}, ! Version UUID
+  1366309970,                             ! Creation Timestamp
+  1366309970,                             ! Version Timestamp
+  {3764269f-6311-439c-a166-8611d839c53a}; ! Name of Object 1
+

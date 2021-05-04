@@ -1,0 +1,36 @@
+
+OS:Version,
+  {6f485901-8fdd-4f9b-9662-522bf1b46dea}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {82d42873-86ef-4330-ac04-660b90d947d5}, ! Handle
+  LAKE_CHARLES Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  5.3,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -5.8,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101289,                                 ! Barometric Pressure {Pa}
+  3.8,                                    ! Wind Speed {m/s}
+  20,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {19b4498a-129a-4edf-8a76-7cec096e4761}, ! Handle
+  Component Data 1,                       ! Name
+  {2f2544ba-c9d0-4f75-8406-dccd6662aea6}, ! UUID
+  {ce1318bc-2b35-48d9-9c93-70ad5db87918}, ! Version UUID
+  1366307723,                             ! Creation Timestamp
+  1366307723,                             ! Version Timestamp
+  {82d42873-86ef-4330-ac04-660b90d947d5}; ! Name of Object 1
+

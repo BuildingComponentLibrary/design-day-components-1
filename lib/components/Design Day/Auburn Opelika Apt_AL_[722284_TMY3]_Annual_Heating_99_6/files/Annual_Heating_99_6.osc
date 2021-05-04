@@ -1,0 +1,36 @@
+
+OS:Version,
+  {1dd43e48-0964-4ad1-bc77-ebd420ca3e96}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {1ec2be91-c29b-4d11-8842-a00a8b9b1f87}, ! Handle
+  Auburn Opelika Apt Ann Htg 99.6% Condns DB, ! Name
+  -4.6,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -4.6,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98522,                                  ! Barometric Pressure {Pa}
+  3.7,                                    ! Wind Speed {m/s}
+  310,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {65ea1b25-ea6f-4f7f-ac40-cc54a72c7d7a}, ! Handle
+  Component Data 1,                       ! Name
+  {cc9bfeee-aa31-42dc-b85f-69b0887702ba}, ! UUID
+  {10ad28e0-b254-4009-8b56-d9c620bd1306}, ! Version UUID
+  1366305637,                             ! Creation Timestamp
+  1366305637,                             ! Version Timestamp
+  {1ec2be91-c29b-4d11-8842-a00a8b9b1f87}; ! Name of Object 1
+

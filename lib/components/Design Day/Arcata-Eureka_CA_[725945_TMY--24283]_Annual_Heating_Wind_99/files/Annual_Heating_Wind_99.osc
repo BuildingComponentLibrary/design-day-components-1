@@ -1,0 +1,36 @@
+
+OS:Version,
+  {bb38ae09-367a-4efa-b44e-83d1affb4cbe}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {9cf40017-e759-469b-b77b-0e1fcc35968c}, ! Handle
+  Arcata/Eureka Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  11.3,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  11.3,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100535,                                 ! Barometric Pressure {Pa}
+  9.7,                                    ! Wind Speed {m/s}
+  90,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {6695c632-081c-43ee-9222-0c6a478772e2}, ! Handle
+  Component Data 1,                       ! Name
+  {9edcbba2-f743-4253-819d-e90d7dbb9490}, ! UUID
+  {b5de85fb-567f-4f92-bb1f-43b1097eae35}, ! Version UUID
+  1366306348,                             ! Creation Timestamp
+  1366306348,                             ! Version Timestamp
+  {9cf40017-e759-469b-b77b-0e1fcc35968c}; ! Name of Object 1
+

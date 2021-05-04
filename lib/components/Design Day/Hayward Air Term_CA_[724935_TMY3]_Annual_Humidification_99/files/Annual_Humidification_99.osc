@@ -1,0 +1,36 @@
+
+OS:Version,
+  {edcc44f3-8227-49f2-8baf-146b7d78f5ed}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {5100e8a0-c6b9-4dbb-b803-410900c443d6}, ! Handle
+  Hayward Air Term Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  10.3,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -2.7,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101157,                                 ! Barometric Pressure {Pa}
+  1.6,                                    ! Wind Speed {m/s}
+  60,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {be3c4c36-f137-422e-9c8e-10c675fe11ed}, ! Handle
+  Component Data 1,                       ! Name
+  {2eeb7368-8c48-47d0-afa6-efc8b6900c19}, ! UUID
+  {a9cb18e9-ec40-4fb2-bb3e-24a0cc73e51b}, ! Version UUID
+  1366306449,                             ! Creation Timestamp
+  1366306449,                             ! Version Timestamp
+  {5100e8a0-c6b9-4dbb-b803-410900c443d6}; ! Name of Object 1
+

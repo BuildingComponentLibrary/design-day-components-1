@@ -1,0 +1,36 @@
+
+OS:Version,
+  {80858512-27fe-4e9a-9c99-c064e91892bf}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {e94ca7d6-4193-47b0-b0b2-d179dea4e07a}, ! Handle
+  Glendive Awos Ann Htg 99% Condns DB,    ! Name
+  -24.4,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -24.4,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  92645,                                  ! Barometric Pressure {Pa}
+  3.2,                                    ! Wind Speed {m/s}
+  320,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {dfd64db2-0cf8-4e65-a46f-25e607cec884}, ! Handle
+  Component Data 1,                       ! Name
+  {e5b90a5b-3be1-4d6e-aa4a-a1a19071fe35}, ! UUID
+  {bf238027-2ed7-4b72-9aa9-ddc690bdb844}, ! Version UUID
+  1366308766,                             ! Creation Timestamp
+  1366308766,                             ! Version Timestamp
+  {e94ca7d6-4193-47b0-b0b2-d179dea4e07a}; ! Name of Object 1
+

@@ -1,0 +1,40 @@
+
+OS:Version,
+  {7eece210-b8aa-45ba-aae0-797129025535}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {8aa737e0-07ed-49c4-bb35-4fd99f570803}, ! Handle
+  Alpena County Regional Ap Ann Clg 2% Condns DB=>MWB, ! Name
+  27.4,                                   ! Maximum Dry-Bulb Temperature {C}
+  12.7,                                   ! Daily Dry-Bulb Temperature Range {deltaC}
+  20,                                     ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98828,                                  ! Barometric Pressure {Pa}
+  4.8,                                    ! Wind Speed {m/s}
+  230,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  7,                                      ! Month
+  SummerDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAETau,                              ! Solar Model Indicator
+  ,                                       ! Beam Solar Day Schedule Name
+  ,                                       ! Diffuse Solar Day Schedule Name
+  0.42,                                   ! ASHRAE Taub {dimensionless}
+  2.176;                                  ! ASHRAE Taud {dimensionless}
+
+OS:ComponentData,
+  {c1bcda33-a7fa-46f4-bbeb-80038cc68383}, ! Handle
+  Component Data 1,                       ! Name
+  {54caa64f-2b29-457c-b190-7536780d95f4}, ! UUID
+  {6dc4cb80-9bb7-4450-b7c5-8a5a8e193c27}, ! Version UUID
+  1366307948,                             ! Creation Timestamp
+  1366307948,                             ! Version Timestamp
+  {8aa737e0-07ed-49c4-bb35-4fd99f570803}; ! Name of Object 1
+

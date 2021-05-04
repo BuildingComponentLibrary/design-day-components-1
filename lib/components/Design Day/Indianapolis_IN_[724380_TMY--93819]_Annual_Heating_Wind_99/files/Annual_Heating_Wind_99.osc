@@ -1,0 +1,36 @@
+
+OS:Version,
+  {2665ba55-2d73-4fbe-8d61-9075c89a0fb6}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {c177bb01-e694-4202-a532-14c5116bafd8}, ! Handle
+  Indianapolis Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  -1.8,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -1.8,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98404,                                  ! Barometric Pressure {Pa}
+  11.5,                                   ! Wind Speed {m/s}
+  270,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {0f672f71-e065-4c6a-a4ca-6daa6ea645ba}, ! Handle
+  Component Data 1,                       ! Name
+  {bea89153-277f-4631-adef-394a4afc22b2}, ! UUID
+  {bf39a533-e5ee-46e3-8ea1-aab3e8f7aa69}, ! Version UUID
+  1366307463,                             ! Creation Timestamp
+  1366307463,                             ! Version Timestamp
+  {c177bb01-e694-4202-a532-14c5116bafd8}; ! Name of Object 1
+

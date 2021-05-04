@@ -1,0 +1,36 @@
+
+OS:Version,
+  {ff58f8da-a1e4-4908-ba28-5036baaa8ed7}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {707f1f65-75da-4c34-8cd3-92fb741c98f7}, ! Handle
+  Bemidji Municipal Ann Htg Wind 99.6% Condns WS=>MCDB, ! Name
+  -8.8,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -8.8,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  96380,                                  ! Barometric Pressure {Pa}
+  11.7,                                   ! Wind Speed {m/s}
+  280,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {f47e250a-477a-4a6c-be51-8b647a2148d6}, ! Handle
+  Component Data 1,                       ! Name
+  {ed0afbed-7331-4429-8871-bd899c65c1f3}, ! UUID
+  {4604690a-7636-49cf-932f-b2deacefdb48}, ! Version UUID
+  1366308157,                             ! Creation Timestamp
+  1366308157,                             ! Version Timestamp
+  {707f1f65-75da-4c34-8cd3-92fb741c98f7}; ! Name of Object 1
+

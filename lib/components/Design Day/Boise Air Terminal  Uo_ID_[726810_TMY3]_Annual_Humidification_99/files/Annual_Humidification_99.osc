@@ -1,0 +1,36 @@
+
+OS:Version,
+  {81025fcf-44a5-442b-b55e-2b5a6dfcac89}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {e81c71f5-cc23-414b-bfc8-51706b086ff3}, ! Handle
+  Boise Air Terminal  Uo Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  -10.7,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -15.3,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  93182,                                  ! Barometric Pressure {Pa}
+  2.3,                                    ! Wind Speed {m/s}
+  120,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {9c526179-2535-4af5-8113-8e6bd268b23b}, ! Handle
+  Component Data 1,                       ! Name
+  {2e3efa06-9e5c-4dd5-b5da-a7b171184c6f}, ! UUID
+  {0192bcad-ecf4-4a7c-8e84-a41751716df1}, ! Version UUID
+  1366307270,                             ! Creation Timestamp
+  1366307270,                             ! Version Timestamp
+  {e81c71f5-cc23-414b-bfc8-51706b086ff3}; ! Name of Object 1
+

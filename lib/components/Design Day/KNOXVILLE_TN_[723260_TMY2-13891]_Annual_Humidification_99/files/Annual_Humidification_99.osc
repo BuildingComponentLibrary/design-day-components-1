@@ -1,0 +1,36 @@
+
+OS:Version,
+  {9003ad77-0f98-445b-886f-1b1ce0783ef0}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {8c9a88da-4300-4136-96ef-c9b93e40e704}, ! Handle
+  KNOXVILLE Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  -4.1,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -13.2,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  97784,                                  ! Barometric Pressure {Pa}
+  2.8,                                    ! Wind Speed {m/s}
+  20,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {b16175a9-2ea9-4ad2-a81c-9d53ed70ff46}, ! Handle
+  Component Data 1,                       ! Name
+  {5a648500-2876-4f22-bfe6-37ab8958be40}, ! UUID
+  {88d55557-8566-4458-96af-1705e64d4352}, ! Version UUID
+  1366310516,                             ! Creation Timestamp
+  1366310516,                             ! Version Timestamp
+  {8c9a88da-4300-4136-96ef-c9b93e40e704}; ! Name of Object 1
+

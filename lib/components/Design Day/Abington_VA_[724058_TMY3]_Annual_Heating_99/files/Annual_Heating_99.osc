@@ -1,0 +1,36 @@
+
+OS:Version,
+  {399ccf5b-f029-4b45-be98-a729dc5f01c0}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {436e780e-8310-4d32-ba4a-7ce5b3e5c5ef}, ! Handle
+  Abington Ann Htg 99% Condns DB,         ! Name
+  -7.9,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -7.9,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  93971,                                  ! Barometric Pressure {Pa}
+  1.9,                                    ! Wind Speed {m/s}
+  250,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {e4446142-08a4-4040-b105-e42ca18d9f43}, ! Handle
+  Component Data 1,                       ! Name
+  {b0c2e897-b711-4108-b830-f79198409f72}, ! UUID
+  {b77778d9-7d12-44fc-9b65-f80cc590ca98}, ! Version UUID
+  1366311012,                             ! Creation Timestamp
+  1366311012,                             ! Version Timestamp
+  {436e780e-8310-4d32-ba4a-7ce5b3e5c5ef}; ! Name of Object 1
+

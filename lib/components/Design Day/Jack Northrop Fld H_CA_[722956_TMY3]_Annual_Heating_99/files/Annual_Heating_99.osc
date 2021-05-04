@@ -1,0 +1,36 @@
+
+OS:Version,
+  {2b8ddec5-6ff9-430b-bb2b-70798903f54f}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {ad1e8902-6ac0-4d06-97ef-4dc773cf8167}, ! Handle
+  Jack Northrop Fld H Ann Htg 99% Condns DB, ! Name
+  7.6,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  7.6,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101073,                                 ! Barometric Pressure {Pa}
+  0.7,                                    ! Wind Speed {m/s}
+  70,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {1b3869c7-ca3c-45ee-a525-7ba6c69c002d}, ! Handle
+  Component Data 1,                       ! Name
+  {fb64ef6a-4988-416b-abfd-946b1350fb8c}, ! UUID
+  {8c2c156c-7315-470a-a758-f5a21da87701}, ! Version UUID
+  1366306445,                             ! Creation Timestamp
+  1366306445,                             ! Version Timestamp
+  {ad1e8902-6ac0-4d06-97ef-4dc773cf8167}; ! Name of Object 1
+

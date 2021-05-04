@@ -1,0 +1,36 @@
+
+OS:Version,
+  {1ea2b997-88c4-42c5-a8af-54a1e338d739}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {d424ed3d-5571-4bae-bb01-7abd4272b78e}, ! Handle
+  Ketchikan Intl Ap Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  5.5,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  5.5,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101049,                                 ! Barometric Pressure {Pa}
+  12,                                     ! Wind Speed {m/s}
+  290,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {09c7f3f1-1217-4468-bab1-1437501bc04a}, ! Handle
+  Component Data 1,                       ! Name
+  {eacae171-ae17-4918-a049-48f730459b2f}, ! UUID
+  {0c118568-10ff-4316-b17e-f3ad85212f79}, ! Version UUID
+  1366305354,                             ! Creation Timestamp
+  1366305354,                             ! Version Timestamp
+  {d424ed3d-5571-4bae-bb01-7abd4272b78e}; ! Name of Object 1
+

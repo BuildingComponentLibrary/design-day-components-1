@@ -1,0 +1,36 @@
+
+OS:Version,
+  {d298b3ea-49ce-4f4d-b604-444f74fcd742}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {94e5858f-e579-4d34-baec-616d9675ac95}, ! Handle
+  Langley Afb Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  5.3,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  5.3,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101289,                                 ! Barometric Pressure {Pa}
+  10.7,                                   ! Wind Speed {m/s}
+  340,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {67601c9e-6366-47e5-bb7e-259e86e59d06}, ! Handle
+  Component Data 1,                       ! Name
+  {ccdce670-976c-49cb-8f9e-3f8b42e9849a}, ! UUID
+  {c8ee5b78-9501-453d-94be-ea3fa3bd080a}, ! Version UUID
+  1366311070,                             ! Creation Timestamp
+  1366311070,                             ! Version Timestamp
+  {94e5858f-e579-4d34-baec-616d9675ac95}; ! Name of Object 1
+

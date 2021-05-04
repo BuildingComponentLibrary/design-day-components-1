@@ -1,0 +1,36 @@
+
+OS:Version,
+  {205dbc2a-aafd-4e92-a78e-ad8a5080232f}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {3e2ddd94-e7af-4368-b8f0-569be88beaad}, ! Handle
+  Columbus Metropolitan Arpt Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  3.7,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -11.3,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99892,                                  ! Barometric Pressure {Pa}
+  2.8,                                    ! Wind Speed {m/s}
+  330,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {96730a85-5f4e-4ca1-8255-cd063ed604d6}, ! Handle
+  Component Data 1,                       ! Name
+  {75df382f-a392-4455-9305-7b12d79583b3}, ! UUID
+  {130240cb-4540-44fe-9ca5-0eeb56a92aa9}, ! Version UUID
+  1366307003,                             ! Creation Timestamp
+  1366307003,                             ! Version Timestamp
+  {3e2ddd94-e7af-4368-b8f0-569be88beaad}; ! Name of Object 1
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {e6b54c47-cdcf-41d3-b6b1-0a0809ccfa37}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {eaaef17e-626c-4842-a6eb-75f4555ce4ff}, ! Handle
+  Key West Nas Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  20.3,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  20.3,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101241,                                 ! Barometric Pressure {Pa}
+  10,                                     ! Wind Speed {m/s}
+  20,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {04af7f19-29ca-403d-a0d2-3d48f956a0c6}, ! Handle
+  Component Data 1,                       ! Name
+  {2804eba7-9121-4266-a4c3-3109e0ed11d2}, ! UUID
+  {82de5489-d7ed-4b86-a06b-374e47877f34}, ! Version UUID
+  1366306839,                             ! Creation Timestamp
+  1366306839,                             ! Version Timestamp
+  {eaaef17e-626c-4842-a6eb-75f4555ce4ff}; ! Name of Object 1
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {5ad0d193-242f-4544-b520-ec0710676f48}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {4bb1be82-74fe-48ea-a1a9-eab0919c7c35}, ! Handle
+  Dodge City Regional Ap Ann Htg 99.6% Condns DB, ! Name
+  -16.7,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -16.7,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  92243,                                  ! Barometric Pressure {Pa}
+  5.6,                                    ! Wind Speed {m/s}
+  0,                                      ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {b4b3353e-b80a-434d-bcf8-ee35cd828b73}, ! Handle
+  Component Data 1,                       ! Name
+  {71e3d738-e2ba-432e-9ca7-4a150a40719c}, ! UUID
+  {29bb6ac5-c803-4079-aa88-6983b337a72b}, ! Version UUID
+  1366307516,                             ! Creation Timestamp
+  1366307516,                             ! Version Timestamp
+  {4bb1be82-74fe-48ea-a1a9-eab0919c7c35}; ! Name of Object 1
+

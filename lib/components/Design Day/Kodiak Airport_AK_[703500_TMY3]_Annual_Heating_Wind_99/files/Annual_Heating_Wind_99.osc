@@ -1,0 +1,36 @@
+
+OS:Version,
+  {db0fe958-a132-4891-9ba1-efd0fe05b88f}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {dfa7073c-c251-498b-89c2-2eb93af3299c}, ! Handle
+  Kodiak Airport Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  1.5,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  1.5,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101265,                                 ! Barometric Pressure {Pa}
+  15.6,                                   ! Wind Speed {m/s}
+  300,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {9c4414cb-3385-4e4d-be79-9fbbabb4c166}, ! Handle
+  Component Data 1,                       ! Name
+  {f4646e98-ba08-4bc6-a52e-4462b3f53b23}, ! UUID
+  {c8a3f5df-cb23-4497-95ce-85664dc669fb}, ! Version UUID
+  1366305381,                             ! Creation Timestamp
+  1366305381,                             ! Version Timestamp
+  {dfa7073c-c251-498b-89c2-2eb93af3299c}; ! Name of Object 1
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {0ceca090-6fbf-4fb5-9ce6-7e53e31063f3}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {05c2ead6-778f-41ed-b8a7-46c739734c69}, ! Handle
+  LANSING Ann Htg 99% Condns DB,          ! Name
+  -16.1,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -16.1,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98287,                                  ! Barometric Pressure {Pa}
+  3.1,                                    ! Wind Speed {m/s}
+  280,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {e2893941-fde9-4c30-a8ee-d96bf1834150}, ! Handle
+  Component Data 1,                       ! Name
+  {92e692c1-8120-4bc7-9471-ef157a0d8fd0}, ! UUID
+  {fd16732f-75e1-492f-8028-3273663f1dbe}, ! Version UUID
+  1366308055,                             ! Creation Timestamp
+  1366308055,                             ! Version Timestamp
+  {05c2ead6-778f-41ed-b8a7-46c739734c69}; ! Name of Object 1
+

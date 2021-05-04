@@ -1,0 +1,36 @@
+
+OS:Version,
+  {d9cf61f6-2540-4f63-990b-a96bd273745e}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {c7ce905e-8ed1-481d-87bc-6e63d5638d81}, ! Handle
+  COVINGTON Ann Htg 99.6% Condns DB,      ! Name
+  -16.1,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -16.1,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98112,                                  ! Barometric Pressure {Pa}
+  3.8,                                    ! Wind Speed {m/s}
+  280,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {82fbd4ff-166f-4984-9983-a0bf3c75485e}, ! Handle
+  Component Data 1,                       ! Name
+  {cf5a7bc8-e981-4a94-a500-569e5bf47d30}, ! UUID
+  {e4b60c12-ff3d-4b2a-bdc1-d78a1f2be0fd}, ! Version UUID
+  1366307624,                             ! Creation Timestamp
+  1366307624,                             ! Version Timestamp
+  {c7ce905e-8ed1-481d-87bc-6e63d5638d81}; ! Name of Object 1
+

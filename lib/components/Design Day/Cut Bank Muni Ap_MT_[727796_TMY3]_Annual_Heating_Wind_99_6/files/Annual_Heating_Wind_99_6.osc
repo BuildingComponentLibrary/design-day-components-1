@@ -1,0 +1,36 @@
+
+OS:Version,
+  {1d581913-4821-4cdb-b4b6-b1d259f960af}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {dd6af965-9a13-411b-b673-45af05b9153d}, ! Handle
+  Cut Bank Muni Ap Ann Htg Wind 99.6% Condns WS=>MCDB, ! Name
+  5.8,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  5.8,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  88037,                                  ! Barometric Pressure {Pa}
+  22.1,                                   ! Wind Speed {m/s}
+  350,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {56e775e7-b103-4b1a-8d85-c1f5b1ed7fde}, ! Handle
+  Component Data 1,                       ! Name
+  {8db67dcd-d381-4fb6-83b3-327b10667080}, ! UUID
+  {14ddbc25-7841-4218-851b-e340e00f322b}, ! Version UUID
+  1366308744,                             ! Creation Timestamp
+  1366308744,                             ! Version Timestamp
+  {dd6af965-9a13-411b-b673-45af05b9153d}; ! Name of Object 1
+

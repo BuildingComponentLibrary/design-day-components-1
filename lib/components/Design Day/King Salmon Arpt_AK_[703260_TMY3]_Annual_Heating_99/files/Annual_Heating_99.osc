@@ -1,0 +1,36 @@
+
+OS:Version,
+  {dca3788f-de91-490d-9417-be9fa7b69725}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {78f1dcd7-cd49-4f7a-87cc-32180fa6e565}, ! Handle
+  King Salmon Arpt Ann Htg 99% Condns DB, ! Name
+  -27.9,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -27.9,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101145,                                 ! Barometric Pressure {Pa}
+  2.4,                                    ! Wind Speed {m/s}
+  10,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {8a2160fe-fa5d-48df-bfea-f41ddf7db99a}, ! Handle
+  Component Data 1,                       ! Name
+  {c0e36eb5-33b1-4f70-8440-b012055c8d35}, ! UUID
+  {35600efc-151b-4d10-bfeb-b5a86a91e14d}, ! Version UUID
+  1366305366,                             ! Creation Timestamp
+  1366305366,                             ! Version Timestamp
+  {78f1dcd7-cd49-4f7a-87cc-32180fa6e565}; ! Name of Object 1
+

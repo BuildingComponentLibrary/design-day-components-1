@@ -1,0 +1,36 @@
+
+OS:Version,
+  {7741ad6b-a0c1-4d28-9a6e-4e28d8bcfdcd}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {c997459b-87b7-4700-823f-065174cc522a}, ! Handle
+  Belmar Asc Ann Htg 99% Condns DB,       ! Name
+  -9.1,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -9.1,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101013,                                 ! Barometric Pressure {Pa}
+  5,                                      ! Wind Speed {m/s}
+  320,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {a6ca5029-b41f-45ae-9a29-6388d0f13903}, ! Handle
+  Component Data 1,                       ! Name
+  {521b1e32-214a-4d43-8c4b-5f9409812344}, ! UUID
+  {4c24cc61-419e-4626-9247-5592077a2e10}, ! Version UUID
+  1366309293,                             ! Creation Timestamp
+  1366309293,                             ! Version Timestamp
+  {c997459b-87b7-4700-823f-065174cc522a}; ! Name of Object 1
+

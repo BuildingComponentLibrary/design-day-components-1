@@ -1,0 +1,36 @@
+
+OS:Version,
+  {e9c30862-05e2-47e1-85e1-d8b15c9efd88}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {96610c7f-841f-4fa1-9563-55f514d4c279}, ! Handle
+  Kenai Municipal Ap Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  -4.1,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -4.1,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101013,                                 ! Barometric Pressure {Pa}
+  11.1,                                   ! Wind Speed {m/s}
+  10,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {722ea117-c599-41a6-ad27-92756f41414c}, ! Handle
+  Component Data 1,                       ! Name
+  {ea929445-e86f-4014-9321-e07cef425e7a}, ! UUID
+  {eb176589-71d8-4e0b-a5fc-4441756e95f2}, ! Version UUID
+  1366305347,                             ! Creation Timestamp
+  1366305347,                             ! Version Timestamp
+  {96610c7f-841f-4fa1-9563-55f514d4c279}; ! Name of Object 1
+

@@ -1,0 +1,40 @@
+
+OS:Version,
+  {513e7af1-c5e2-4b42-926e-cb14ff739086}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {d8af26ee-04fe-4c7f-8917-df33fd781c0e}, ! Handle
+  Laramie General Brees Field Ann Clg 1% Condns Enth=>MDB, ! Name
+  23.3,                                   ! Maximum Dry-Bulb Temperature {C}
+  16.6,                                   ! Daily Dry-Bulb Temperature Range {deltaC}
+  47100,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  77396,                                  ! Barometric Pressure {Pa}
+  5.8,                                    ! Wind Speed {m/s}
+  290,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  7,                                      ! Month
+  SummerDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Enthalpy,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAETau,                              ! Solar Model Indicator
+  ,                                       ! Beam Solar Day Schedule Name
+  ,                                       ! Diffuse Solar Day Schedule Name
+  0.389,                                  ! ASHRAE Taub {dimensionless}
+  2.093;                                  ! ASHRAE Taud {dimensionless}
+
+OS:ComponentData,
+  {712f3c28-930e-4879-b1e4-ca98616bfa9c}, ! Handle
+  Component Data 1,                       ! Name
+  {e930120d-4994-4264-932f-56e4e6cf9794}, ! UUID
+  {bb162c5f-b41b-4c84-8cfb-63795ad805de}, ! Version UUID
+  1366311762,                             ! Creation Timestamp
+  1366311762,                             ! Version Timestamp
+  {d8af26ee-04fe-4c7f-8917-df33fd781c0e}; ! Name of Object 1
+

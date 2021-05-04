@@ -1,0 +1,40 @@
+
+OS:Version,
+  {c53cc0b0-663d-45ae-a916-245f37eb6a7e}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {f6275d56-1a4c-43af-956e-4644673589ca}, ! Handle
+  Houghton Lake Roscommon Co Ar Ann Clg 1% Condns Enth=>MDB, ! Name
+  27.3,                                   ! Maximum Dry-Bulb Temperature {C}
+  12.8,                                   ! Daily Dry-Bulb Temperature Range {deltaC}
+  67800,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  97179,                                  ! Barometric Pressure {Pa}
+  4.2,                                    ! Wind Speed {m/s}
+  240,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  7,                                      ! Month
+  SummerDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Enthalpy,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAETau,                              ! Solar Model Indicator
+  ,                                       ! Beam Solar Day Schedule Name
+  ,                                       ! Diffuse Solar Day Schedule Name
+  0.413,                                  ! ASHRAE Taub {dimensionless}
+  2.189;                                  ! ASHRAE Taud {dimensionless}
+
+OS:ComponentData,
+  {3c5486a8-8c47-4960-ae08-d76074ae555d}, ! Handle
+  Component Data 1,                       ! Name
+  {d31ae6de-154d-4bb7-ada1-7f214a682f96}, ! UUID
+  {6e966dfb-e3d3-4851-a610-51da40d222fa}, ! Version UUID
+  1366308027,                             ! Creation Timestamp
+  1366308027,                             ! Version Timestamp
+  {f6275d56-1a4c-43af-956e-4644673589ca}; ! Name of Object 1
+

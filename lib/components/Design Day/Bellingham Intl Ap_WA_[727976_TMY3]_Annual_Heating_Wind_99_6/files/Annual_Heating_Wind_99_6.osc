@@ -1,0 +1,36 @@
+
+OS:Version,
+  {a6690773-d470-4c8e-a064-1e5e6046436f}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {eba9d3dc-52d5-400c-973c-1bb87ef840c9}, ! Handle
+  Bellingham Intl Ap Ann Htg Wind 99.6% Condns WS=>MCDB, ! Name
+  4.5,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  4.5,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100786,                                 ! Barometric Pressure {Pa}
+  15.2,                                   ! Wind Speed {m/s}
+  30,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {125ba4d1-ce31-4d6d-9e42-a2e7fb737b22}, ! Handle
+  Component Data 1,                       ! Name
+  {15e8b3f4-f6b7-4bce-bc58-a7756f12f681}, ! UUID
+  {3bed9f6a-80e5-439b-9990-8faf6cae00cd}, ! Version UUID
+  1366311266,                             ! Creation Timestamp
+  1366311266,                             ! Version Timestamp
+  {eba9d3dc-52d5-400c-973c-1bb87ef840c9}; ! Name of Object 1
+

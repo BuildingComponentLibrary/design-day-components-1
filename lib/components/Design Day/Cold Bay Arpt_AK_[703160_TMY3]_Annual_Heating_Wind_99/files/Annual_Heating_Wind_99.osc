@@ -1,0 +1,36 @@
+
+OS:Version,
+  {ff2f5f68-555a-4c52-ad78-3c716148d02b}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {1a86e6bf-49d8-482f-b91c-40308b6e15de}, ! Handle
+  Cold Bay Arpt Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  2.6,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  2.6,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100977,                                 ! Barometric Pressure {Pa}
+  19.1,                                   ! Wind Speed {m/s}
+  330,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {d05a1fd4-8168-45ef-af48-4ffced207440}, ! Handle
+  Component Data 1,                       ! Name
+  {ef492630-d33f-4276-bec2-1bf7431f4e47}, ! UUID
+  {cc936d92-3fd2-4c80-86a7-b7ac2fdad66b}, ! Version UUID
+  1366304811,                             ! Creation Timestamp
+  1366304811,                             ! Version Timestamp
+  {1a86e6bf-49d8-482f-b91c-40308b6e15de}; ! Name of Object 1
+

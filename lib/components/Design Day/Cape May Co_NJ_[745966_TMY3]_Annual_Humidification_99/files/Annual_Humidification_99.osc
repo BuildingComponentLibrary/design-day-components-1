@@ -1,0 +1,36 @@
+
+OS:Version,
+  {192898e0-71c8-4458-a6a4-5d7ada757725}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {dea3fa72-f768-460e-addd-d0ec473c226b}, ! Handle
+  Cape May Co Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  0.4,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -22.1,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101241,                                 ! Barometric Pressure {Pa}
+  4.8,                                    ! Wind Speed {m/s}
+  320,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {66b55c8f-f09d-4c79-8697-c305e05fd27d}, ! Handle
+  Component Data 1,                       ! Name
+  {d7718918-7dd4-49dc-9926-88424f5c761c}, ! UUID
+  {e8227ec5-57d2-43c7-a557-7fa59e70cfdb}, ! Version UUID
+  1366309302,                             ! Creation Timestamp
+  1366309302,                             ! Version Timestamp
+  {dea3fa72-f768-460e-addd-d0ec473c226b}; ! Name of Object 1
+

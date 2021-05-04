@@ -1,0 +1,36 @@
+
+OS:Version,
+  {0918b544-7f53-4814-8bf7-833b60e44821}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {7483cc7a-6ad2-47ea-b59e-78d12ced4d82}, ! Handle
+  Golden Tri Awos Ann Htg Wind 99.6% Condns WS=>MCDB, ! Name
+  13.2,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  13.2,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100368,                                 ! Barometric Pressure {Pa}
+  9.6,                                    ! Wind Speed {m/s}
+  350,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {b7ac67b4-c284-4b90-9fd1-df85ab47e932}, ! Handle
+  Component Data 1,                       ! Name
+  {bb74328f-cd18-4eeb-bdcc-860413dc2cf4}, ! UUID
+  {dbe844e5-e649-4bed-b0dc-e773cabcab62}, ! Version UUID
+  1366308617,                             ! Creation Timestamp
+  1366308617,                             ! Version Timestamp
+  {7483cc7a-6ad2-47ea-b59e-78d12ced4d82}; ! Name of Object 1
+

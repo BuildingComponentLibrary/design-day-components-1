@@ -1,0 +1,36 @@
+
+OS:Version,
+  {1ef8cc78-f041-4f77-9ab5-2768f051e862}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {cacecd88-55ac-434c-8c0a-d437d201cf81}, ! Handle
+  CAPE_HATTERAS Ann Htg Wind 99.6% Condns WS=>MCDB, ! Name
+  14.5,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  14.5,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101301,                                 ! Barometric Pressure {Pa}
+  13.9,                                   ! Wind Speed {m/s}
+  0,                                      ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {128045ed-66e1-42d0-abcd-0bdd1c0e0cd2}, ! Handle
+  Component Data 1,                       ! Name
+  {1681acbd-72ab-4585-9f54-2c7da2057508}, ! UUID
+  {96a172fb-e3b1-4d0f-a6b6-a216a0401053}, ! Version UUID
+  1366308875,                             ! Creation Timestamp
+  1366308875,                             ! Version Timestamp
+  {cacecd88-55ac-434c-8c0a-d437d201cf81}; ! Name of Object 1
+

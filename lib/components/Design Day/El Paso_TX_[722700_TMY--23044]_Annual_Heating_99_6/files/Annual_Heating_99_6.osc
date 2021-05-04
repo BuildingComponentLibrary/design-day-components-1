@@ -1,0 +1,36 @@
+
+OS:Version,
+  {7c54823d-8117-4594-bbb6-70e6ae419520}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {0d4d275a-e50f-404e-a4e6-f255dbf835e1}, ! Handle
+  El Paso Ann Htg 99.6% Condns DB,        ! Name
+  -5.2,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -5.2,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  87780,                                  ! Barometric Pressure {Pa}
+  2.2,                                    ! Wind Speed {m/s}
+  20,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {6570070d-6844-4bee-aacf-dfe20475694f}, ! Handle
+  Component Data 1,                       ! Name
+  {0347498b-8026-4107-897e-2809204f8e28}, ! UUID
+  {6d7da561-7870-4172-bbe8-c5d22d90cbd0}, ! Version UUID
+  1366310687,                             ! Creation Timestamp
+  1366310687,                             ! Version Timestamp
+  {0d4d275a-e50f-404e-a4e6-f255dbf835e1}; ! Name of Object 1
+

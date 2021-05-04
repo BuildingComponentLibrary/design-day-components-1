@@ -1,0 +1,36 @@
+
+OS:Version,
+  {65313726-8c57-4b46-a641-d5164fec0541}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {2df93b1d-9248-4a98-9c05-b39e94cfe455}, ! Handle
+  Concord Municipal Arpt Ann Htg 99% Condns DB, ! Name
+  -17.6,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -17.6,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100058,                                 ! Barometric Pressure {Pa}
+  2.3,                                    ! Wind Speed {m/s}
+  320,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {e8264e24-0b76-4e4a-8d1b-e873213889ad}, ! Handle
+  Component Data 1,                       ! Name
+  {663947b4-d9aa-4a31-9aee-3d0cde6b6076}, ! UUID
+  {cb16ec69-a60f-49ce-8b4d-87ed625615ce}, ! Version UUID
+  1366309230,                             ! Creation Timestamp
+  1366309230,                             ! Version Timestamp
+  {2df93b1d-9248-4a98-9c05-b39e94cfe455}; ! Name of Object 1
+

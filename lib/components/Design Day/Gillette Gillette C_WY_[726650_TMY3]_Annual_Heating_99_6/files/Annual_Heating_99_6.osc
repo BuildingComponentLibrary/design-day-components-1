@@ -1,0 +1,36 @@
+
+OS:Version,
+  {555ff848-3b00-466f-a2e0-a079763eb632}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {cded6c95-3d2a-48df-95f6-8b387afb500d}, ! Handle
+  Gillette Gillette C Ann Htg 99.6% Condns DB, ! Name
+  -24.3,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -24.3,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  87395,                                  ! Barometric Pressure {Pa}
+  2.7,                                    ! Wind Speed {m/s}
+  350,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {af89b66e-c2cb-4101-a1d1-192e445860b2}, ! Handle
+  Component Data 1,                       ! Name
+  {b72e4389-5ee6-40c0-b3fd-e7939305285f}, ! UUID
+  {6ac08602-7090-4d26-9fa8-d2e7bc2a1a14}, ! Version UUID
+  1366311726,                             ! Creation Timestamp
+  1366311726,                             ! Version Timestamp
+  {cded6c95-3d2a-48df-95f6-8b387afb500d}; ! Name of Object 1
+

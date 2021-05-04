@@ -1,0 +1,36 @@
+
+OS:Version,
+  {6a77bc71-25ae-4c32-99ca-a028c10a3822}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {b3a43ce7-eb87-4b8c-9ecb-f7d33b0c8f8c}, ! Handle
+  Jacksonville/Int'l Air Ann Htg 99% Condns DB, ! Name
+  0.3,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  0.3,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101217,                                 ! Barometric Pressure {Pa}
+  1.9,                                    ! Wind Speed {m/s}
+  320,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {c912257d-bf0a-48e6-8b0c-106b5a679e97}, ! Handle
+  Component Data 1,                       ! Name
+  {e842edd7-96e2-4faa-9cc3-1faa2f63a961}, ! UUID
+  {0a52eaf9-7663-4cd0-bcca-45a422fa38ec}, ! Version UUID
+  1366306819,                             ! Creation Timestamp
+  1366306819,                             ! Version Timestamp
+  {b3a43ce7-eb87-4b8c-9ecb-f7d33b0c8f8c}; ! Name of Object 1
+

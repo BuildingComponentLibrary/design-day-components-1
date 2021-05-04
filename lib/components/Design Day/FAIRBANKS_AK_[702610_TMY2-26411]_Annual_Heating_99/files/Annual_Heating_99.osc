@@ -1,0 +1,36 @@
+
+OS:Version,
+  {bce9b293-849a-46aa-adc0-0fe6bce15345}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {0124ff69-f216-419d-823f-847f717c1d83}, ! Handle
+  FAIRBANKS Ann Htg 99% Condns DB,        ! Name
+  -38.9,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -38.9,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99678,                                  ! Barometric Pressure {Pa}
+  0.3,                                    ! Wind Speed {m/s}
+  20,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {36734512-748c-408a-8182-c03a12a3c7ae}, ! Handle
+  Component Data 1,                       ! Name
+  {bbe696a2-bfbc-4f0d-a7fe-a5cbe233bc58}, ! UUID
+  {4ee23d84-94fa-480a-8020-f7802b24d10a}, ! Version UUID
+  1366305247,                             ! Creation Timestamp
+  1366305247,                             ! Version Timestamp
+  {0124ff69-f216-419d-823f-847f717c1d83}; ! Name of Object 1
+

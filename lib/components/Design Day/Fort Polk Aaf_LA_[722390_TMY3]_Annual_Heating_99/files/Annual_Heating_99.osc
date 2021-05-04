@@ -1,0 +1,36 @@
+
+OS:Version,
+  {b28c6bf8-4365-4224-ba0a-7a45e054d518}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {1dc4cfb7-42a4-4fe8-b440-d8b400f5681a}, ! Handle
+  Fort Polk Aaf Ann Htg 99% Condns DB,    ! Name
+  -1,                                     ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -1,                                     ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100106,                                 ! Barometric Pressure {Pa}
+  2.6,                                    ! Wind Speed {m/s}
+  10,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {b710f08c-cb3a-49b4-9813-93152e60318f}, ! Handle
+  Component Data 1,                       ! Name
+  {a2231162-aea0-4d99-9648-6c6a83813f31}, ! UUID
+  {fdfd6787-ca23-427a-9991-8b93ea05f661}, ! Version UUID
+  1366307714,                             ! Creation Timestamp
+  1366307714,                             ! Version Timestamp
+  {1dc4cfb7-42a4-4fe8-b440-d8b400f5681a}; ! Name of Object 1
+

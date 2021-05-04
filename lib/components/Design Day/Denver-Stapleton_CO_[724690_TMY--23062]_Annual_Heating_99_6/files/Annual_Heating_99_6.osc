@@ -1,0 +1,36 @@
+
+OS:Version,
+  {158eba48-2075-4266-9f38-508e6186af6e}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {8d13cd08-d10a-455b-a399-9a759404dfa2}, ! Handle
+  Denver-Stapleton Ann Htg 99.6% Condns DB, ! Name
+  -20,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -20,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  83411,                                  ! Barometric Pressure {Pa}
+  2.3,                                    ! Wind Speed {m/s}
+  180,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {39d2cb0a-4f4d-4da3-aa87-7a9cf65ddb08}, ! Handle
+  Component Data 1,                       ! Name
+  {a21248b4-d846-40b7-98f8-bd7682d64161}, ! UUID
+  {12975aa0-c9d0-4daa-929d-4c055197b5f9}, ! Version UUID
+  1366306673,                             ! Creation Timestamp
+  1366306673,                             ! Version Timestamp
+  {8d13cd08-d10a-455b-a399-9a759404dfa2}; ! Name of Object 1
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {f09b18fd-4405-4d99-820b-5927310b7934}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {54fc2615-b075-46c7-90fa-97be7e2d2db4}, ! Handle
+  Kirksville Regional Ap Ann Htg 99% Condns DB, ! Name
+  -17,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -17,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  97843,                                  ! Barometric Pressure {Pa}
+  4.6,                                    ! Wind Speed {m/s}
+  350,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {4507ee36-2890-4b5d-8229-17b9c85046fe}, ! Handle
+  Component Data 1,                       ! Name
+  {f96b62cf-32b8-4516-b27b-c89ebea351db}, ! UUID
+  {4ca21d83-4430-4caf-8519-cab651e486f2}, ! Version UUID
+  1366308537,                             ! Creation Timestamp
+  1366308537,                             ! Version Timestamp
+  {54fc2615-b075-46c7-90fa-97be7e2d2db4}; ! Name of Object 1
+

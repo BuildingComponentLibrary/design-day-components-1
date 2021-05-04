@@ -1,0 +1,40 @@
+
+OS:Version,
+  {1dad1940-3b44-44d3-9c04-9fc1d9b9bd02}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {b554af17-7440-4dda-b4a9-c71769afadf1}, ! Handle
+  Idaho Falls Fanning Field Ann Clg 2% Condns WB=>MDB, ! Name
+  27.4,                                   ! Maximum Dry-Bulb Temperature {C}
+  18.9,                                   ! Daily Dry-Bulb Temperature Range {deltaC}
+  16.5,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  85170,                                  ! Barometric Pressure {Pa}
+  4.8,                                    ! Wind Speed {m/s}
+  200,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  7,                                      ! Month
+  SummerDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAETau,                              ! Solar Model Indicator
+  ,                                       ! Beam Solar Day Schedule Name
+  ,                                       ! Diffuse Solar Day Schedule Name
+  0.398,                                  ! ASHRAE Taub {dimensionless}
+  2.067;                                  ! ASHRAE Taud {dimensionless}
+
+OS:ComponentData,
+  {03309ac4-0d58-49c5-9bed-41f9e44b2f64}, ! Handle
+  Component Data 1,                       ! Name
+  {be9224b8-1bb8-4349-8629-d27e63dcfb56}, ! UUID
+  {3e7e9e65-58bb-427d-801e-dc89067ed2b6}, ! Version UUID
+  1366307285,                             ! Creation Timestamp
+  1366307285,                             ! Version Timestamp
+  {b554af17-7440-4dda-b4a9-c71769afadf1}; ! Name of Object 1
+

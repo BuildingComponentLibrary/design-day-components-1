@@ -1,0 +1,36 @@
+
+OS:Version,
+  {7cd66229-a00b-4be3-806b-6a3af5817e8c}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {fd0bc23a-624c-4108-83cc-ec95792b2a92}, ! Handle
+  Abilene Dyess Afb Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  0.6,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -13.4,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  94947,                                  ! Barometric Pressure {Pa}
+  4.1,                                    ! Wind Speed {m/s}
+  10,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {e644ea1c-a483-4e8c-9964-ddc127678fe5}, ! Handle
+  Component Data 1,                       ! Name
+  {bd0c5fdf-0e40-4677-a73b-22674de5ca5a}, ! UUID
+  {62bf5fb4-512d-455f-bc16-b97fc1fa708b}, ! Version UUID
+  1366310546,                             ! Creation Timestamp
+  1366310546,                             ! Version Timestamp
+  {fd0bc23a-624c-4108-83cc-ec95792b2a92}; ! Name of Object 1
+

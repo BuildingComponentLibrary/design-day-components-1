@@ -1,0 +1,36 @@
+
+OS:Version,
+  {755814cc-cdbb-44a0-815b-0e5f222bb617}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {eee77057-c1e9-4ad5-bd41-9edb47487ed3}, ! Handle
+  Columbus/Int'l Airport Ann Htg 99.6% Condns DB, ! Name
+  -16,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -16,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98369,                                  ! Barometric Pressure {Pa}
+  3.6,                                    ! Wind Speed {m/s}
+  260,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {7fa0771b-6d8e-4c44-9264-2374a6d553a1}, ! Handle
+  Component Data 1,                       ! Name
+  {61a7e0e9-b3c0-4f9c-a301-110e1a5505b9}, ! UUID
+  {7ac19e60-bdc3-48f7-8906-099c52dccfc8}, ! Version UUID
+  1366309788,                             ! Creation Timestamp
+  1366309788,                             ! Version Timestamp
+  {eee77057-c1e9-4ad5-bd41-9edb47487ed3}; ! Name of Object 1
+

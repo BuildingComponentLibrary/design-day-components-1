@@ -1,0 +1,36 @@
+
+OS:Version,
+  {40eefbe3-c9fa-488b-8181-1f5d16b9bcb6}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {b0d4f6f9-0afe-4764-9f45-f88cfbd38594}, ! Handle
+  Aspen Pitkin Co Sar Ann Htg Wind 99.6% Condns WS=>MCDB, ! Name
+  0.8,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  0.8,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  75209,                                  ! Barometric Pressure {Pa}
+  8.1,                                    ! Wind Speed {m/s}
+  200,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {163c1c2e-4289-416a-9bb2-b2cfcc8e710d}, ! Handle
+  Component Data 1,                       ! Name
+  {ab09e6d1-6d8b-4430-a0be-113e51d784e8}, ! UUID
+  {e3b595c9-657f-449f-835e-5e5ebbf8fbf8}, ! Version UUID
+  1366306650,                             ! Creation Timestamp
+  1366306650,                             ! Version Timestamp
+  {b0d4f6f9-0afe-4764-9f45-f88cfbd38594}; ! Name of Object 1
+

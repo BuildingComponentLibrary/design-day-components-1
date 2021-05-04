@@ -1,0 +1,36 @@
+
+OS:Version,
+  {3679d895-f054-493b-9ed2-972dfdb00c80}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {df768d88-4bc5-4f75-8fde-33476dcfbe15}, ! Handle
+  Lansing Capital City Arpt Ann Htg Wind 99.6% Condns WS=>MCDB, ! Name
+  -4.7,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -4.7,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98287,                                  ! Barometric Pressure {Pa}
+  12.7,                                   ! Wind Speed {m/s}
+  280,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {28c81664-7ea7-4a87-b19d-39cc84186a70}, ! Handle
+  Component Data 1,                       ! Name
+  {81d14fde-285c-4a67-9f1d-594870c3da61}, ! UUID
+  {7d446c46-9cd4-4452-972d-35aa00caac83}, ! Version UUID
+  1366308052,                             ! Creation Timestamp
+  1366308052,                             ! Version Timestamp
+  {df768d88-4bc5-4f75-8fde-33476dcfbe15}; ! Name of Object 1
+

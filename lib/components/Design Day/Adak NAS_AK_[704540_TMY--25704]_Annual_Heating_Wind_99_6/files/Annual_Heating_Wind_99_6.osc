@@ -1,0 +1,36 @@
+
+OS:Version,
+  {4cdc0eee-7db7-4cbe-ad64-461d7c1fc16c}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {1c56b229-3a89-434e-9187-39602eef32ff}, ! Handle
+  Adak NAS Ann Htg Wind 99.6% Condns WS=>MCDB, ! Name
+  0.9,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  0.9,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101265,                                 ! Barometric Pressure {Pa}
+  19.2,                                   ! Wind Speed {m/s}
+  200,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {519501d8-5cc7-420b-bbd6-02cfce45aa76}, ! Handle
+  Component Data 1,                       ! Name
+  {29c4a98f-1be3-4342-827e-00cbdb617229}, ! UUID
+  {7fc506f1-3f97-410b-ab18-e5a651833fb3}, ! Version UUID
+  1364004392,                             ! Creation Timestamp
+  1364004392,                             ! Version Timestamp
+  {1c56b229-3a89-434e-9187-39602eef32ff}; ! Name of Object 1
+

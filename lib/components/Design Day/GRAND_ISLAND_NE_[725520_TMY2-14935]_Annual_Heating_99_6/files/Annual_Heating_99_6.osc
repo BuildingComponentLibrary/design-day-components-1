@@ -1,0 +1,36 @@
+
+OS:Version,
+  {d852a163-8195-4be4-a579-9d1f25b7cca6}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {6cb55643-2af9-4a91-8cc5-a0ff17944e13}, ! Handle
+  GRAND_ISLAND Ann Htg 99.6% Condns DB,   ! Name
+  -21.2,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -21.2,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  94708,                                  ! Barometric Pressure {Pa}
+  4.7,                                    ! Wind Speed {m/s}
+  0,                                      ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {6ead21a9-9fd0-4784-bbbc-a0c4477cb74d}, ! Handle
+  Component Data 1,                       ! Name
+  {9e4ec6a6-c189-41f2-a079-4a43db96d888}, ! UUID
+  {847b4ac3-dd85-42ea-88b2-62fffdf99082}, ! Version UUID
+  1366309121,                             ! Creation Timestamp
+  1366309121,                             ! Version Timestamp
+  {6cb55643-2af9-4a91-8cc5-a0ff17944e13}; ! Name of Object 1
+

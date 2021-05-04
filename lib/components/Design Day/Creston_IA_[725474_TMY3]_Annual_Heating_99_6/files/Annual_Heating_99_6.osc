@@ -1,0 +1,36 @@
+
+OS:Version,
+  {b0ff7e15-7783-495c-b604-909b14b5dbff}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {66df2c43-e9d0-4220-9c92-fa2b99aa56ad}, ! Handle
+  Creston Ann Htg 99.6% Condns DB,        ! Name
+  -20.9,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -20.9,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  96680,                                  ! Barometric Pressure {Pa}
+  3.8,                                    ! Wind Speed {m/s}
+  280,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {fcc5d0c6-8384-4611-bee7-a8bd70640919}, ! Handle
+  Component Data 1,                       ! Name
+  {9167424a-0906-471e-aed0-c4736ae816b2}, ! UUID
+  {7fc0748d-af36-4e9d-a650-5419b92e340f}, ! Version UUID
+  1366307164,                             ! Creation Timestamp
+  1366307164,                             ! Version Timestamp
+  {66df2c43-e9d0-4220-9c92-fa2b99aa56ad}; ! Name of Object 1
+

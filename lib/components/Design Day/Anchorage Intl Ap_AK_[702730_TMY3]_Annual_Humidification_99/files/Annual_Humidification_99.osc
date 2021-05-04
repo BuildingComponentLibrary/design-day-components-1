@@ -1,0 +1,36 @@
+
+OS:Version,
+  {d48bf210-33a0-4c9b-b1c7-2a894001da8c}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {45de5de0-e517-4537-83b9-7edfe7cc9720}, ! Handle
+  Anchorage Intl Ap Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  -18.7,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -25,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100905,                                 ! Barometric Pressure {Pa}
+  1.8,                                    ! Wind Speed {m/s}
+  350,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {c1258c4d-dc14-4df6-8c5f-a85451e4d313}, ! Handle
+  Component Data 1,                       ! Name
+  {587176cf-a284-4a09-a666-9ca0fd62c003}, ! UUID
+  {4dbf6d8a-cf37-47c4-a8ff-8911aa4d2e77}, ! Version UUID
+  1366304708,                             ! Creation Timestamp
+  1366304708,                             ! Version Timestamp
+  {45de5de0-e517-4537-83b9-7edfe7cc9720}; ! Name of Object 1
+

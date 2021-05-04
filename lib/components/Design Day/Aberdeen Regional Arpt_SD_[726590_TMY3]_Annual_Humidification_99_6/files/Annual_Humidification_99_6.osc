@@ -1,0 +1,36 @@
+
+OS:Version,
+  {1db27348-415c-4fa7-b857-cc19a76965cc}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {fe6607ff-0cab-4647-a8be-86b8cbca8cba}, ! Handle
+  Aberdeen Regional Arpt Ann Hum_n 99.6% Condns DP=>MCDB, ! Name
+  -27,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -31.1,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  96634,                                  ! Barometric Pressure {Pa}
+  3.3,                                    ! Wind Speed {m/s}
+  240,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {70aa9cf8-28f1-47c6-b558-147c69872f9f}, ! Handle
+  Component Data 1,                       ! Name
+  {d8de274e-96aa-4e6c-8943-315f2fa1e2a5}, ! UUID
+  {3e459874-d95a-46a4-8b91-b6df8ad36ffb}, ! Version UUID
+  1366310384,                             ! Creation Timestamp
+  1366310384,                             ! Version Timestamp
+  {fe6607ff-0cab-4647-a8be-86b8cbca8cba}; ! Name of Object 1
+

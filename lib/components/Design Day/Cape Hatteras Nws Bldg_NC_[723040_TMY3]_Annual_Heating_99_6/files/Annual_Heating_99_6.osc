@@ -1,0 +1,36 @@
+
+OS:Version,
+  {845c1038-65a4-43de-8e99-fdb29ff5e30f}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {b1339757-9bb1-4a62-8423-ea8d886362e1}, ! Handle
+  Cape Hatteras Nws Bldg Ann Htg 99.6% Condns DB, ! Name
+  -1.6,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -1.6,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101289,                                 ! Barometric Pressure {Pa}
+  3.9,                                    ! Wind Speed {m/s}
+  0,                                      ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {3c880bf2-7022-47d1-bd77-431c0823dfae}, ! Handle
+  Component Data 1,                       ! Name
+  {5e3cb11c-1de9-4794-a221-aeca5128d7df}, ! UUID
+  {364b1854-68f5-4258-bd8b-a37323f23da8}, ! Version UUID
+  1366308879,                             ! Creation Timestamp
+  1366308879,                             ! Version Timestamp
+  {b1339757-9bb1-4a62-8423-ea8d886362e1}; ! Name of Object 1
+

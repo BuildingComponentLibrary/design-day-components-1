@@ -1,0 +1,36 @@
+
+OS:Version,
+  {b87ccc9e-2367-46aa-a341-64e44f873037}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {680b1eac-3e2f-4ec8-ba1e-6493f47a8fc8}, ! Handle
+  Hartford Brainard Fd Ann Htg 99% Condns DB, ! Name
+  -11.9,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -11.9,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101253,                                 ! Barometric Pressure {Pa}
+  4,                                      ! Wind Speed {m/s}
+  320,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {380203bb-de9e-456b-9ae8-d518f28c432d}, ! Handle
+  Component Data 1,                       ! Name
+  {45811946-fb0e-45dd-8124-5d0918ae0cdd}, ! UUID
+  {a5896383-eaf5-45de-b516-cc40c5372acb}, ! Version UUID
+  1366306759,                             ! Creation Timestamp
+  1366306759,                             ! Version Timestamp
+  {680b1eac-3e2f-4ec8-ba1e-6493f47a8fc8}; ! Name of Object 1
+

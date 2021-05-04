@@ -1,0 +1,36 @@
+
+OS:Version,
+  {dc984d39-19ff-4dab-a64e-c5f5b78faf05}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {e31625f7-c6ba-4bd3-911b-25382c11b650}, ! Handle
+  Goodland Renner Field Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  -13,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -19.1,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  88671,                                  ! Barometric Pressure {Pa}
+  5,                                      ! Wind Speed {m/s}
+  270,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {34d8271c-d35c-49d5-a74a-f1e74ddab77b}, ! Handle
+  Component Data 1,                       ! Name
+  {e3fa2cd1-f7a5-47fd-b4ab-18047deb4569}, ! UUID
+  {dcaa20fc-8c64-49b2-8415-9844fe080669}, ! Version UUID
+  1366307533,                             ! Creation Timestamp
+  1366307533,                             ! Version Timestamp
+  {e31625f7-c6ba-4bd3-911b-25382c11b650}; ! Name of Object 1
+

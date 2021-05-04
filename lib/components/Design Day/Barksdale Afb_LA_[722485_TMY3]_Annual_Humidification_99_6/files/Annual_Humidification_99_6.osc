@@ -1,0 +1,36 @@
+
+OS:Version,
+  {cd242f39-5da1-4228-b8f3-283a6c6210c6}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {bd5543de-970f-4d52-82fb-a8790a931f91}, ! Handle
+  Barksdale Afb Ann Hum_n 99.6% Condns DP=>MCDB, ! Name
+  -2.6,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -12.4,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100678,                                 ! Barometric Pressure {Pa}
+  2.9,                                    ! Wind Speed {m/s}
+  330,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {1a3c263d-bc97-4a43-9023-333689f78ad3}, ! Handle
+  Component Data 1,                       ! Name
+  {d7841881-27d1-4412-9cc2-143cda751a50}, ! UUID
+  {7184952a-0f36-4646-8296-cddc000d050d}, ! Version UUID
+  1366307699,                             ! Creation Timestamp
+  1366307699,                             ! Version Timestamp
+  {bd5543de-970f-4d52-82fb-a8790a931f91}; ! Name of Object 1
+

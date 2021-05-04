@@ -1,0 +1,36 @@
+
+OS:Version,
+  {fa84a202-4665-4eff-a46f-69d7753cb6ee}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {d28cfdeb-ee06-4225-9b32-2860ef315d71}, ! Handle
+  Kake Seaplane Base Ann Htg 99% Condns DB, ! Name
+  -8.7,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -8.7,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101325,                                 ! Barometric Pressure {Pa}
+  2.4,                                    ! Wind Speed {m/s}
+  70,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {4f603059-6543-487c-bc75-2e8593d012d0}, ! Handle
+  Component Data 1,                       ! Name
+  {e04a404a-637b-4d1c-bf17-fdb8281c2c27}, ! UUID
+  {baf34ca4-594f-469d-8173-e9b91bc61144}, ! Version UUID
+  1366305340,                             ! Creation Timestamp
+  1366305340,                             ! Version Timestamp
+  {d28cfdeb-ee06-4225-9b32-2860ef315d71}; ! Name of Object 1
+

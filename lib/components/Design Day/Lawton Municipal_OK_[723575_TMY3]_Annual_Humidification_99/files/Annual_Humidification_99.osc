@@ -1,0 +1,36 @@
+
+OS:Version,
+  {b8bf5ee3-7bd9-4cd2-94de-f5fd9779bcce}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {b8ba779c-6d72-4a3c-86c3-81203a1ad717}, ! Handle
+  Lawton Municipal Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  -2,                                     ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -12.1,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  97330,                                  ! Barometric Pressure {Pa}
+  4,                                      ! Wind Speed {m/s}
+  0,                                      ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {b7cde727-bee8-4001-a45f-41555ad8b72b}, ! Handle
+  Component Data 1,                       ! Name
+  {5a9533f8-4530-49ab-ae6e-96eb51155a0d}, ! UUID
+  {1769d547-87f3-41a5-8022-5dec7b04c537}, ! Version UUID
+  1366309902,                             ! Creation Timestamp
+  1366309902,                             ! Version Timestamp
+  {b8ba779c-6d72-4a3c-86c3-81203a1ad717}; ! Name of Object 1
+

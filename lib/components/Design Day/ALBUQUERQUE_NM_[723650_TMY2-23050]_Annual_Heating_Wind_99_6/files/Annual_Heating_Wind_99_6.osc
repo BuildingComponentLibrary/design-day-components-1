@@ -1,0 +1,36 @@
+
+OS:Version,
+  {4050bde0-4cf6-4628-9719-2f0034834123}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {f51f0f7d-2ea3-42aa-873b-b8943efbe6a8}, ! Handle
+  ALBUQUERQUE Ann Htg Wind 99.6% Condns WS=>MCDB, ! Name
+  0.9,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  0.9,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  83328,                                  ! Barometric Pressure {Pa}
+  14.6,                                   ! Wind Speed {m/s}
+  0,                                      ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {1646a4f1-6371-469d-bb64-71b937a0f63b}, ! Handle
+  Component Data 1,                       ! Name
+  {c883191b-78b0-4e89-bae3-f0fd6d9097aa}, ! UUID
+  {9d5533fb-46aa-4968-9429-b4e85a83a18f}, ! Version UUID
+  1366309356,                             ! Creation Timestamp
+  1366309356,                             ! Version Timestamp
+  {f51f0f7d-2ea3-42aa-873b-b8943efbe6a8}; ! Name of Object 1
+

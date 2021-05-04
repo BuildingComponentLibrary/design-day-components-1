@@ -1,0 +1,40 @@
+
+OS:Version,
+  {84f3c012-d339-423d-b6d4-442975231e33}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {c1d4d3e6-a92f-4cc8-af29-bbe4bb2a7176}, ! Handle
+  Lancaster Gen Wm Fox Field Ann Clg .4% Condns Enth=>MDB, ! Name
+  34.6,                                   ! Maximum Dry-Bulb Temperature {C}
+  16,                                     ! Daily Dry-Bulb Temperature Range {deltaC}
+  63500,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  93048,                                  ! Barometric Pressure {Pa}
+  6.5,                                    ! Wind Speed {m/s}
+  240,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  7,                                      ! Month
+  SummerDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Enthalpy,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAETau,                              ! Solar Model Indicator
+  ,                                       ! Beam Solar Day Schedule Name
+  ,                                       ! Diffuse Solar Day Schedule Name
+  0.431,                                  ! ASHRAE Taub {dimensionless}
+  2.057;                                  ! ASHRAE Taud {dimensionless}
+
+OS:ComponentData,
+  {abde933d-39ac-4e11-891c-25b5b39abe98}, ! Handle
+  Component Data 1,                       ! Name
+  {f4a463d4-5bbc-41eb-9c31-fe5bec0341ae}, ! UUID
+  {3be9b3eb-8394-4e17-899f-e9f4765716a3}, ! Version UUID
+  1366306458,                             ! Creation Timestamp
+  1366306458,                             ! Version Timestamp
+  {c1d4d3e6-a92f-4cc8-af29-bbe4bb2a7176}; ! Name of Object 1
+

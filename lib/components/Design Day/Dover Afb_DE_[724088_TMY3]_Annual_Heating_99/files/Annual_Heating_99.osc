@@ -1,0 +1,36 @@
+
+OS:Version,
+  {6cc7ee38-a09c-47dc-94c5-30cd969f2778}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {56925991-88b2-4774-a69f-a41b954a29cf}, ! Handle
+  Dover Afb Ann Htg 99% Condns DB,        ! Name
+  -7.7,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -7.7,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101241,                                 ! Barometric Pressure {Pa}
+  4.2,                                    ! Wind Speed {m/s}
+  330,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {6e0bb6f6-f6f8-47ab-bac4-60291fdeaebb}, ! Handle
+  Component Data 1,                       ! Name
+  {c0b93bde-f347-4584-a874-f58be007ea23}, ! UUID
+  {3420e621-5a0c-4175-a656-b3f7800f5fc6}, ! Version UUID
+  1366306769,                             ! Creation Timestamp
+  1366306769,                             ! Version Timestamp
+  {56925991-88b2-4774-a69f-a41b954a29cf}; ! Name of Object 1
+

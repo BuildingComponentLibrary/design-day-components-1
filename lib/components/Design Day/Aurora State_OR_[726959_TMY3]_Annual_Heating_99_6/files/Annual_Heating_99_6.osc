@@ -1,0 +1,36 @@
+
+OS:Version,
+  {a7c7d29a-efb8-4c5d-9c5c-2b1c7163b346}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {553174ca-1037-43e7-9cc9-26da441bb502}, ! Handle
+  Aurora State Ann Htg 99.6% Condns DB,   ! Name
+  -2.5,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -2.5,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100606,                                 ! Barometric Pressure {Pa}
+  0.8,                                    ! Wind Speed {m/s}
+  0,                                      ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {bbcec0af-5309-4138-9c99-4a8940c6812f}, ! Handle
+  Component Data 1,                       ! Name
+  {80f68c6b-7362-4474-a346-5baa7bc7bf2a}, ! UUID
+  {c3fe8879-a719-48bd-85e8-5ee73fa2bece}, ! Version UUID
+  1366309980,                             ! Creation Timestamp
+  1366309980,                             ! Version Timestamp
+  {553174ca-1037-43e7-9cc9-26da441bb502}; ! Name of Object 1
+

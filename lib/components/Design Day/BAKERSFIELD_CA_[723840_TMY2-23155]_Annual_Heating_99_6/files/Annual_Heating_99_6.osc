@@ -1,0 +1,36 @@
+
+OS:Version,
+  {bc0a689c-1bb2-4c16-afc1-189c0a4e9668}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {e2097ea2-84c0-4d2d-aa00-76a622a0cfdf}, ! Handle
+  BAKERSFIELD Ann Htg 99.6% Condns DB,    ! Name
+  0.1,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  0.1,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99536,                                  ! Barometric Pressure {Pa}
+  1.7,                                    ! Wind Speed {m/s}
+  90,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {5236e66f-bad7-4ba9-9d1e-ed5b707f8e88}, ! Handle
+  Component Data 1,                       ! Name
+  {bc033223-320e-4eb1-86d4-b73e75200612}, ! UUID
+  {68e668e8-1e6a-4dc3-8dfc-f2ea453a803d}, ! Version UUID
+  1366306367,                             ! Creation Timestamp
+  1366306367,                             ! Version Timestamp
+  {e2097ea2-84c0-4d2d-aa00-76a622a0cfdf}; ! Name of Object 1
+

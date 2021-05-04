@@ -1,0 +1,36 @@
+
+OS:Version,
+  {5161b1f5-c815-4c5c-949f-e529fd9a6061}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {8b617a06-4f1c-4653-b808-f25675c3a851}, ! Handle
+  Dickinson Municipal Ap Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  -9,                                     ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -9,                                     ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  92210,                                  ! Barometric Pressure {Pa}
+  13,                                     ! Wind Speed {m/s}
+  290,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {38625421-c3f6-4cac-a54e-82c22b0e6714}, ! Handle
+  Component Data 1,                       ! Name
+  {929ccbbb-6d0f-4ba1-808c-23b0d95c2c76}, ! UUID
+  {7feebf09-8ffa-428b-a9ce-ced35d406117}, ! Version UUID
+  1366309015,                             ! Creation Timestamp
+  1366309015,                             ! Version Timestamp
+  {8b617a06-4f1c-4653-b808-f25675c3a851}; ! Name of Object 1
+

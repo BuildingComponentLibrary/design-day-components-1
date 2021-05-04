@@ -1,0 +1,36 @@
+
+OS:Version,
+  {bc3c06ab-f723-447e-a553-8187cdea9ca1}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {19bfaf87-d57c-4607-a166-6294cd5b616e}, ! Handle
+  Elko Municipal Arpt Ann Htg 99% Condns DB, ! Name
+  -16.7,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -16.7,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  84059,                                  ! Barometric Pressure {Pa}
+  1.6,                                    ! Wind Speed {m/s}
+  90,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {6c77cfc9-787b-4095-bced-ba066b25c5f3}, ! Handle
+  Component Data 1,                       ! Name
+  {9f160a45-b769-4b5e-9657-162501378ccc}, ! UUID
+  {e336e490-9496-42f7-bf84-83339b24a168}, ! Version UUID
+  1366309466,                             ! Creation Timestamp
+  1366309466,                             ! Version Timestamp
+  {19bfaf87-d57c-4607-a166-6294cd5b616e}; ! Name of Object 1
+

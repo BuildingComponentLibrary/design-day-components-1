@@ -1,0 +1,36 @@
+
+OS:Version,
+  {7d5e99f3-3381-4a71-95a7-401d78f62cc9}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {f9954114-0bb1-4627-a6ab-55a583c9b879}, ! Handle
+  Hooper Bay Ann Htg 99% Condns DB,       ! Name
+  -25.2,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -25.2,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101253,                                 ! Barometric Pressure {Pa}
+  4.6,                                    ! Wind Speed {m/s}
+  100,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {3992944a-1908-447f-9072-8360fd7e11ae}, ! Handle
+  Component Data 1,                       ! Name
+  {d366b3d9-8d3e-435f-a015-42df8f8eb529}, ! UUID
+  {fc453c4f-ee2b-451a-98b9-82d5519c1977}, ! Version UUID
+  1366305317,                             ! Creation Timestamp
+  1366305317,                             ! Version Timestamp
+  {f9954114-0bb1-4627-a6ab-55a583c9b879}; ! Name of Object 1
+

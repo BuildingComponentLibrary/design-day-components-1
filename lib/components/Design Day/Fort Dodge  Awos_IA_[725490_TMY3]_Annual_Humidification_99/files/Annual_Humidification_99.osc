@@ -1,0 +1,36 @@
+
+OS:Version,
+  {5b31a806-b69a-4d7e-a1bd-2290ae4f5a75}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {2827d3d7-bc6e-41e0-852e-43a5373e610b}, ! Handle
+  Fort Dodge  Awos Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  -20.7,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -26,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  97132,                                  ! Barometric Pressure {Pa}
+  3.3,                                    ! Wind Speed {m/s}
+  310,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {d93a094c-757b-4ac3-8d84-1576d5059be2}, ! Handle
+  Component Data 1,                       ! Name
+  {af027dbb-9736-46ba-8386-227798c63429}, ! UUID
+  {a2bf7d53-9475-4987-811d-f0ce358b3425}, ! Version UUID
+  1366307197,                             ! Creation Timestamp
+  1366307197,                             ! Version Timestamp
+  {2827d3d7-bc6e-41e0-852e-43a5373e610b}; ! Name of Object 1
+

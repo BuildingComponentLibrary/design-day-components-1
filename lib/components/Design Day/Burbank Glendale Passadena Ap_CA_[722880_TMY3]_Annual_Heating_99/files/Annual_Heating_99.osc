@@ -1,0 +1,36 @@
+
+OS:Version,
+  {41e0eedc-3c6b-478d-b047-dc51e1bf7e7b}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {254ad6ac-018b-41f0-b107-0730a18e10fb}, ! Handle
+  Burbank Glendale Passadena Ap Ann Htg 99% Condns DB, ! Name
+  5.3,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  5.3,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98639,                                  ! Barometric Pressure {Pa}
+  0.8,                                    ! Wind Speed {m/s}
+  330,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {eea37720-98db-4d83-9ad6-c15e81654c3b}, ! Handle
+  Component Data 1,                       ! Name
+  {b183873e-8a05-495a-ace1-15629483b772}, ! UUID
+  {bbb010f1-966f-4330-801a-5beeb020b106}, ! Version UUID
+  1366306392,                             ! Creation Timestamp
+  1366306392,                             ! Version Timestamp
+  {254ad6ac-018b-41f0-b107-0730a18e10fb}; ! Name of Object 1
+

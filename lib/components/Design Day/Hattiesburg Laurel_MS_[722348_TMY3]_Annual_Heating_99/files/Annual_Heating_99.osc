@@ -1,0 +1,36 @@
+
+OS:Version,
+  {3ad54a98-91cb-4638-b4e0-a082b4ba7ca8}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {47fa6a54-6e5b-4ea6-a468-79bcd15e6e40}, ! Handle
+  Hattiesburg Laurel Ann Htg 99% Condns DB, ! Name
+  -2.2,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -2.2,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100213,                                 ! Barometric Pressure {Pa}
+  1.5,                                    ! Wind Speed {m/s}
+  350,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {cb252214-2591-4ab3-ae71-874db820ca9e}, ! Handle
+  Component Data 1,                       ! Name
+  {e6dd30ad-6828-43b3-a946-9e43e84ef378}, ! UUID
+  {f97eea2b-808f-4a5b-983b-744e81de99e8}, ! Version UUID
+  1366308632,                             ! Creation Timestamp
+  1366308632,                             ! Version Timestamp
+  {47fa6a54-6e5b-4ea6-a468-79bcd15e6e40}; ! Name of Object 1
+

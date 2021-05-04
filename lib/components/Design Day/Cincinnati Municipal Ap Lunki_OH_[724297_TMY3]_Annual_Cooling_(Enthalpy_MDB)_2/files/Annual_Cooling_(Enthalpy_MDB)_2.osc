@@ -1,0 +1,40 @@
+
+OS:Version,
+  {aaced8e1-1e50-4b88-8109-29c5050f2953}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {582f4c45-d079-43e9-84ef-990e7693cea2}, ! Handle
+  Cincinnati Municipal Ap Lunki Ann Clg 2% Condns Enth=>MDB, ! Name
+  28.9,                                   ! Maximum Dry-Bulb Temperature {C}
+  11,                                     ! Daily Dry-Bulb Temperature Range {deltaC}
+  73000,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99548,                                  ! Barometric Pressure {Pa}
+  4.3,                                    ! Wind Speed {m/s}
+  240,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  7,                                      ! Month
+  SummerDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Enthalpy,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAETau,                              ! Solar Model Indicator
+  ,                                       ! Beam Solar Day Schedule Name
+  ,                                       ! Diffuse Solar Day Schedule Name
+  0.505,                                  ! ASHRAE Taub {dimensionless}
+  1.887;                                  ! ASHRAE Taud {dimensionless}
+
+OS:ComponentData,
+  {5890a9d4-205f-444d-9fb4-a1d8c78bbbab}, ! Handle
+  Component Data 1,                       ! Name
+  {f51b6dd7-8575-47c4-8b4f-cd55ac20bbd1}, ! UUID
+  {08de7eb0-4b87-45b0-85ad-a5fca5fd4678}, ! Version UUID
+  1366309777,                             ! Creation Timestamp
+  1366309777,                             ! Version Timestamp
+  {582f4c45-d079-43e9-84ef-990e7693cea2}; ! Name of Object 1
+

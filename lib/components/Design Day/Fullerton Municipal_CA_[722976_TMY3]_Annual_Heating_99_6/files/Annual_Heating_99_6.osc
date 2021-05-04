@@ -1,0 +1,36 @@
+
+OS:Version,
+  {0121dee1-540e-4abe-898f-f03ae839e383}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {2bc3a3c4-5d67-4ce4-9609-d6bc435ade83}, ! Handle
+  Fullerton Municipal Ann Htg 99.6% Condns DB, ! Name
+  4,                                      ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  4,                                      ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100977,                                 ! Barometric Pressure {Pa}
+  0.6,                                    ! Wind Speed {m/s}
+  90,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {0b99905c-cc20-4206-b18c-09b7830f92b3}, ! Handle
+  Component Data 1,                       ! Name
+  {eddfbf3f-2cc0-4e95-a88c-83346745e362}, ! UUID
+  {cfed7481-2231-4789-9056-b17daa1ebfc4}, ! Version UUID
+  1366306441,                             ! Creation Timestamp
+  1366306441,                             ! Version Timestamp
+  {2bc3a3c4-5d67-4ce4-9609-d6bc435ade83}; ! Name of Object 1
+

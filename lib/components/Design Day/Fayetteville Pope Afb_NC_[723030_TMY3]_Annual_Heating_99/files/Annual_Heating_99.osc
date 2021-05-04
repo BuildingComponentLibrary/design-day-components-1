@@ -1,0 +1,36 @@
+
+OS:Version,
+  {261bcc8b-6995-42c4-b419-d6299555567f}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {8db4f413-81d0-4b0b-a462-fd55b29f30c5}, ! Handle
+  Fayetteville Pope Afb Ann Htg 99% Condns DB, ! Name
+  -3.8,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -3.8,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100535,                                 ! Barometric Pressure {Pa}
+  1.6,                                    ! Wind Speed {m/s}
+  0,                                      ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {944ca12f-29ab-4b49-816d-96956700c691}, ! Handle
+  Component Data 1,                       ! Name
+  {a2e13b6b-3991-48c8-8518-56d13da241f3}, ! UUID
+  {1c3fb23c-345e-42b0-b28c-b26661f3f874}, ! Version UUID
+  1366308910,                             ! Creation Timestamp
+  1366308910,                             ! Version Timestamp
+  {8db4f413-81d0-4b0b-a462-fd55b29f30c5}; ! Name of Object 1
+

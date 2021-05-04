@@ -1,0 +1,36 @@
+
+OS:Version,
+  {1c4a329d-e0e2-4c6b-9ac1-2c04e1863314}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {640fac55-06e3-449d-a2c1-39c6cc9241a8}, ! Handle
+  Corvallis Muni Ann Htg 99% Condns DB,   ! Name
+  -2.4,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -2.4,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100403,                                 ! Barometric Pressure {Pa}
+  1,                                      ! Wind Speed {m/s}
+  300,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {79d6e3a2-c527-43cb-bd85-176c0c86f7b0}, ! Handle
+  Component Data 1,                       ! Name
+  {065a50d3-f729-4d2d-9e29-6ff0e718aa53}, ! UUID
+  {192a7208-bce0-453e-8ed0-66b281e33b3c}, ! Version UUID
+  1366310000,                             ! Creation Timestamp
+  1366310000,                             ! Version Timestamp
+  {640fac55-06e3-449d-a2c1-39c6cc9241a8}; ! Name of Object 1
+

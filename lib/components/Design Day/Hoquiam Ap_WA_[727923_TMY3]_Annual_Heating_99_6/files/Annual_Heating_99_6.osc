@@ -1,0 +1,36 @@
+
+OS:Version,
+  {a8491e05-5689-45a8-a4a6-029580e5c3c9}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {75bd7f43-ea31-4209-aad3-0b1d5e63f7f5}, ! Handle
+  Hoquiam Ap Ann Htg 99.6% Condns DB,     ! Name
+  -2.2,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -2.2,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101277,                                 ! Barometric Pressure {Pa}
+  4,                                      ! Wind Speed {m/s}
+  70,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {6936904c-1c3f-44bf-ac3a-b20f64bf0e04}, ! Handle
+  Component Data 1,                       ! Name
+  {d73c2db6-49fd-42f8-a0bd-c11d76422c40}, ! UUID
+  {0e97eb51-744e-45ac-90d6-8150e67a3511}, ! Version UUID
+  1366311290,                             ! Creation Timestamp
+  1366311290,                             ! Version Timestamp
+  {75bd7f43-ea31-4209-aad3-0b1d5e63f7f5}; ! Name of Object 1
+

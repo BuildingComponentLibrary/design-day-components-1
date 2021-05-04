@@ -1,0 +1,36 @@
+
+OS:Version,
+  {86881340-3ec9-4150-8726-bc38b5e3a343}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {0380bbc3-7ba8-4007-8655-d1f3576b212b}, ! Handle
+  Ainsworth Municipal Ann Htg 99% Condns DB, ! Name
+  -18,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -18,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  92199,                                  ! Barometric Pressure {Pa}
+  4.2,                                    ! Wind Speed {m/s}
+  320,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {85b868e0-4839-46d1-aaed-189ebfa96b49}, ! Handle
+  Component Data 1,                       ! Name
+  {585b6715-7aef-492f-ae36-4099c3fd7bb7}, ! UUID
+  {dc450057-e09a-40fa-a121-8a8812600e58}, ! Version UUID
+  1366309076,                             ! Creation Timestamp
+  1366309076,                             ! Version Timestamp
+  {0380bbc3-7ba8-4007-8655-d1f3576b212b}; ! Name of Object 1
+

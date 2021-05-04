@@ -1,0 +1,36 @@
+
+OS:Version,
+  {015dda0b-05c8-465a-bee2-434436875c1f}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {cca33bad-99cc-42a5-b529-a06f719e30b1}, ! Handle
+  Great Bend  Awos Ann Htg Wind 99.6% Condns WS=>MCDB, ! Name
+  1.6,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  1.6,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  94605,                                  ! Barometric Pressure {Pa}
+  14.4,                                   ! Wind Speed {m/s}
+  350,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {977a1f07-d103-4f8f-851d-c51e750b0447}, ! Handle
+  Component Data 1,                       ! Name
+  {ac1c7489-3792-4733-ae9b-749994685908}, ! UUID
+  {98a410ae-ab5b-41bf-af45-72c07de6cdd9}, ! Version UUID
+  1366307541,                             ! Creation Timestamp
+  1366307541,                             ! Version Timestamp
+  {cca33bad-99cc-42a5-b529-a06f719e30b1}; ! Name of Object 1
+

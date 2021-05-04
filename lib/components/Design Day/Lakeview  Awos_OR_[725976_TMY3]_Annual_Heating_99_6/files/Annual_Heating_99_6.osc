@@ -1,0 +1,36 @@
+
+OS:Version,
+  {aebbbc66-4e48-431a-98a6-af9087fc6aaf}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {c57b8d84-f015-407c-9aca-b3c94f1e3a1e}, ! Handle
+  Lakeview  Awos Ann Htg 99.6% Condns DB, ! Name
+  -16.3,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -16.3,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  85170,                                  ! Barometric Pressure {Pa}
+  1.7,                                    ! Wind Speed {m/s}
+  350,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {6e0e5ce3-7f9f-4bf0-beba-73fd8545dd97}, ! Handle
+  Component Data 1,                       ! Name
+  {15003a67-1bf3-4c34-a1ef-26a84fff3357}, ! UUID
+  {faeebfbe-67af-4ddd-a173-f04e462df29b}, ! Version UUID
+  1366310025,                             ! Creation Timestamp
+  1366310025,                             ! Version Timestamp
+  {c57b8d84-f015-407c-9aca-b3c94f1e3a1e}; ! Name of Object 1
+

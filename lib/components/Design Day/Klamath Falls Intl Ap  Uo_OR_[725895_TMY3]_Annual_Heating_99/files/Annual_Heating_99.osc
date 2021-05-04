@@ -1,0 +1,36 @@
+
+OS:Version,
+  {45100744-c333-47ab-8505-7c3d9aef1197}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {96e518a3-4239-4c97-9054-a0697a4cebbe}, ! Handle
+  Klamath Falls Intl Ap  Uo Ann Htg 99% Condns DB, ! Name
+  -11.2,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -11.2,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  87502,                                  ! Barometric Pressure {Pa}
+  1.2,                                    ! Wind Speed {m/s}
+  320,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {50ea33b0-2128-4297-8b0d-1939a096ccd9}, ! Handle
+  Component Data 1,                       ! Name
+  {c6920246-cf04-4124-a8c0-852f1786584f}, ! UUID
+  {cc9ec09d-dbed-4126-a81c-ef5f04b2af1e}, ! Version UUID
+  1366310015,                             ! Creation Timestamp
+  1366310015,                             ! Version Timestamp
+  {96e518a3-4239-4c97-9054-a0697a4cebbe}; ! Name of Object 1
+

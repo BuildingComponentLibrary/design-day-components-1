@@ -1,0 +1,36 @@
+
+OS:Version,
+  {449ec0aa-cec8-4d1f-a531-8900a8887a33}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {17b1702d-c709-4a75-b6cc-4851e698a364}, ! Handle
+  FARGO Ann Htg 99% Condns DB,            ! Name
+  -26.2,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -26.2,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98076,                                  ! Barometric Pressure {Pa}
+  3.6,                                    ! Wind Speed {m/s}
+  200,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {0a510d1a-ab54-43a5-8b88-30496ad54c34}, ! Handle
+  Component Data 1,                       ! Name
+  {cc41a2d9-896e-4ff7-9f3b-ecd59e3573ea}, ! UUID
+  {70a50d18-f344-4eb5-886a-bcfd21838e00}, ! Version UUID
+  1366309036,                             ! Creation Timestamp
+  1366309036,                             ! Version Timestamp
+  {17b1702d-c709-4a75-b6cc-4851e698a364}; ! Name of Object 1
+

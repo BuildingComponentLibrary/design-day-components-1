@@ -1,0 +1,36 @@
+
+OS:Version,
+  {2770f5b6-4613-44d6-91b2-7315111e838a}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {1914953b-5018-4974-8e00-432e88e53bce}, ! Handle
+  LANDER Ann Htg 99% Condns DB,           ! Name
+  -19.4,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -19.4,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  82542,                                  ! Barometric Pressure {Pa}
+  1.1,                                    ! Wind Speed {m/s}
+  140,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {def545dd-52a6-45a6-b64d-25baa7bec6bf}, ! Handle
+  Component Data 1,                       ! Name
+  {8cd6147e-bb17-4523-a844-b851c59f2303}, ! UUID
+  {c5c18d36-8580-4d13-b8cc-7794a8ca3929}, ! Version UUID
+  1366311753,                             ! Creation Timestamp
+  1366311753,                             ! Version Timestamp
+  {1914953b-5018-4974-8e00-432e88e53bce}; ! Name of Object 1
+

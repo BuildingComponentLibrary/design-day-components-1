@@ -1,0 +1,36 @@
+
+OS:Version,
+  {eab3d2dd-c7dc-42bb-8b53-d73fe10af4ce}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {cfa01f10-b38e-4255-8f47-ededc703e39b}, ! Handle
+  Great Falls/Malmstrom Ann Htg 99.6% Condns DB, ! Name
+  -27.6,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -27.6,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  89060,                                  ! Barometric Pressure {Pa}
+  2.7,                                    ! Wind Speed {m/s}
+  230,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {796d69bb-14a1-4eeb-9fd2-f3f254a0de54}, ! Handle
+  Component Data 1,                       ! Name
+  {64deba71-b02d-4330-b25b-dac1d2ae4a56}, ! UUID
+  {f98f22bd-d104-4715-9f92-99778b008432}, ! Version UUID
+  1366308775,                             ! Creation Timestamp
+  1366308775,                             ! Version Timestamp
+  {cfa01f10-b38e-4255-8f47-ededc703e39b}; ! Name of Object 1
+

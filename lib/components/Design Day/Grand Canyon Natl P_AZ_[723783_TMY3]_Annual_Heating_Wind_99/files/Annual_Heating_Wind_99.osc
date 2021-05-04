@@ -1,0 +1,36 @@
+
+OS:Version,
+  {dfe01f2f-5d52-4ba8-a698-62a0083089f3}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {ca94058e-be7d-4893-85d0-56c4d4bbee10}, ! Handle
+  Grand Canyon Natl P Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  4,                                      ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  4,                                      ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  78856,                                  ! Barometric Pressure {Pa}
+  9.9,                                    ! Wind Speed {m/s}
+  40,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {11b7ef9a-4f21-4042-960c-10867597fd23}, ! Handle
+  Component Data 1,                       ! Name
+  {598b70cb-d3d6-4b76-961e-0ed4104ac5c3}, ! UUID
+  {0336e774-07a2-47e5-bb80-f6b2aede47b4}, ! Version UUID
+  1366306278,                             ! Creation Timestamp
+  1366306278,                             ! Version Timestamp
+  {ca94058e-be7d-4893-85d0-56c4d4bbee10}; ! Name of Object 1
+

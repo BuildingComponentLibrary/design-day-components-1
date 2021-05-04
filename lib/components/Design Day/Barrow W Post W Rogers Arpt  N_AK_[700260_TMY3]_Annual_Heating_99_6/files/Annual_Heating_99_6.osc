@@ -1,0 +1,36 @@
+
+OS:Version,
+  {3d8639cf-15b3-4bb6-818b-1da4156a67ea}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {b3570476-2bba-4543-90cc-18f9b3931eae}, ! Handle
+  Barrow W Post W Rogers Arpt Ann Htg 99.6% Condns DB, ! Name
+  -40.5,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -40.5,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101205,                                 ! Barometric Pressure {Pa}
+  3.5,                                    ! Wind Speed {m/s}
+  230,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  2,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {eb2d8285-ba63-485f-ae27-0b6f49d36692}, ! Handle
+  Component Data 1,                       ! Name
+  {56034504-fdb1-4947-b361-5dd5407cd3fc}, ! UUID
+  {309b6837-3d24-4567-86e9-ed9b5e0c072f}, ! Version UUID
+  1366304735,                             ! Creation Timestamp
+  1366304735,                             ! Version Timestamp
+  {b3570476-2bba-4543-90cc-18f9b3931eae}; ! Name of Object 1
+

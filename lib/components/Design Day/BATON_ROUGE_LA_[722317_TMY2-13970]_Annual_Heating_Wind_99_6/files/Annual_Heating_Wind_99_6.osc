@@ -1,0 +1,36 @@
+
+OS:Version,
+  {93fb0298-4737-4aed-b2df-fc785fdcffae}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {2fd014ae-f504-4b45-8ea7-67b4fd2fd264}, ! Handle
+  BATON_ROUGE Ann Htg Wind 99.6% Condns WS=>MCDB, ! Name
+  16.8,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  16.8,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101049,                                 ! Barometric Pressure {Pa}
+  9.6,                                    ! Wind Speed {m/s}
+  0,                                      ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {9c4a7832-421a-4cd8-8757-8c0110af261f}, ! Handle
+  Component Data 1,                       ! Name
+  {24d9e0f1-da08-458c-9750-19666f0187b8}, ! UUID
+  {9dd527ec-0c29-4482-9290-e7ba9d2171b2}, ! Version UUID
+  1366307710,                             ! Creation Timestamp
+  1366307710,                             ! Version Timestamp
+  {2fd014ae-f504-4b45-8ea7-67b4fd2fd264}; ! Name of Object 1
+

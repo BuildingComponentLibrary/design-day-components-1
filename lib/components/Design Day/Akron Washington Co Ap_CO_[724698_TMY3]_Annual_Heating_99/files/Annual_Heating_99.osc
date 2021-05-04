@@ -1,0 +1,36 @@
+
+OS:Version,
+  {3f2a629f-e52a-4e54-b1b8-790e8ca7cf06}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {4cdb7873-7bc4-430d-a605-aa4a3f945386}, ! Handle
+  Akron Washington Co Ap Ann Htg 99% Condns DB, ! Name
+  -16.1,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -16.1,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  85379,                                  ! Barometric Pressure {Pa}
+  4.3,                                    ! Wind Speed {m/s}
+  270,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {da910424-7b11-49b1-913f-fc5e17996f30}, ! Handle
+  Component Data 1,                       ! Name
+  {c56bf6bc-458e-4a5d-b382-8a537de47cc5}, ! UUID
+  {c76a9411-00de-48ce-9b09-ff8fc018f9c6}, ! Version UUID
+  1366306635,                             ! Creation Timestamp
+  1366306635,                             ! Version Timestamp
+  {4cdb7873-7bc4-430d-a605-aa4a3f945386}; ! Name of Object 1
+

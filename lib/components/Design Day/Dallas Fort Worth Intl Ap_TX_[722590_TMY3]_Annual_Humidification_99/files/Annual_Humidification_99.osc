@@ -1,0 +1,36 @@
+
+OS:Version,
+  {9304bb88-28d8-4318-90a7-bfa20b36fc57}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {ff0eb5e4-5b0a-4d93-9fe4-d0732098cba5}, ! Handle
+  Dallas Fort Worth Intl Ap Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  -0.6,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -10.8,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99288,                                  ! Barometric Pressure {Pa}
+  5.9,                                    ! Wind Speed {m/s}
+  340,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {f3bfa187-9d40-4251-a5d2-98494afa351d}, ! Handle
+  Component Data 1,                       ! Name
+  {5c51af83-cc29-46c0-a3b7-1a76381b6264}, ! UUID
+  {eb1f626a-cb52-4424-942b-679acd168a77}, ! Version UUID
+  1366310655,                             ! Creation Timestamp
+  1366310655,                             ! Version Timestamp
+  {ff0eb5e4-5b0a-4d93-9fe4-d0732098cba5}; ! Name of Object 1
+

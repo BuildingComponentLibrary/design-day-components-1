@@ -1,0 +1,36 @@
+
+OS:Version,
+  {771bfeb1-8940-4887-be70-1a1890449923}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {7034a316-89e6-48e7-bc4d-d908fff8eb66}, ! Handle
+  DAYTONA_BEACH Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  7.5,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -3.6,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101181,                                 ! Barometric Pressure {Pa}
+  2.8,                                    ! Wind Speed {m/s}
+  310,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {2dbb3f84-3c06-46af-bd82-bc38b89c524d}, ! Handle
+  Component Data 1,                       ! Name
+  {a43c9642-963c-4612-be5f-0a0c82879632}, ! UUID
+  {5cf97ba4-b0f3-4a11-8011-58b2c59e89c6}, ! Version UUID
+  1366306786,                             ! Creation Timestamp
+  1366306786,                             ! Version Timestamp
+  {7034a316-89e6-48e7-bc4d-d908fff8eb66}; ! Name of Object 1
+

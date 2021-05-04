@@ -1,0 +1,36 @@
+
+OS:Version,
+  {2c6341ad-c6cb-4509-ba59-7322cf742437}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {e6f34292-19c5-403d-983a-d61dc4547dd7}, ! Handle
+  Arcata Airport Ann Htg 99.6% Condns DB, ! Name
+  -0.6,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -0.6,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100582,                                 ! Barometric Pressure {Pa}
+  2,                                      ! Wind Speed {m/s}
+  90,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {098c8296-17b1-4ed5-89d2-c83c6dc96217}, ! Handle
+  Component Data 1,                       ! Name
+  {a2576582-8824-49da-af0b-a0ae555cc64f}, ! UUID
+  {b12aaff2-25f3-4a60-881a-4b258aec5dbf}, ! Version UUID
+  1366306352,                             ! Creation Timestamp
+  1366306352,                             ! Version Timestamp
+  {e6f34292-19c5-403d-983a-d61dc4547dd7}; ! Name of Object 1
+

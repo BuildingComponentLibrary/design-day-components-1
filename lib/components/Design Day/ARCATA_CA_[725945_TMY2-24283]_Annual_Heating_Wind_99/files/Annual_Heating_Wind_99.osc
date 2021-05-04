@@ -1,0 +1,36 @@
+
+OS:Version,
+  {9839e409-f71c-4e54-9c8c-00b3042762d1}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {7d8061f8-19de-4df5-9dd3-8bbafb595bf6}, ! Handle
+  ARCATA Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  11.3,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  11.3,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100499,                                 ! Barometric Pressure {Pa}
+  9.7,                                    ! Wind Speed {m/s}
+  90,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {e2f94616-22be-4322-bced-18cc3b8daf3d}, ! Handle
+  Component Data 1,                       ! Name
+  {428c5054-91da-47db-b0aa-f4574f795449}, ! UUID
+  {a35d3b30-b983-4dab-96ab-83f263f580e8}, ! Version UUID
+  1366306345,                             ! Creation Timestamp
+  1366306345,                             ! Version Timestamp
+  {7d8061f8-19de-4df5-9dd3-8bbafb595bf6}; ! Name of Object 1
+

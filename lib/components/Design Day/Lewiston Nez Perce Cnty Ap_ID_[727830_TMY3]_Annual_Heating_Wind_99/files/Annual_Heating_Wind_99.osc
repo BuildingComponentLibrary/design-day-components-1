@@ -1,0 +1,36 @@
+
+OS:Version,
+  {ad4d5d19-f031-4752-aade-bde07b91b286}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {e45d6eaf-f2e0-4504-bebe-f2360b778b1f}, ! Handle
+  Lewiston Nez Perce Cnty Ap Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  5.1,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  5.1,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  96173,                                  ! Barometric Pressure {Pa}
+  11,                                     ! Wind Speed {m/s}
+  270,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {588b7549-a00b-4d34-b492-ac9e0f896903}, ! Handle
+  Component Data 1,                       ! Name
+  {37ec2ccc-7562-4de8-9c1c-3b7e4880f6ea}, ! UUID
+  {770729f3-cc59-4266-bd7c-0c61d51ccc3a}, ! Version UUID
+  1366307291,                             ! Creation Timestamp
+  1366307291,                             ! Version Timestamp
+  {e45d6eaf-f2e0-4504-bebe-f2360b778b1f}; ! Name of Object 1
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {2d56defe-87da-4f7b-8f16-8bddf6d2a784}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {136836eb-67b9-45e8-9264-cba35f64eb40}, ! Handle
+  Grand Junction Ann Htg 99% Condns DB,   ! Name
+  -11.3,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -11.3,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  84816,                                  ! Barometric Pressure {Pa}
+  2.3,                                    ! Wind Speed {m/s}
+  120,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {8db30fc7-9971-4d60-99f5-1889927d49a4}, ! Handle
+  Component Data 1,                       ! Name
+  {f0ec5235-6ddf-43df-9a34-18db1808a575}, ! UUID
+  {e02f0e61-9256-4bf1-8038-54c1095b9ccc}, ! Version UUID
+  1366306696,                             ! Creation Timestamp
+  1366306696,                             ! Version Timestamp
+  {136836eb-67b9-45e8-9264-cba35f64eb40}; ! Name of Object 1
+

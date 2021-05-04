@@ -1,0 +1,36 @@
+
+OS:Version,
+  {dfc8ebb1-2f24-475e-b130-5d574a65429f}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {53ed0221-cd53-4524-807a-b6dbde1da8a3}, ! Handle
+  Cedar City Municipal Ap Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  -7.3,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -16.8,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  82471,                                  ! Barometric Pressure {Pa}
+  1.1,                                    ! Wind Speed {m/s}
+  60,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {c5578a28-c64f-453a-a047-4d79cd145e51}, ! Handle
+  Component Data 1,                       ! Name
+  {29f7a2a1-f054-42df-afcc-d62d30ab69ea}, ! UUID
+  {b8b698e8-8829-4cbf-8637-b7996ed6aaff}, ! Version UUID
+  1366310959,                             ! Creation Timestamp
+  1366310959,                             ! Version Timestamp
+  {53ed0221-cd53-4524-807a-b6dbde1da8a3}; ! Name of Object 1
+

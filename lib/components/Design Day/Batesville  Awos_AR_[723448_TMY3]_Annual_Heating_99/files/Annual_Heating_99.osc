@@ -1,0 +1,36 @@
+
+OS:Version,
+  {239eb0ba-eca0-4df1-a5f4-bb1cdc5c6ee8}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {da8505b1-4f9a-43ff-9dbd-a79d3d4f1319}, ! Handle
+  Batesville  Awos Ann Htg 99% Condns DB, ! Name
+  -6.8,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -6.8,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99643,                                  ! Barometric Pressure {Pa}
+  2.1,                                    ! Wind Speed {m/s}
+  330,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {64a062e0-4df5-4494-95a7-806f74991ed7}, ! Handle
+  Component Data 1,                       ! Name
+  {76e5afbb-bae0-42fd-9bc9-91b17e0e0ae3}, ! UUID
+  {6fe93f81-67e8-4073-97c1-0621bd86ed19}, ! Version UUID
+  1366306053,                             ! Creation Timestamp
+  1366306053,                             ! Version Timestamp
+  {da8505b1-4f9a-43ff-9dbd-a79d3d4f1319}; ! Name of Object 1
+

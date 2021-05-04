@@ -1,0 +1,36 @@
+
+OS:Version,
+  {0d73aa8c-c4c5-4fae-822c-dec529fda82d}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {d7303823-d542-478b-93e4-767ebf135a9b}, ! Handle
+  Fresno Ann Hum_n 99% Condns DP=>MCDB,   ! Name
+  9.4,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -2.3,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100129,                                 ! Barometric Pressure {Pa}
+  1.2,                                    ! Wind Speed {m/s}
+  80,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {42e7a18a-d692-4f17-93fc-1997e806e09c}, ! Handle
+  Component Data 1,                       ! Name
+  {35940b68-86cb-493c-b612-8925a4062792}, ! UUID
+  {2c72142d-d1fb-419f-947b-b5f1638804cf}, ! Version UUID
+  1366306436,                             ! Creation Timestamp
+  1366306436,                             ! Version Timestamp
+  {d7303823-d542-478b-93e4-767ebf135a9b}; ! Name of Object 1
+

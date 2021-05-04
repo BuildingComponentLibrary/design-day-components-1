@@ -1,0 +1,36 @@
+
+OS:Version,
+  {6598f40f-9f0e-4f4a-9d67-3d41f1f75eff}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {f265fd7a-3aac-441d-b0f9-fe45d8c813f9}, ! Handle
+  Altoona Blair Co Arpt Ann Htg 99% Condns DB, ! Name
+  -12.5,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -12.5,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  96023,                                  ! Barometric Pressure {Pa}
+  4,                                      ! Wind Speed {m/s}
+  260,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {83cf5fa6-0776-4e18-98bf-41ebfb15dacd}, ! Handle
+  Component Data 1,                       ! Name
+  {671aec13-7fce-4743-9c81-03b0e060767d}, ! UUID
+  {cf421df4-8446-4372-a211-57a385a2a905}, ! Version UUID
+  1366310139,                             ! Creation Timestamp
+  1366310139,                             ! Version Timestamp
+  {f265fd7a-3aac-441d-b0f9-fe45d8c813f9}; ! Name of Object 1
+

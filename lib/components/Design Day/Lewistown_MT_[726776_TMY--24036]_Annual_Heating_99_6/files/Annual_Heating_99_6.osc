@@ -1,0 +1,36 @@
+
+OS:Version,
+  {0b315aed-426d-4129-b43a-0a34282cb227}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {d4db2c9e-c1f6-4057-80ef-9b3fa46ebf71}, ! Handle
+  Lewistown Ann Htg 99.6% Condns DB,      ! Name
+  -27.1,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -27.1,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  86970,                                  ! Barometric Pressure {Pa}
+  3,                                      ! Wind Speed {m/s}
+  120,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {05694ba4-3915-48ec-a506-da17b9abf8fc}, ! Handle
+  Component Data 1,                       ! Name
+  {f880b0ec-0457-4fea-8878-da34889c73ac}, ! UUID
+  {179c7f6a-6270-4231-ba63-0b42f42c377a}, ! Version UUID
+  1366308815,                             ! Creation Timestamp
+  1366308815,                             ! Version Timestamp
+  {d4db2c9e-c1f6-4057-80ef-9b3fa46ebf71}; ! Name of Object 1
+

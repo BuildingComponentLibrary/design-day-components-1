@@ -1,0 +1,36 @@
+
+OS:Version,
+  {7b4691b5-6132-4a25-a765-3ed1122ebbee}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {3936fed0-8e6d-483d-be0c-2adebcdc56b1}, ! Handle
+  Limon Ann Htg 99% Condns DB,            ! Name
+  -17,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -17,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  82552,                                  ! Barometric Pressure {Pa}
+  3.3,                                    ! Wind Speed {m/s}
+  0,                                      ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {144c1973-3e9d-46c5-9bce-4e953bca8ba0}, ! Handle
+  Component Data 1,                       ! Name
+  {41c366ff-419f-41eb-aaa1-60a9c9511618}, ! UUID
+  {0341310b-b3d8-4db7-acc2-f70ef1b5ec6d}, ! Version UUID
+  1366306720,                             ! Creation Timestamp
+  1366306720,                             ! Version Timestamp
+  {3936fed0-8e6d-483d-be0c-2adebcdc56b1}; ! Name of Object 1
+

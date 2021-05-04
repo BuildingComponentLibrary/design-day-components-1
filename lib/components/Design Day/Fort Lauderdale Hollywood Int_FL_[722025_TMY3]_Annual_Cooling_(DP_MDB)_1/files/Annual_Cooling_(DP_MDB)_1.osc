@@ -1,0 +1,40 @@
+
+OS:Version,
+  {3c038f13-aebe-4fee-bf73-3eab2db37c4d}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {b18f75ec-2e5e-485f-9774-56aef62d3d4f}, ! Handle
+  Fort Lauderdale Hollywood Int Ann Clg 1% Condns DP=>MDB, ! Name
+  29.1,                                   ! Maximum Dry-Bulb Temperature {C}
+  6.1,                                    ! Daily Dry-Bulb Temperature Range {deltaC}
+  25.9,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101289,                                 ! Barometric Pressure {Pa}
+  4.8,                                    ! Wind Speed {m/s}
+  140,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  7,                                      ! Month
+  SummerDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAETau,                              ! Solar Model Indicator
+  ,                                       ! Beam Solar Day Schedule Name
+  ,                                       ! Diffuse Solar Day Schedule Name
+  0.518,                                  ! ASHRAE Taub {dimensionless}
+  1.938;                                  ! ASHRAE Taud {dimensionless}
+
+OS:ComponentData,
+  {983ce7d1-2527-425b-b238-367a4f463150}, ! Handle
+  Component Data 1,                       ! Name
+  {e654b468-c553-42a8-b33b-868fa1ae2f7c}, ! UUID
+  {51700200-3b4b-41ce-a396-c4554cab2cd1}, ! Version UUID
+  1366306798,                             ! Creation Timestamp
+  1366306798,                             ! Version Timestamp
+  {b18f75ec-2e5e-485f-9774-56aef62d3d4f}; ! Name of Object 1
+

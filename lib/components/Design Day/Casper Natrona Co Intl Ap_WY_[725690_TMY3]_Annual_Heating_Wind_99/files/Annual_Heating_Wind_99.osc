@@ -1,0 +1,36 @@
+
+OS:Version,
+  {8ea74403-7171-4aea-8a68-28383504a1bb}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {81d13cef-0588-44fc-8295-eb193ff306d5}, ! Handle
+  Casper Natrona Co Intl Ap Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  1.5,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  1.5,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  83246,                                  ! Barometric Pressure {Pa}
+  15.6,                                   ! Wind Speed {m/s}
+  40,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {c0144d8e-7c65-4f0f-9717-c99144792320}, ! Handle
+  Component Data 1,                       ! Name
+  {784c3345-1c7c-4a37-9056-bdef885bdefc}, ! UUID
+  {92c9cb71-f049-4228-9420-173161cff617}, ! Version UUID
+  1366311688,                             ! Creation Timestamp
+  1366311688,                             ! Version Timestamp
+  {81d13cef-0588-44fc-8295-eb193ff306d5}; ! Name of Object 1
+

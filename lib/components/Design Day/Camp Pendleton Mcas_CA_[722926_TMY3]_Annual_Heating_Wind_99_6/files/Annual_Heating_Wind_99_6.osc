@@ -1,0 +1,36 @@
+
+OS:Version,
+  {deb1a458-66d8-459d-aa80-1df3109de632}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {e3f88b50-8890-436a-b008-9633b80cb687}, ! Handle
+  Camp Pendleton Mcas Ann Htg Wind 99.6% Condns WS=>MCDB, ! Name
+  17.2,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  17.2,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101049,                                 ! Barometric Pressure {Pa}
+  9,                                      ! Wind Speed {m/s}
+  10,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {762db147-cc6e-4c81-a6b0-e0730cd42e08}, ! Handle
+  Component Data 1,                       ! Name
+  {af2a2ceb-ad33-4d73-a2ce-ad996dc58909}, ! UUID
+  {08258b8f-916b-4a8d-9d6a-a5c1e2423592}, ! Version UUID
+  1366306398,                             ! Creation Timestamp
+  1366306398,                             ! Version Timestamp
+  {e3f88b50-8890-436a-b008-9633b80cb687}; ! Name of Object 1
+

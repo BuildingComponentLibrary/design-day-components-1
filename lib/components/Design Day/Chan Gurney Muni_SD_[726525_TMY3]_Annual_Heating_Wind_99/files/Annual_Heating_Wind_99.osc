@@ -1,0 +1,36 @@
+
+OS:Version,
+  {8fec05da-ee38-4e65-bf9d-b3acf9854d92}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {904a689a-1374-4ffa-8d58-5cf82e19d341}, ! Handle
+  Chan Gurney Muni Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  -10,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -10,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  96519,                                  ! Barometric Pressure {Pa}
+  15,                                     ! Wind Speed {m/s}
+  310,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {53e06fa4-01e6-4893-bb3a-a65778ffba24}, ! Handle
+  Component Data 1,                       ! Name
+  {5b47e700-d64f-4835-918e-20c0ad631475}, ! UUID
+  {ff9ee825-f34c-4eda-af2e-a50330aac4a8}, ! Version UUID
+  1366310471,                             ! Creation Timestamp
+  1366310471,                             ! Version Timestamp
+  {904a689a-1374-4ffa-8d58-5cf82e19d341}; ! Name of Object 1
+

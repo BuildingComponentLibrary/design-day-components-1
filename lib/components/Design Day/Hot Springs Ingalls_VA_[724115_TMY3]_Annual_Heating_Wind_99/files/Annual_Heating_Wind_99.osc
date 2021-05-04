@@ -1,0 +1,36 @@
+
+OS:Version,
+  {6fc60e4e-fea4-4fc1-9d98-f6c7db3d5d65}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {2270e168-77b8-4b94-8cae-e9dcf76acf2c}, ! Handle
+  Hot Springs Ingalls Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  -4.8,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -4.8,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  88187,                                  ! Barometric Pressure {Pa}
+  14.4,                                   ! Wind Speed {m/s}
+  290,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {ddea851a-24cf-4859-870f-f5e32a8b5921}, ! Handle
+  Component Data 1,                       ! Name
+  {cce2244b-64de-4c07-8f97-deccb74813c0}, ! UUID
+  {85d0ce64-3007-49b7-bc21-be4e24d83a65}, ! Version UUID
+  1366311064,                             ! Creation Timestamp
+  1366311064,                             ! Version Timestamp
+  {2270e168-77b8-4b94-8cae-e9dcf76acf2c}; ! Name of Object 1
+

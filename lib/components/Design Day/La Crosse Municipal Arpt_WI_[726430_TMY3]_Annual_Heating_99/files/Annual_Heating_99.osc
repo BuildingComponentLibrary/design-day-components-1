@@ -1,0 +1,36 @@
+
+OS:Version,
+  {d782724a-ef8a-4669-9e3d-55b1d338970a}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {9212d0f1-4f12-4b46-a9ee-c2574e4c9573}, ! Handle
+  La Crosse Municipal Arpt Ann Htg 99% Condns DB, ! Name
+  -21,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -21,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98969,                                  ! Barometric Pressure {Pa}
+  3.4,                                    ! Wind Speed {m/s}
+  330,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {3e16cc22-fdcd-43f0-ad6a-0216b77988c1}, ! Handle
+  Component Data 1,                       ! Name
+  {d7f55156-34fc-4c25-9f18-8c95c9d612de}, ! UUID
+  {66adfe59-e205-4c98-ad29-24fa7de4ab88}, ! Version UUID
+  1366311512,                             ! Creation Timestamp
+  1366311512,                             ! Version Timestamp
+  {9212d0f1-4f12-4b46-a9ee-c2574e4c9573}; ! Name of Object 1
+

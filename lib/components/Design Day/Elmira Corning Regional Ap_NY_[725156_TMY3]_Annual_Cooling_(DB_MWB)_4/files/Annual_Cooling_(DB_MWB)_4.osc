@@ -1,0 +1,40 @@
+
+OS:Version,
+  {bf3fa28c-9a2a-49e1-a43c-1a4288a18ffa}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {5ca153ba-4b20-4174-9e4e-c2f0f0d29602}, ! Handle
+  Elmira Corning Regional Ap Ann Clg .4% Condns DB=>MWB, ! Name
+  32.2,                                   ! Maximum Dry-Bulb Temperature {C}
+  13,                                     ! Daily Dry-Bulb Temperature Range {deltaC}
+  22.4,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  97878,                                  ! Barometric Pressure {Pa}
+  4.8,                                    ! Wind Speed {m/s}
+  240,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  7,                                      ! Month
+  SummerDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAETau,                              ! Solar Model Indicator
+  ,                                       ! Beam Solar Day Schedule Name
+  ,                                       ! Diffuse Solar Day Schedule Name
+  0.471,                                  ! ASHRAE Taub {dimensionless}
+  1.96;                                   ! ASHRAE Taud {dimensionless}
+
+OS:ComponentData,
+  {16ae0d42-50ba-4c02-952a-cdf4e0a5e60e}, ! Handle
+  Component Data 1,                       ! Name
+  {b420b4ce-f5db-457a-a62f-8cb01ae18482}, ! UUID
+  {e793b052-19cc-4e21-99bb-816023d3f757}, ! Version UUID
+  1366309616,                             ! Creation Timestamp
+  1366309616,                             ! Version Timestamp
+  {5ca153ba-4b20-4174-9e4e-c2f0f0d29602}; ! Name of Object 1
+

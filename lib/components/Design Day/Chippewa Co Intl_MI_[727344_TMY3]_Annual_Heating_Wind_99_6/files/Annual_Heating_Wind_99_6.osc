@@ -1,0 +1,36 @@
+
+OS:Version,
+  {c03d4f15-60a8-4164-99c7-eac4ed76b992}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {b947c410-7163-46be-bff2-eaa7153105c0}, ! Handle
+  Chippewa Co Intl Ann Htg Wind 99.6% Condns WS=>MCDB, ! Name
+  -5.7,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -5.7,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98358,                                  ! Barometric Pressure {Pa}
+  11.9,                                   ! Wind Speed {m/s}
+  80,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {52626c97-5722-4861-b06e-f7f6ca6c940c}, ! Handle
+  Component Data 1,                       ! Name
+  {106cd5e1-190d-49eb-b514-2c49482201c4}, ! UUID
+  {53326c6f-5b92-4f52-8527-949198c92919}, ! Version UUID
+  1366307967,                             ! Creation Timestamp
+  1366307967,                             ! Version Timestamp
+  {b947c410-7163-46be-bff2-eaa7153105c0}; ! Name of Object 1
+

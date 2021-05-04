@@ -1,0 +1,36 @@
+
+OS:Version,
+  {95561bec-5b12-49ef-a8b3-4257077d150a}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {b149c931-17eb-4cb5-ab43-96c2d8e38cb9}, ! Handle
+  Glasgow Ann Htg 99% Condns DB,          ! Name
+  -27.1,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -27.1,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  93194,                                  ! Barometric Pressure {Pa}
+  3.3,                                    ! Wind Speed {m/s}
+  340,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {096e90bf-482a-43fb-b3c3-78102e0568d5}, ! Handle
+  Component Data 1,                       ! Name
+  {3cf052ee-f960-4fdf-92a8-aa4fe2711fb7}, ! UUID
+  {29581ef1-5d81-4258-b1b8-363b5ac834b7}, ! Version UUID
+  1366308758,                             ! Creation Timestamp
+  1366308758,                             ! Version Timestamp
+  {b149c931-17eb-4cb5-ab43-96c2d8e38cb9}; ! Name of Object 1
+

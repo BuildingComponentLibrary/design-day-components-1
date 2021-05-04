@@ -1,0 +1,36 @@
+
+OS:Version,
+  {2589dc03-ad11-4abf-8ad7-195fb638d6f1}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {0d54499a-0bd3-4fcb-a284-e37123828487}, ! Handle
+  Lake Charles Ann Htg 99% Condns DB,     ! Name
+  0.6,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  0.6,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  101205,                                 ! Barometric Pressure {Pa}
+  3.8,                                    ! Wind Speed {m/s}
+  20,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {8fb3e30d-ddae-41aa-9e17-d2e3003a05cd}, ! Handle
+  Component Data 1,                       ! Name
+  {da98b086-39f7-40ca-83c1-31a513be632b}, ! UUID
+  {00aeefe9-b920-43d4-a001-f232d5e05330}, ! Version UUID
+  1366307727,                             ! Creation Timestamp
+  1366307727,                             ! Version Timestamp
+  {0d54499a-0bd3-4fcb-a284-e37123828487}; ! Name of Object 1
+

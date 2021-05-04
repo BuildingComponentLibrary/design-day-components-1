@@ -1,0 +1,36 @@
+
+OS:Version,
+  {3ba9e37c-8b5b-43f6-88f8-425e865b8184}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {fd2807b9-20b7-4f47-960a-4dac2c9943cb}, ! Handle
+  Beckley Raleigh Co Mem Ap Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  -8.6,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -16.9,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  92488,                                  ! Barometric Pressure {Pa}
+  3.3,                                    ! Wind Speed {m/s}
+  310,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {0901d709-fa48-4ace-bf50-d830c7ce338d}, ! Handle
+  Component Data 1,                       ! Name
+  {ceb71c3a-de56-46ac-9b72-fe8d02479775}, ! UUID
+  {4a1f2702-3fa7-42ef-a5aa-2bfb3d41f045}, ! Version UUID
+  1366311608,                             ! Creation Timestamp
+  1366311608,                             ! Version Timestamp
+  {fd2807b9-20b7-4f47-960a-4dac2c9943cb}; ! Name of Object 1
+

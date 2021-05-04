@@ -1,0 +1,36 @@
+
+OS:Version,
+  {4fec863b-1491-4eb6-9241-4c105a753e02}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {a942b6a8-29ed-472e-b7aa-fe8b63872051}, ! Handle
+  Fairmont Muni Awos Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  -20.3,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -27.2,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  97144,                                  ! Barometric Pressure {Pa}
+  5.3,                                    ! Wind Speed {m/s}
+  330,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {97342409-5259-41d6-9eca-322464737c13}, ! Handle
+  Component Data 1,                       ! Name
+  {effd2eb2-3a9f-4204-a4e3-a81dd2e5691b}, ! UUID
+  {d228d116-5397-4c71-95d7-5e7b256633ea}, ! Version UUID
+  1366308224,                             ! Creation Timestamp
+  1366308224,                             ! Version Timestamp
+  {a942b6a8-29ed-472e-b7aa-fe8b63872051}; ! Name of Object 1
+

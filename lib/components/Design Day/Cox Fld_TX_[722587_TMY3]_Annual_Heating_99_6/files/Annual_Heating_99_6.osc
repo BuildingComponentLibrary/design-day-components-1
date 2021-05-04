@@ -1,0 +1,36 @@
+
+OS:Version,
+  {7629a36b-c090-400a-9e1e-fe5a43c15b45}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {aa413aa7-bc07-4d1e-adad-ea84a4560a07}, ! Handle
+  Cox Fld Ann Htg 99.6% Condns DB,        ! Name
+  -6.3,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -6.3,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  99288,                                  ! Barometric Pressure {Pa}
+  4.9,                                    ! Wind Speed {m/s}
+  350,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {5c9fcd57-1564-40db-adda-002c1db584da}, ! Handle
+  Component Data 1,                       ! Name
+  {0851095e-e883-42ab-b054-985154d3a17e}, ! UUID
+  {4c226298-8b8c-4d2b-ba11-9e58e3d89a37}, ! Version UUID
+  1366310644,                             ! Creation Timestamp
+  1366310644,                             ! Version Timestamp
+  {aa413aa7-bc07-4d1e-adad-ea84a4560a07}; ! Name of Object 1
+

@@ -1,0 +1,36 @@
+
+OS:Version,
+  {85d2e929-4060-40f0-958a-906189ce0abe}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {5209cc17-140a-43a5-997e-179b8e663027}, ! Handle
+  Brewster Field Arpt Ann Htg Wind 99% Condns WS=>MCDB, ! Name
+  0.6,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  0.6,                                    ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  93149,                                  ! Barometric Pressure {Pa}
+  12.3,                                   ! Wind Speed {m/s}
+  350,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {26396cd4-8290-44bb-bff9-c677168bbb31}, ! Handle
+  Component Data 1,                       ! Name
+  {9be5913e-ba41-43ba-aeb3-343308f11162}, ! UUID
+  {6e65adea-ace4-4d4f-902d-7191d92f8604}, ! Version UUID
+  1366309129,                             ! Creation Timestamp
+  1366309129,                             ! Version Timestamp
+  {5209cc17-140a-43a5-997e-179b8e663027}; ! Name of Object 1
+

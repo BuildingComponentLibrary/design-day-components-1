@@ -1,0 +1,36 @@
+
+OS:Version,
+  {ec67222e-1855-41b9-8e98-4402c9525194}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {b20e9821-65c2-407c-9bc8-7fc60c16c56e}, ! Handle
+  Burlington International Ap Ann Hum_n 99.6% Condns DP=>MCDB, ! Name
+  -21.2,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -27.4,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100118,                                 ! Barometric Pressure {Pa}
+  3,                                      ! Wind Speed {m/s}
+  60,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {f9f85510-d83b-4ead-8ad8-d255ade3d930}, ! Handle
+  Component Data 1,                       ! Name
+  {ddfd8ccd-e85e-4333-b178-59efe5cb697d}, ! UUID
+  {444aae2b-2114-4842-bdfa-c0727e4df029}, ! Version UUID
+  1366311245,                             ! Creation Timestamp
+  1366311245,                             ! Version Timestamp
+  {b20e9821-65c2-407c-9bc8-7fc60c16c56e}; ! Name of Object 1
+
