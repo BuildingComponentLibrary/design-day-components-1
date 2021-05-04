@@ -1,0 +1,36 @@
+
+OS:Version,
+  {3f403e5c-f118-40f6-84af-d835547e119d}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {c5d20e43-a1ad-409b-9e3b-37d2d0bc21e4}, ! Handle
+  Lubbock/Int'l Arpt Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  0.7,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -15.9,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  90005,                                  ! Barometric Pressure {Pa}
+  4.8,                                    ! Wind Speed {m/s}
+  60,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {13a242b2-e423-445a-a627-821191f4fcc6}, ! Handle
+  Component Data 1,                       ! Name
+  {d3285cac-c900-47d9-8efc-ab91c1ef0c00}, ! UUID
+  {ad66fbd7-7e80-42ec-aef8-e29d568dfe0f}, ! Version UUID
+  1366310795,                             ! Creation Timestamp
+  1366310795,                             ! Version Timestamp
+  {c5d20e43-a1ad-409b-9e3b-37d2d0bc21e4}; ! Name of Object 1
+

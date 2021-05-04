@@ -1,0 +1,36 @@
+
+OS:Version,
+  {3b0c5100-5e73-4264-9206-9ee64826b92d}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {6d80ad5c-8347-4201-b225-55c1172f1c7d}, ! Handle
+  Lufkin Angelina Co Ann Hum_n 99% Condns DP=>MCDB, ! Name
+  3.1,                                    ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -7.8,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  100296,                                 ! Barometric Pressure {Pa}
+  2.1,                                    ! Wind Speed {m/s}
+  340,                                    ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Dewpoint,                               ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {95ccea12-4e0f-4233-8fe0-1f680903489a}, ! Handle
+  Component Data 1,                       ! Name
+  {a916eb0f-b041-446e-bcee-fbb31bd5118f}, ! UUID
+  {72bd9f50-f4e4-475b-be0b-96cad0b83f79}, ! Version UUID
+  1366310807,                             ! Creation Timestamp
+  1366310807,                             ! Version Timestamp
+  {6d80ad5c-8347-4201-b225-55c1172f1c7d}; ! Name of Object 1
+

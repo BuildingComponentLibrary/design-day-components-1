@@ -1,0 +1,36 @@
+
+OS:Version,
+  {339bc686-ec2c-4e33-a7b3-1d2bf831e461}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {cca0f551-29a5-45b2-8d0d-d70c83e7e8ca}, ! Handle
+  LUBBOCK Ann Htg 99.6% Condns DB,        ! Name
+  -10.4,                                  ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -10.4,                                  ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  90005,                                  ! Barometric Pressure {Pa}
+  4.8,                                    ! Wind Speed {m/s}
+  60,                                     ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  12,                                     ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {b1ddd740-1f91-4142-bb69-43e4e93b2fc4}, ! Handle
+  Component Data 1,                       ! Name
+  {88350a28-9225-4b82-82c4-dccdd0ebe4ce}, ! UUID
+  {0fab2f4c-842e-493a-b024-c3b74467d4f0}, ! Version UUID
+  1366310790,                             ! Creation Timestamp
+  1366310790,                             ! Version Timestamp
+  {cca0f551-29a5-45b2-8d0d-d70c83e7e8ca}; ! Name of Object 1
+

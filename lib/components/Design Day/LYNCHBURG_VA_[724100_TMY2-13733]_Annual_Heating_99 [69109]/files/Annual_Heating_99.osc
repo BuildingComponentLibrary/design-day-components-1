@@ -1,0 +1,36 @@
+
+OS:Version,
+  {4901b27b-e481-486f-83be-599feb4c622d}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:SizingPeriod:DesignDay,
+  {341e415e-7026-47d7-a40e-06a28105f8d6}, ! Handle
+  LYNCHBURG Ann Htg 99% Condns DB,        ! Name
+  -7.3,                                   ! Maximum Dry-Bulb Temperature {C}
+  0,                                      ! Daily Dry-Bulb Temperature Range {deltaC}
+  -7.3,                                   ! Humidity Indicating Conditions at Maximum Dry-Bulb {BasedOnField A3}
+  98018,                                  ! Barometric Pressure {Pa}
+  2.4,                                    ! Wind Speed {m/s}
+  0,                                      ! Wind Direction {deg}
+  0,                                      ! Sky Clearness
+  0,                                      ! Rain Indicator
+  0,                                      ! Snow Indicator
+  21,                                     ! Day of Month
+  1,                                      ! Month
+  WinterDesignDay,                        ! Day Type
+  0,                                      ! Daylight Saving Time Indicator
+  Wetbulb,                                ! Humidity Indicating Type
+  ,                                       ! Humidity Indicating Day Schedule Name
+  DefaultMultipliers,                     ! Dry-Bulb Temperature Range Modifier Type
+  ,                                       ! Dry-Bulb Temperature Range Modifier Schedule Name
+  ASHRAEClearSky;                         ! Solar Model Indicator
+
+OS:ComponentData,
+  {eff0b1c3-210c-4755-bc5c-da6adc465d2e}, ! Handle
+  Component Data 1,                       ! Name
+  {f1c6f1b1-f65a-47f3-a6ac-47b59f8d4529}, ! UUID
+  {ddd5a89b-7083-487c-9b76-944e6cbccf58}, ! Version UUID
+  1366311082,                             ! Creation Timestamp
+  1366311082,                             ! Version Timestamp
+  {341e415e-7026-47d7-a40e-06a28105f8d6}; ! Name of Object 1
+
